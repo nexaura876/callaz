@@ -1,0 +1,114 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Outbound contact centre · Kolding, Denmark",
+      "titleLead": "Your next customer is one",
+      "titleAccent": "conversation away",
+      "lead": "Callaz runs the calls your team does not have time to make. Appointment setting, outbound sales, customer service and lead generation for Danish businesses, delivered by a named team in Kolding.",
+      "primary": "Get a quote",
+      "secondary": "See the solutions",
+      "assurances": [
+        "Named team, not a rotating pool",
+        "Every call recorded",
+        "Monthly agreement, no lock-in"
+      ],
+      "panel": {
+        "label": "Service commitments",
+        "status": "Live",
+        "note": "These are the operating targets a Callaz campaign is run against and reported on weekly. They are commitments, not averages from past campaigns."
+      }
+    },
+
+    "marquee": [
+      "Appointment setting",
+      "Outbound B2B",
+      "Lead qualification",
+      "Customer service",
+      "List building",
+      "CRM handover",
+      "Call recording",
+      "Weekly reporting",
+      "GDPR by default",
+      "Danish and English"
+    ],
+
+    "solutions": {
+      "eyebrow": "What we do",
+      "title": "Four services. One way of working.",
+      "lead": "Every campaign runs on the same method: agreed criteria, a named team, recorded calls and a weekly report. What changes is the job the calls are doing.",
+      "cards": {
+        "appointmentSetting": "We book meetings that meet criteria you set in writing, straight into the calendar of the person who will run them.",
+        "outboundSales": "A trained team sells on your behalf, from your script and your pricing, with the same compliance rules your own staff work under.",
+        "customerService": "Inbound calls, follow-ups and overflow, answered in the customer language, without adding headcount to your payroll.",
+        "leadGeneration": "Lists built and cleaned, contacts verified, first touch made. Your pipeline starts with people who exist and answer."
+      }
+    },
+
+    "method": {
+      "eyebrow": "How a campaign runs",
+      "title": "Four phases, and you see the numbers in all of them",
+      "lead": "Outbound goes wrong quietly. The fix is not a better script, it is a short feedback loop, so the reporting starts in week one rather than at the end of the quarter.",
+      "steps": [
+        {
+          "title": "Brief",
+          "body": "We agree the market, the offer, the target customer and the exact criteria a result has to meet before it counts."
+        },
+        {
+          "title": "Build",
+          "body": "Script, objection handling, list and CRM handover are prepared and approved by you before the first call goes out."
+        },
+        {
+          "title": "Pilot",
+          "body": "A fixed period at agreed volume. You hear real recordings and see what the market actually says back."
+        },
+        {
+          "title": "Scale",
+          "body": "What worked gets more hours, what did not gets rewritten. Reported weekly, adjusted monthly."
+        }
+      ],
+      "cta": "The full method"
+    },
+
+    "principles": {
+      "eyebrow": "Why Callaz",
+      "title": "The things that decide whether outbound is worth paying for",
+      "lead": "Anyone can dial. What separates a campaign that pays for itself from one that quietly burns budget is whether you can see inside it while it runs.",
+      "cta": "About Callaz",
+      "items": {
+        "recordedCalls": {
+          "title": "Every call is recorded",
+          "body": "You can listen to any conversation made in your name, not a curated selection. It is the only way to judge quality honestly, and it keeps us accountable for how your brand sounds."
+        },
+        "namedTeam": {
+          "title": "A named team, not a pool",
+          "body": "You know who is calling for you and you can talk to them. The same people learn your product instead of reading a script cold every morning."
+        },
+        "weeklyReporting": {
+          "title": "Weekly numbers, plainly stated",
+          "body": "Dials, conversations, results and what the market pushed back on. If a campaign is not working, you find out in week two, not in month three."
+        },
+        "gdprByDefault": {
+          "title": "GDPR handled properly",
+          "body": "A data processing agreement before the first call, documented consent handling, and data returned or deleted when the campaign ends."
+        },
+        "noLockIn": {
+          "title": "Monthly terms",
+          "body": "Campaigns run on a monthly agreement. If we are not earning the next month, you should be able to stop, and you can."
+        }
+      }
+    },
+
+    "careers": {
+      "eyebrow": "Careers",
+      "title": "We hire people who can hold a conversation, not read a script",
+      "body": "Callaz is young and growing. That means real responsibility early, training that is actually given rather than promised, and a floor where the good calls get played out loud.",
+      "cta": "See open roles",
+      "points": [
+        "Full training before you take a live call",
+        "Base salary plus performance pay, written down",
+        "Danish and English spoken on the floor",
+        "Based in the Kolding office"
+      ]
+    }
+  }
+}

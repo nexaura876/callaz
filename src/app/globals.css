@@ -1,0 +1,434 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Brand scale, taken from the logo. The wordmark and the C are brand-800; the
+   lighter steps are what carry that hue onto a dark background, where the deep
+   navy has nowhere near enough contrast to be read as an accent.
+   --------------------------------------------------------------------------- */
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-face), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-mono-face), ui-monospace, "SF Mono", monospace;
+
+  --color-brand-50: #eff6fd;
+  --color-brand-100: #dbeafa;
+  --color-brand-200: #bedcf6;
+  --color-brand-300: #93c5ed;
+  --color-brand-400: #5ea6df;
+  --color-brand-500: #3b86cc;
+  --color-brand-600: #2a69ad;
+  --color-brand-700: #1f538a;
+  --color-brand-800: #16497c;
+  --color-brand-900: #133c66;
+  --color-brand-950: #0c2540;
+
+  /* Cool neutrals, tuned to sit under the navy without turning purple. */
+  --color-ink-50: #f5f8fb;
+  --color-ink-100: #e8eef6;
+  --color-ink-200: #cedcea;
+  --color-ink-300: #a4bad2;
+  --color-ink-400: #7191b3;
+  --color-ink-500: #4e6f94;
+  --color-ink-600: #395679;
+  --color-ink-700: #2a415e;
+  --color-ink-800: #1b2d44;
+  --color-ink-900: #112034;
+  --color-ink-950: #0a1523;
+  --color-ink-1000: #060e19;
+
+  /* The grey of the globe in the logo. Used for the secondary mark strokes. */
+  --color-steel-300: #c3ccd4;
+  --color-steel-400: #9ba6ae;
+  --color-steel-500: #7c8792;
+
+  --radius-card: 1.5rem;
+  --radius-panel: 2rem;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-drift: drift 26s var(--ease-out-soft) infinite alternate;
+  --animate-marquee: marquee 42s linear infinite;
+  --animate-blip: blip 2.4s ease-in-out infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   Semantic tokens. Every component paints with these rather than with a fixed
+   colour, which is what lets the whole site flip between evening and morning
+   without a single conditional class.
+
+   Dark is the default because that is the look the site was designed around.
+   --------------------------------------------------------------------------- */
+:root {
+  color-scheme: dark;
+
+  --c-page: #060e19;
+  --c-panel: rgb(255 255 255 / 0.04);
+  --c-panel-2: rgb(255 255 255 / 0.07);
+  --c-panel-solid: #112034;
+  --c-line: rgb(255 255 255 / 0.1);
+  --c-line-strong: rgb(255 255 255 / 0.18);
+
+  --c-heading: #ffffff;
+  --c-body: #cedcea;
+  --c-muted: #a4bad2;
+  --c-faint: #7191b3;
+
+  --c-accent: #93c5ed;
+  --c-accent-strong: #bedcf6;
+  --c-accent-glow: #3b86cc;
+  --c-on-accent: #060e19;
+
+  --c-grid: rgb(255 255 255 / 0.045);
+  --c-mark: #93c5ed;
+  --c-mark-soft: #7c8792;
+
+  --shadow-lift: 0 1px 2px rgb(0 0 0 / 0.3), 0 14px 36px -14px rgb(0 0 0 / 0.5);
+  --shadow-lift-lg: 0 2px 4px rgb(0 0 0 / 0.3), 0 34px 70px -28px rgb(0 0 0 / 0.6);
+  --shadow-glow: 0 0 0 1px rgb(147 197 237 / 0.25), 0 18px 60px -20px rgb(59 134 204 / 0.45);
+}
+
+/* Morning. Applied when the visitor picks it explicitly, and below that when the
+   system asks for it and they have not overridden the choice. */
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --c-page: #ffffff;
+  --c-panel: #f4f8fc;
+  --c-panel-2: #e9f1f9;
+  --c-panel-solid: #ffffff;
+  --c-line: #dbe6f0;
+  --c-line-strong: #c3d5e6;
+
+  --c-heading: #0c2540;
+  --c-body: #2a415e;
+  --c-muted: #395679;
+  --c-faint: #4e6f94;
+
+  --c-accent: #16497c;
+  --c-accent-strong: #1f538a;
+  --c-accent-glow: #5ea6df;
+  --c-on-accent: #ffffff;
+
+  --c-grid: rgb(22 73 124 / 0.06);
+  --c-mark: #16497c;
+  --c-mark-soft: #9ba6ae;
+
+  --shadow-lift: 0 1px 2px rgb(12 37 64 / 0.05), 0 14px 36px -14px rgb(12 37 64 / 0.16);
+  --shadow-lift-lg: 0 2px 4px rgb(12 37 64 / 0.05), 0 34px 70px -28px rgb(12 37 64 / 0.22);
+  --shadow-glow: 0 0 0 1px rgb(22 73 124 / 0.14), 0 18px 60px -20px rgb(22 73 124 / 0.28);
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+
+    --c-page: #ffffff;
+    --c-panel: #f4f8fc;
+    --c-panel-2: #e9f1f9;
+    --c-panel-solid: #ffffff;
+    --c-line: #dbe6f0;
+    --c-line-strong: #c3d5e6;
+
+    --c-heading: #0c2540;
+    --c-body: #2a415e;
+    --c-muted: #395679;
+    --c-faint: #4e6f94;
+
+    --c-accent: #16497c;
+    --c-accent-strong: #1f538a;
+    --c-accent-glow: #5ea6df;
+    --c-on-accent: #ffffff;
+
+    --c-grid: rgb(22 73 124 / 0.06);
+    --c-mark: #16497c;
+    --c-mark-soft: #9ba6ae;
+
+    --shadow-lift: 0 1px 2px rgb(12 37 64 / 0.05), 0 14px 36px -14px rgb(12 37 64 / 0.16);
+    --shadow-lift-lg: 0 2px 4px rgb(12 37 64 / 0.05), 0 34px 70px -28px rgb(12 37 64 / 0.22);
+    --shadow-glow: 0 0 0 1px rgb(22 73 124 / 0.14), 0 18px 60px -20px rgb(22 73 124 / 0.28);
+  }
+}
+
+/* Exposing the semantic tokens as Tailwind colours. "inline" keeps the var()
+   reference in the generated utility, so bg-panel re-resolves when the theme
+   changes instead of being frozen at build time. */
+@theme inline {
+  --color-page: var(--c-page);
+  --color-panel: var(--c-panel);
+  --color-panel-2: var(--c-panel-2);
+  --color-panel-solid: var(--c-panel-solid);
+  --color-line: var(--c-line);
+  --color-line-strong: var(--c-line-strong);
+
+  --color-heading: var(--c-heading);
+  --color-body: var(--c-body);
+  --color-muted: var(--c-muted);
+  --color-faint: var(--c-faint);
+
+  --color-accent: var(--c-accent);
+  --color-accent-strong: var(--c-accent-strong);
+  --color-accent-glow: var(--c-accent-glow);
+  --color-on-accent: var(--c-on-accent);
+
+  --color-mark: var(--c-mark);
+  --color-mark-soft: var(--c-mark-soft);
+}
+
+@keyframes drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(4%, -6%, 0) scale(1.12);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes blip {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* The hero waveform. Each bar carries its own delay from an inline style. */
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.22);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /*
+    Set for the frame in which the theme swaps. Surfaces carry a 300ms transition
+    for hover; without this, changing theme animates every one of them at once and
+    the whole page cross-fades between palettes, which reads as a fault rather
+    than a choice. Hover transitions return immediately afterwards.
+  */
+  :root[data-theme-switching] *,
+  :root[data-theme-switching] *::before,
+  :root[data-theme-switching] *::after {
+    transition: none !important;
+  }
+
+  body {
+    background-color: var(--c-page);
+    color: var(--c-body);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-wrap: pretty;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.028em;
+    text-wrap: balance;
+  }
+
+  /*
+    The header is fixed, so a jump to #content or to any heading anchor would land
+    the target underneath it. --header-height is set on body, which every heading
+    inherits from; the fallback covers anything rendered outside that tree.
+  */
+  :target,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: calc(var(--header-height, 4.75rem) + 1rem);
+  }
+
+  /*
+    manipulation drops the 300ms wait a mobile browser keeps in case the tap turns
+    into a double-tap zoom. The tap highlight goes with it: every one of these
+    already has its own hover, focus and active treatment, and the platform's grey
+    rectangle only ever fights them.
+  */
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  summary,
+  label,
+  [role="button"] {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background-color: var(--c-accent);
+    color: var(--c-on-accent);
+  }
+
+  @supports (scrollbar-color: auto) {
+    html {
+      scrollbar-color: var(--c-line-strong) transparent;
+      scrollbar-width: thin;
+    }
+  }
+}
+
+
+/*
+   The logo ships in two variants: the supplied navy artwork for light grounds,
+   and a reversed one for dark. Swapping them here rather than in JavaScript
+   means no flash on load and no hydration mismatch, and display:none keeps a
+   screen reader from reading the alt text twice.
+
+   Dark is the default theme, so the reversed variant is the one shown first.
+*/
+[data-logo="light"] {
+  display: none;
+}
+
+:root[data-theme="light"] [data-logo="light"] {
+  display: block;
+}
+
+:root[data-theme="light"] [data-logo="dark"] {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) [data-logo="light"] {
+    display: block;
+  }
+
+  :root:not([data-theme="dark"]) [data-logo="dark"] {
+    display: none;
+  }
+}
+
+/*
+   The inline padding also clears the notch. env() resolves to 0px everywhere it
+   does not apply, so the max() is what keeps the ordinary gutter on every other
+   device — held in landscape on a notched phone, where the inset is the larger of
+   the two.
+*/
+@utility container-page {
+  width: 100%;
+  margin-inline: auto;
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
+  max-width: 78rem;
+
+  @media (width >= 48rem) {
+    padding-left: max(2rem, env(safe-area-inset-left));
+    padding-right: max(2rem, env(safe-area-inset-right));
+  }
+}
+
+/* Sections fade in as they reach the viewport. Driven by the Reveal component. */
+@utility reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.75s var(--ease-out-soft),
+    transform 0.75s var(--ease-out-soft);
+
+  &[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    opacity: 1;
+    transform: none;
+  }
+
+  /*
+    The observer that sets data-visible needs JavaScript. Without it every
+    revealed section would sit at opacity 0 and most of the page would be
+    invisible, so the effect opts itself out rather than hiding the content.
+    The noscript block in the layout covers browsers that lack this query.
+  */
+  @media (scripting: none) {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* A faint engineering grid, behind the hero and the CTA panel. */
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, var(--c-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--c-grid) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@utility bg-grid-fade {
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 78%);
+}
+
+/* Reads as a border on either theme without the muddiness of a real one. */
+@utility hairline {
+  box-shadow: inset 0 0 0 1px var(--c-line);
+}
+
+@utility hairline-strong {
+  box-shadow: inset 0 0 0 1px var(--c-line-strong);
+}
+
+@utility text-gradient {
+  background-image: linear-gradient(
+    100deg,
+    var(--c-accent) 0%,
+    var(--c-accent-strong) 45%,
+    var(--c-accent-glow) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+@utility numeric {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}

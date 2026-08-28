@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "siteName": "Callaz",
+    "home": {
+      "title": "Callaz — callcenter i Kolding",
+      "description": "Callaz laver de opkald, din egen afdeling ikke når: mødebooking, telefonsalg, kundeservice og leadgenerering til danske virksomheder, på dansk og engelsk."
+    },
+    "solutions": {
+      "title": "Løsninger",
+      "description": "Fire ydelser og én arbejdsmetode: mødebooking, telefonsalg, kundeservice og leadgenerering, leveret af et navngivet team på en månedsaftale."
+    },
+    "appointmentSetting": {
+      "title": "Mødebooking",
+      "description": "Kvalificerede møder direkte i kalenderen, efter kriterier, I selv har skrevet ned, med optagede samtaler og en ugentlig rapport."
+    },
+    "outboundSales": {
+      "title": "Telefonsalg",
+      "description": "Et oplært team, der sælger på jeres vegne ud fra jeres manuskript, jeres priser og jeres compliance-regler."
+    },
+    "customerService": {
+      "title": "Kundeservice",
+      "description": "Indgående opkald og opfølgning på dansk og engelsk, fra overløb til hele frontlinjen, uden at I skal ansætte flere."
+    },
+    "leadGeneration": {
+      "title": "Leadgenerering",
+      "description": "Listeopbygning, datavask og første kvalificerende opkald, så pipelinen starter med kontakter, der findes og tager telefonen."
+    },
+    "industries": {
+      "title": "Brancher",
+      "description": "De brancher Callaz kører kampagner i, og en ærlig beskrivelse af, hvad der ændrer sig fra den ene til den anden."
+    },
+    "howWeWork": {
+      "title": "Sådan arbejder vi",
+      "description": "De fire faser i en Callaz-kampagne, fra briefing til drift, samt de compliance- og dataregler teamet arbejder under."
+    },
+    "about": {
+      "title": "Om Callaz",
+      "description": "Et callcenter stiftet i Kolding, bygget til udgående arbejde på det danske marked. Registrerede oplysninger, værdier og adresse."
+    },
+    "careers": {
+      "title": "Ledige job",
+      "description": "Ledige stillinger hos Callaz i Kolding og remote, hvad vi tilbyder, og hvordan ansættelsesprocessen forløber."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Kontakt Callaz på telefon, mail eller via formularen. Registreret adresse i Kolding."
+    },
+    "quote": {
+      "title": "Få et tilbud",
+      "description": "Fortæl os marked, tilbud og volumen, og få et skriftligt oplæg med omfang, pris og startdato."
+    },
+    "privacy": {
+      "title": "Privatlivspolitik",
+      "description": "Hvordan Callaz indsamler, bruger og opbevarer personoplysninger og hvilke rettigheder du har efter GDPR."
+    },
+    "thankYou": {
+      "title": "Tak",
+      "description": "Din henvendelse er modtaget."
+    }
+  },
+  "nav": {
+    "home": "Callaz — forside",
+    "mainLabel": "Hovedmenu",
+    "skipToContent": "Gå til indhold",
+    "openMenu": "Åbn menu",
+    "closeMenu": "Luk menu",
+    "languageLabel": "Sprog",
+    "solutions": "Løsninger",
+    "appointmentSetting": "Mødebooking",
+    "outboundSales": "Telefonsalg",
+    "customerService": "Kundeservice",
+    "leadGeneration": "Leadgenerering",
+    "appointmentSettingDesc": "Kvalificerede møder direkte i kalenderen",
+    "outboundSalesDesc": "Et oplært team, der sælger for jer",
+    "customerServiceDesc": "Indgående opkald på dansk og engelsk",
+    "leadGenerationDesc": "Vaskede lister og første kvalificering",
+    "industries": "Brancher",
+    "howWeWork": "Sådan arbejder vi",
+    "about": "Om os",
+    "careers": "Ledige job",
+    "contact": "Kontakt",
+    "quote": "Få et tilbud",
+    "privacy": "Privatlivspolitik",
+    "themeLabel": "Visning",
+    "themeLight": "Lys",
+    "themeDark": "Mørk",
+    "themeSystem": "Følg systemet"
+  },
+  "common": {
+    "ctaQuote": "Få et tilbud",
+    "readMore": "Læs mere",
+    "breadcrumbLabel": "Brødkrummesti",
+    "slogan": "Dækker alt jeres behov fra A til Z"
+  },
+  "footer": {
+    "tagline": "Et callcenter i Kolding, som ringer til danske virksomheder på dansk og engelsk.",
+    "solutionsTitle": "Løsninger",
+    "companyTitle": "Virksomheden",
+    "contactTitle": "Kontakt",
+    "marketsTitle": "Markeder",
+    "cvr": "CVR",
+    "rights": "Alle rettigheder forbeholdes"
+  },
+  "consent": {
+    "title": "Cookies på callaz.dk",
+    "body": "Vi bruger cookies, der er nødvendige for, at siden fungerer. Alt derudover sættes kun, hvis du siger ja, og du kan altid ombestemme dig.",
+    "accept": "Accepter alle",
+    "reject": "Kun nødvendige",
+    "details": "Se detaljer",
+    "necessaryTitle": "Nødvendige",
+    "necessaryBody": "Husker udelukkende dit valg i denne boks. Kan ikke slås fra, da vi ellers ville spørge dig på hver eneste side. Dit sprogvalg ligger i adressen og kræver ingen cookie.",
+    "analyticsTitle": "Statistik",
+    "analyticsBody": "Anonym måling af, hvilke sider der bliver læst, så vi ved, hvad der skal forbedres. Sættes kun med dit samtykke.",
+    "privacyLink": "Privatlivspolitik",
+    "regionLabel": "Cookiesamtykke",
+    "manage": "Cookieindstillinger"
+  },
+  "form": {
+    "name": "Navn",
+    "company": "Virksomhed",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "topic": "Hvad handler det om",
+    "topics": {
+      "appointmentSetting": "Mødebooking",
+      "outboundSales": "Telefonsalg",
+      "customerService": "Kundeservice",
+      "leadGeneration": "Leadgenerering",
+      "partnership": "Samarbejde",
+      "careers": "Job",
+      "other": "Noget andet"
+    },
+    "volume": "Forventet volumen",
+    "volumes": {
+      "exploring": "Vi undersøger stadig",
+      "small": "Op til 500 opkald om måneden",
+      "medium": "500 til 2.000 opkald om måneden",
+      "large": "Mere end 2.000 opkald om måneden"
+    },
+    "message": "Besked",
+    "messagePlaceholder": "Hvilket marked, hvilket tilbud og hvordan et godt resultat ser ud for jer.",
+    "consent": "Jeg accepterer, at Callaz må gemme og bruge ovenstående oplysninger til at besvare min henvendelse.",
+    "consentNote": "Vi bruger dine oplysninger til at svare dig og til intet andet. Ingen nyhedsbreve, ingen tredjeparter.",
+    "submit": "Send henvendelse",
+    "submitting": "Sender…",
+    "optional": "valgfri",
+    "choose": "Vælg",
+    "errors": {
+      "name": "Skriv venligst dit navn.",
+      "company": "Skriv venligst virksomhedens navn.",
+      "email": "Det ligner ikke en gyldig e-mailadresse.",
+      "phone": "Det ligner ikke et gyldigt telefonnummer.",
+      "topic": "Vælg venligst, hvad henvendelsen handler om.",
+      "message": "Skriv venligst et par sætninger.",
+      "consent": "Vi skal bruge dit samtykke, før vi må gemme henvendelsen.",
+      "rateLimited": "Det er mange henvendelser fra samme sted. Vent et par minutter, eller ring til os i stedet.",
+      "generic": "Beskeden kunne ikke sendes. Prøv igen, eller ring på {phone}."
+    }
+  },
+  "markets": {
+    "denmark": "Danmark"
+  },
+  "languages": {
+    "da": "Dansk",
+    "en": "Engelsk"
+  },
+  "metrics": {
+    "answerTime": {
+      "label": "Mål for svartid",
+      "unit": "sek"
+    },
+    "onboarding": {
+      "label": "Fra briefing til første opkald",
+      "unit": "t"
+    },
+    "recorded": {
+      "label": "Samtaler optaget",
+      "unit": "%"
+    },
+    "notice": {
+      "label": "Opsigelsesvarsel",
+      "unit": "md."
+    }
+  },
+  "coverage": {
+    "eyebrow": "Marked og sprog",
+    "title": "Ét marked, og vi kender det",
+    "lead": "Vi ringer i Danmark, på dansk og engelsk. Det er et bevidst valg frem for at sprede sig tyndt: vi kender kundetyperne, indvendingerne og reglerne her, og vi skriver ikke et marked på hjemmesiden, som vi ikke kan bemande.",
+    "languagesLabel": "Sprog vi ringer på",
+    "marketLabel": "Marked",
+    "baseLabel": "Base",
+    "reachLabel": "Direkte nummer",
+    "note": "Vi tager gerne en engelsksproget kampagne rettet mod danske virksomheder. Vi påstår ikke at dække andre lande, for det ville kræve folk, der kan tage samtalen på sproget."
+  },
+  "cta": {
+    "eyebrow": "Start en kampagne",
+    "title": "Fortæl os markedet og tilbuddet. Så siger vi, om vi kan sælge det.",
+    "body": "Den første samtale tager tyve minutter. Du får en ærlig vurdering af, om udgående salg passer til det, I sælger, og et skriftligt oplæg, hvis det gør.",
+    "primary": "Få et tilbud",
+    "steps": [
+      {
+        "title": "Tyve minutters samtale",
+        "body": "Marked, tilbud, målgruppe og hvordan et godt resultat ser ud for jer."
+      },
+      {
+        "title": "Skriftligt oplæg",
+        "body": "Omfang, teamstørrelse, pris og startdato. På skrift, så ingen husker det forskelligt bagefter."
+      },
+      {
+        "title": "Pilot, derefter opskalering",
+        "body": "En fast pilotperiode med aftalte kriterier, før nogen skriver under på noget langt."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Siden findes ikke",
+    "body": "Linket kan være gammelt, eller der kan være en tastefejl i adressen. Her er de sider, folk som regel leder efter.",
+    "cta": "Gå til forsiden",
+    "suggestionsLabel": "Foreslåede sider"
+  },
+  "thankYou": {
+    "title": "Vi har modtaget din henvendelse",
+    "body": "Et menneske læser hver eneste henvendelse, der kommer ind via denne formular. Du hører fra os inden for en arbejdsdag.",
+    "home": "Tilbage til forsiden",
+    "note": "Har du travlt? Ring i stedet, så får du svar med det samme."
+  },
+  "countries": {
+    "DK": "Danmark"
+  }
+}

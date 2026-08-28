@@ -1,0 +1,137 @@
+{
+  "careers": {
+    "eyebrow": "Careers",
+    "title": "Work somewhere the phone is treated as a craft",
+    "lead": "Callaz is early enough that what you do still visibly changes the company. If you can hold a conversation with a stranger and stay curious after the fourth no, the rest is trainable.",
+    "offer": {
+      "eyebrow": "What we offer",
+      "title": "The parts of the job people actually ask about",
+      "lead": "Written here because a job ad that hides the pay structure is telling you something about the pay structure.",
+      "items": [
+        {
+          "title": "Training before live calls",
+          "body": "Nobody is put on a live line on day one. You learn the product, the script and the objections first, and your first calls are listened to with you afterwards."
+        },
+        {
+          "title": "Base plus performance",
+          "body": "A real base salary with performance pay on top, and the calculation written down. No commission-only roles."
+        },
+        {
+          "title": "A named team lead",
+          "body": "One person responsible for your development, who listens to your calls and tells you specifically what to change."
+        },
+        {
+          "title": "English is an asset here",
+          "body": "Campaigns run in Danish and English. Being strong in both opens more campaigns and better pay."
+        },
+        {
+          "title": "Progression that exists",
+          "body": "Agent to senior to team lead is a path people are actually on, not a slide in an onboarding deck."
+        },
+        {
+          "title": "An office in Kolding",
+          "body": "We sit together in Kolding. Phone work is easier to learn when you can hear the colleague next to you take the call."
+        }
+      ]
+    },
+    "openings": {
+      "eyebrow": "Open roles",
+      "title": "Currently hiring",
+      "featured": "Priority",
+      "remote": "Remote",
+      "spontaneousTitle": "Nothing here that fits?",
+      "spontaneousBody": "We read every open application, and roles open faster than this page gets updated.",
+      "spontaneous": "Send an open application"
+    },
+    "employmentTypes": {
+      "FULL_TIME": "Full time",
+      "PART_TIME": "Part time",
+      "CONTRACTOR": "Contract"
+    },
+    "process": {
+      "eyebrow": "Hiring",
+      "title": "How the process runs",
+      "lead": "Four steps, about a week end to end. You will hear back either way, including if the answer is no.",
+      "steps": [
+        {
+          "title": "Application",
+          "body": "A CV and a few lines about why this job. A cover letter written for us beats a generic one every time."
+        },
+        {
+          "title": "Phone conversation",
+          "body": "Twenty minutes. It is a phone job, so the first conversation happens on the phone rather than over email."
+        },
+        {
+          "title": "Meeting and trial",
+          "body": "You meet the team lead, hear real recordings, and do a short role-play. You should be assessing us here too."
+        },
+        {
+          "title": "Offer",
+          "body": "Written, with the pay structure spelled out, and a start date that works for both sides."
+        }
+      ]
+    },
+    "job": {
+      "aboutTitle": "About the role",
+      "responsibilitiesTitle": "What you will do",
+      "requirementsTitle": "What we are looking for"
+    },
+    "apply": {
+      "title": "Apply for this role",
+      "subject": "application",
+      "body": "Send your CV and a few lines about why this role. We reply to every application, usually within three working days.",
+      "cta": "Apply by email",
+      "note": "Your application is used to assess you for this role and is deleted after six months unless you ask us to keep it on file."
+    },
+    "jobs": {
+      "sales-agent": {
+        "title": "Sales agent",
+        "summary": "Outbound calling for client campaigns in Danish and English. Full training, base salary plus performance pay, based in the Kolding office.",
+        "datePosted": "2026-08-01",
+        "language": "Danish and English",
+        "about": [
+          "You will be calling businesses on behalf of our clients, booking meetings and closing sales depending on the campaign you are assigned to. Every call you make is in a client name, which is why the training and the quality review are taken seriously.",
+          "This is a phone-first job. Most of your day is conversations with people who did not expect you to call, and the difference between doing this well and badly is almost entirely about how you handle the first fifteen seconds."
+        ],
+        "responsibilities": [
+          "Make outbound calls to businesses on assigned client campaigns",
+          "Book qualified meetings or close sales against written criteria",
+          "Log every call and outcome in the client system, accurately and same day",
+          "Feed objections and market reactions back to the team lead",
+          "Keep your own recordings under review and act on the feedback"
+        ],
+        "requirements": [
+          "Fluent Danish and functional English",
+          "Comfortable on the phone with people you have not met",
+          "Able to take a no without taking it personally",
+          "Accurate with data entry, because a wrongly logged call costs someone else an hour",
+          "Sales experience is welcome but not required, attitude is trainable and taught here"
+        ]
+      },
+      "team-lead": {
+        "title": "Team lead",
+        "summary": "Run a campaign team of four to eight agents: quality, coaching, client reporting and the weekly numbers. Kolding office, full time.",
+        "datePosted": "2026-08-01",
+        "language": "Danish and English",
+        "about": [
+          "You own the performance of one or more campaigns end to end. That means the numbers, the quality of what is said in the client name, and the weekly report that goes out to them.",
+          "The job is roughly half coaching and half analysis. You will spend real time listening to calls, and real time working out why a segment stopped converting in week three."
+        ],
+        "responsibilities": [
+          "Lead a team of four to eight agents on assigned campaigns",
+          "Sample and score calls, and coach individually on what you hear",
+          "Own the weekly client report and present it honestly, bad news first",
+          "Work with the client on script and segment adjustments",
+          "Onboard and train new agents joining your team"
+        ],
+        "requirements": [
+          "Experience in outbound sales or contact centre work, including time on the phone yourself",
+          "Comfortable telling a client something is not working",
+          "Able to read campaign numbers and form a view about why",
+          "Fluent Danish and solid written English",
+          "Previous team responsibility is an advantage"
+        ]
+      }
+    }
+  }
+}

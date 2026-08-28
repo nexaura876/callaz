@@ -1,0 +1,368 @@
+{
+  "howWeWork": {
+    "eyebrow": "Metode",
+    "title": "Sådan kører en Callaz-kampagne i praksis",
+    "lead": "Udgående salg fejler i stilhed. En kampagne kan se travl ud i to måneder og ikke producere noget, og når det bliver tydeligt, er budgettet væk. Hele metoden herunder findes for at forkorte afstanden mellem en beslutning og beviset på, at den var forkert.",
+    "metricsNote": "Det er de driftsmål, hver kampagne køres efter og rapporteres på. De beskriver, hvordan vi arbejder, ikke resultater fra tidligere kunder.",
+    "phases": {
+      "eyebrow": "De fire faser",
+      "title": "Fra briefing til drift",
+      "lead": "Typiske tider for en første kampagne. En kampagne nummer to for samme kunde springer som regel det meste af fase ét over.",
+      "items": [
+        {
+          "title": "Briefing og kriterier",
+          "duration": "Uge 1",
+          "body": "Vi finder ud af, hvad I sælger, til hvem, og hvordan et resultat skal se ud, før det tæller som ét. Det er den fase, folk gerne vil springe over, og det er derfor kampagner bliver diskuteret bagefter.",
+          "outputs": [
+            "Skriftlig definition af et kvalificeret resultat",
+            "Målsegment og geografi",
+            "Databehandleraftale underskrevet"
+          ]
+        },
+        {
+          "title": "Opbygning",
+          "duration": "Uge 1 til 2",
+          "body": "Manuskript, indvendingshåndtering, liste og systemadgang forberedes. Intet går live, før I har læst manuskriptet og bekræftet, at det lyder som jeres virksomhed.",
+          "outputs": [
+            "Godkendt manuskript og indvendingshåndtering",
+            "Vasket og verificeret liste",
+            "CRM- og kalenderoverlevering testet"
+          ]
+        },
+        {
+          "title": "Pilot",
+          "duration": "Uge 2 til 6",
+          "body": "En fast volumen inden for aftalte tider. I lytter til rigtige optagelser allerede i uge ét, ikke plukkede højdepunkter, og vi justerer manuskriptet, mens kampagnen kører frem for bagefter.",
+          "outputs": [
+            "Ugerapport fra første uge",
+            "Fuld adgang til optagelser",
+            "Skriftlig vurdering af, om der skal fortsættes"
+          ]
+        },
+        {
+          "title": "Opskalering og drift",
+          "duration": "Løbende",
+          "body": "Det, der virkede, får flere timer. Det, der ikke gjorde, skrives om eller droppes. Rapporteret ugentligt, gennemgået månedligt, og aftalen forbliver månedlig, så det altid er muligt at stoppe.",
+          "outputs": [
+            "Månedlig gennemgang med teamlederen",
+            "Performance opdelt på segmentniveau",
+            "Kvartalsvis anbefaling af, hvor der skal sigtes"
+          ]
+        }
+      ]
+    },
+    "principles": {
+      "eyebrow": "Driftsprincipper",
+      "title": "Fem ting, vi ikke forhandler om",
+      "lead": "De koster os arbejde en gang imellem. De er også grunden til, at kunder bliver hængende efter piloten.",
+      "items": {
+        "recordedCalls": {
+          "title": "Alle samtaler optages",
+          "body": "Dem alle sammen, tilgængelige for jer, ikke et udvalg, vi har plukket. Det er den eneste ærlige måde at vurdere, om kvaliteten matcher tallene."
+        },
+        "namedTeam": {
+          "title": "Et navngivet team",
+          "body": "I ved, hvem der ringer for jer. De lærer jeres produkt ordentligt, og I kan tale direkte med dem frem for gennem en kundechef."
+        },
+        "weeklyReporting": {
+          "title": "Ugentlig rapportering",
+          "body": "Én side, samme format, hver uge fra uge ét. Opkald, samtaler, resultater og hvad markedet gjorde indsigelse mod."
+        },
+        "gdprByDefault": {
+          "title": "GDPR som standard",
+          "body": "Databehandleraftale før første opkald, dokumenteret hjemmel, framelding, der virker, og data leveret tilbage eller slettet til sidst."
+        },
+        "noLockIn": {
+          "title": "Ingen binding",
+          "body": "Månedsvilkår. Holder vi op med at være pengene værd, skal I kunne handle på det med det samme, og det kan I."
+        }
+      }
+    },
+    "compliance": {
+      "eyebrow": "Compliance og data",
+      "title": "De regler, vi arbejder under",
+      "lead": "Udgående telefoni er reguleret, og reguleringen er forskellig fra marked til marked. At tage fejl her er dyrt for jer, ikke kun for os, og derfor aftales det skriftligt, før nogen ringer.",
+      "items": [
+        {
+          "title": "Databehandleraftale",
+          "body": "Underskrevet før data skifter hænder. Den fastlægger, hvad vi behandler, på hvilket grundlag, hvor længe og hvad der sker med det, når kampagnen slutter."
+        },
+        {
+          "title": "Dokumenteret hjemmel",
+          "body": "B2B-opkald under legitim interesse med en skriftlig vurdering eller samtykke, hvor markedet kræver det. Under alle omstændigheder skrevet ned, ikke forudsat."
+        },
+        {
+          "title": "Framelding respekteres straks",
+          "body": "Et nej registreres på opkaldet og spærres på tværs af alle kampagner, vi kører for jer. I Danmark indebærer det opslag i Robinsonlisten ved forbrugerkampagner."
+        },
+        {
+          "title": "Adgangsstyring",
+          "body": "Navngivne brugerkonti i jeres systemer, ingen delte logins og adgang lukket samme dag, en kampagne slutter, eller en medarbejder stopper."
+        },
+        {
+          "title": "Opbevaring og sletning",
+          "body": "Optagelser og kampagnedata opbevares i den periode, databehandleraftalen fastsætter, og slettes derefter. I kan til enhver tid bede om at få data retur."
+        }
+      ]
+    },
+    "faqTitle": "Om metoden",
+    "faq": [
+      {
+        "q": "Hvor hurtigt kan en kampagne starte?",
+        "a": "Fra briefing til første opkald er målet 48 timer for en ligetil kampagne, hvor I allerede har en liste og et klart tilbud. En kampagne, der kræver listeopbygning og et nyt manuskript, er realistisk en til to uger."
+      },
+      {
+        "q": "Hvad koster det?",
+        "a": "Prisen afhænger af timer, sprog og hvor meget opsætning kampagnen kræver, så et tal nævnt, før vi har hørt tilbuddet, ville være meningsløst. I får et skriftligt oplæg med omfanget prissat, før noget skrives under."
+      },
+      {
+        "q": "Kan vi lytte med live?",
+        "a": "Ja. Medlytning kan arrangeres for jeres eget team, og det er værd at gøre i den første uge. De fleste kunder hører noget i den første time, der ændrer deres manuskript."
+      },
+      {
+        "q": "Hvad sker der med vores data, når vi stopper?",
+        "a": "De leveres tilbage i jeres format og slettes derefter fra vores systemer inden for den frist, databehandleraftalen fastsætter. I får skriftlig bekræftelse, når sletningen er gennemført."
+      },
+      {
+        "q": "Arbejder I sammen med vores nuværende bureau eller interne team?",
+        "a": "Ofte. Overløb ved siden af et internt team er en af de mest almindelige opsætninger, og det undgår forstyrrelsen ved at flytte alt på én gang."
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Brancher",
+    "title": "De brancher, vi tager kampagner i",
+    "lead": "Brancheerfaring betyder mindre, end de fleste bureauer påstår, og mere end ingenting. Det, der faktisk kan overføres, er at kende indvendingerne, før man hører dem, og at vide, hvilke regler der gælder, før man ringer.",
+    "sectors": {
+      "energy": {
+        "title": "Energi og forsyning",
+        "body": "Skiftekampagner og genforhandling, hvor samtykkehåndtering og klar prisoplysning afgør, om et salg overlever fortrydelsesfristen."
+      },
+      "telecom": {
+        "title": "Telekommunikation",
+        "body": "Erhvervsabonnementer og opgraderinger. Høj volumen, korte opkald og et marked, der har hørt hver eneste indledning før."
+      },
+      "saas": {
+        "title": "Software og SaaS",
+        "body": "Mødebooking til demoer. Opgaven er at filtrere hårdt, så demoteamet bruger sine timer på kunder, der faktisk kan købe."
+      },
+      "insurance": {
+        "title": "Forsikring og finans",
+        "body": "Rådgivningsmøder frem for lukning på opkaldet, da den regulerede del hører hjemme hos jeres egne autoriserede folk."
+      },
+      "trades": {
+        "title": "Håndværk og installation",
+        "body": "Lokal B2B og opfølgning på tilbud, der er gået i sig selv. Et kort opkald redder overraskende mange af dem."
+      },
+      "logistics": {
+        "title": "Transport og logistik",
+        "body": "Fragt og lager, hvor beslutningstageren sjældent sidder ved et skrivebord, og ringevinduet er smalt."
+      },
+      "membership": {
+        "title": "Medlemsorganisationer",
+        "body": "Hvervning og fornyelse for fagforbund og brancheforeninger, hvor tonen betyder mere end tempoet."
+      },
+      "nonprofit": {
+        "title": "Almennyttige organisationer",
+        "body": "Støttekontakt og fornyelse, kørt under de strengere samtykkeregler, der gælder for indsamling."
+      }
+    },
+    "adapt": {
+      "eyebrow": "Det ændrer sig per branche",
+      "title": "Tre ting vi justerer hver gang",
+      "lead": "Metoden er den samme. De her tre flytter sig, og at tage fejl af dem er grunden til, at en kampagne i en ny branche underpræsterer.",
+      "items": [
+        {
+          "title": "Ringevinduet",
+          "body": "En pladsformand og en økonomichef er tilgængelige i hver sin ende af dagen. At ringe på det forkerte tidspunkt ligner en dårlig liste."
+        },
+        {
+          "title": "De regler, der gælder",
+          "body": "Forbrugerkampagner, finansielle ydelser og indsamling har hver deres krav, som B2B-software ikke har. Vi tjekker før første opkald, ikke efter en klage."
+        },
+        {
+          "title": "Hvad der tæller som kvalificeret",
+          "body": "Et kvalificeret møde til en SaaS-demo og et kvalificeret møde om en fragtaftale har næsten intet til fælles. Definitionen skrives om for hver kampagne."
+        }
+      ]
+    },
+    "honesty": {
+      "eyebrow": "Ligeud",
+      "title": "Er jeres branche ikke på listen, er det ikke et problem",
+      "body": "Listen er, hvor vi har kørt kampagner, ikke en grænse for, hvor vi kan. Det, der reelt afgør, om udgående salg virker, er tilbuddet, listen og dækningsbidraget, og dem kan I vurdere på tyve minutter uanset hvilken branchekode der står på virksomheden."
+    }
+  },
+  "about": {
+    "eyebrow": "Om os",
+    "title": "Et callcenter, der behandler sine kunder, som vi selv gerne vil behandles",
+    "lead": "Callaz blev stiftet i Kolding i 2025 af folk, der havde tilbragt tid nok i telefonafdelinger til at vide præcis, hvilke dele af branchen der har fortjent dens ry.",
+    "story": {
+      "title": "Derfor findes virksomheden",
+      "paragraphs": [
+        "De fleste virksomheder, der køber udgående salg, har købt det før og er blevet skuffede. Mønsteret gentager sig: et imponerende oplæg, et team, man aldrig møder, en månedsrapport, der mest består af aktivitetstal, og en langsom erkendelse af, at ingen kan sige, om det virker.",
+        "Callaz er bygget til at gøre netop den fejl svær. Alle samtaler optages og er tilgængelige for jer. Teamet, der ringer for jer, har navne, I kender. Rapporten kommer ugentligt fra uge ét og siger lige så tydeligt, hvad der ikke virkede, som hvad der gjorde. Og aftalen er månedlig, så hvis vi holder op med at gøre os fortjent til den, kan I handle med det samme frem for at vente en kontrakt ud.",
+        "Vi er en ung virksomhed, og vi lader ikke som om andet. Det, vi kan love, er den del, der er helt inden for vores egen kontrol: hvordan vi arbejder, hvad I kan se, og hvad der sker, når noget går galt."
+      ]
+    },
+    "facts": {
+      "legalName": "Registreret navn",
+      "cvr": "CVR",
+      "founded": "Stiftet",
+      "headquarters": "Hovedkontor",
+      "sector": "Registreret branche",
+      "sectorValue": "Drift af callcentre"
+    },
+    "values": {
+      "eyebrow": "Sådan arbejder vi",
+      "title": "Tre løfter, der former resten",
+      "lead": "Det er ikke plakater på en væg. Bag hvert enkelt ligger en mekanisme, I kan efterprøve.",
+      "items": [
+        {
+          "title": "Sig nej til det forkerte arbejde",
+          "body": "Tror vi ikke på, at udgående salg virker for jeres tilbud, siger vi det på den første samtale. At tage en kampagne, der vil fejle, koster os en reference og koster jer et kvartal."
+        },
+        {
+          "title": "Vis de dårlige tal først",
+          "body": "Ugerapporten begynder med det, der ikke virker. En rapport, der kun indeholder gode nyheder, er ikke en rapport, men markedsføring."
+        },
+        {
+          "title": "Behandl brandet som lånt",
+          "body": "Vi ringer i jeres navn, og hver samtale bruger derfor en lille smule af jeres omdømme. Derfor bliver samtaler optaget, udtaget og vurderet frem for bare talt."
+        }
+      ]
+    },
+    "offices": {
+      "eyebrow": "Hvor vi er",
+      "title": "Registreret i Kolding, ringer i hele Danmark",
+      "lead": "Den registrerede adresse er i Kolding, og det er også der, kampagnerne køres fra. Vi ringer i hele landet.",
+      "hq": "Hovedkontor",
+      "cta": "Kontakt os"
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Tal med et menneske, der faktisk kan svare",
+    "lead": "Ingen filtre og ingen udspørgen, før I får fat i en person. Ring, skriv eller brug formularen, så hører I fra os inden for en arbejdsdag.",
+    "channels": {
+      "phone": "Telefon",
+      "phoneNote": "Hurtigste vej. Kan vi ikke tage den, ringer vi tilbage samme dag.",
+      "sales": "Nye samarbejder",
+      "salesNote": "Tilbud, priser og ansøgninger.",
+      "careers": "Job",
+      "careersNote": "Ansøgninger og ledige stillinger."
+    },
+    "addressTitle": "Registreret adresse",
+    "hoursTitle": "Hvornår vi svarer",
+    "hoursBody": "Mandag til fredag, 08:00 til 17:00 dansk tid. Kampagnetider aftales per kunde og kan ligge ud over dette.",
+    "formTitle": "Send en henvendelse",
+    "formLead": "Jo mere konkrete I er om marked og tilbud, jo mere brugbart bliver det første svar."
+  },
+  "quote": {
+    "eyebrow": "Få et tilbud",
+    "title": "Et skriftligt oplæg, ikke et salgsforløb",
+    "lead": "Fortæl os, hvad I sælger, hvor og cirka hvilken volumen I er ude efter. I får et oplæg med omfang, teamstørrelse, pris og startdato, og er udgående salg det forkerte værktøj til jeres tilbud, siger vi det i stedet.",
+    "steps": [
+      {
+        "title": "I sender denne formular",
+        "body": "Marked, tilbud og volumen. To sætninger er nok til at komme i gang."
+      },
+      {
+        "title": "Tyve minutters samtale",
+        "body": "Vi stiller de spørgsmål, der faktisk ændrer prisen, og giver en ærlig vurdering af, om det passer."
+      },
+      {
+        "title": "Skriftligt oplæg",
+        "body": "Omfang, pris, startdato og definitionen på et kvalificeret resultat. Inden for to arbejdsdage efter samtalen."
+      }
+    ],
+    "assurances": [
+      "Uforpligtende og uden opfølgningsforløb",
+      "Vi siger det, hvis udgående salg er forkert for jeres tilbud",
+      "Jeres oplysninger bruges til at svare og intet andet"
+    ],
+    "faqTitle": "Inden I sender",
+    "faq": [
+      {
+        "q": "Hvad skal I bruge for at give et tilbud?",
+        "a": "Markedet, hvad I sælger, hvem der køber det og cirka hvilken volumen I tænker. Har I en eksisterende liste eller et CRM, så nævn det, for det ændrer som regel både prisen og fremgangsmåden."
+      },
+      {
+        "q": "Hvordan er prisen skruet sammen?",
+        "a": "Overvejende en månedspris baseret på timer og sprog, nogle gange med et resultatelement oveni. Pilotforløb prissættes som et fast projekt. Vi arbejder ikke på ren provision, fordi det skaber den forkerte adfærd i telefonen."
+      },
+      {
+        "q": "Hvor lang er bindingen?",
+        "a": "Månedlig efter piloten. Der er ingen årsbinding, og der er ingen klausul, der gør det besværligt at stoppe."
+      },
+      {
+        "q": "Hvor hurtigt kan vi komme i gang?",
+        "a": "Fra briefing til første opkald er målet 48 timer, når listen og tilbuddet er klar. Læg en uge eller to til, hvis listen skal bygges."
+      },
+      {
+        "q": "Kommer jeg på en mailingliste?",
+        "a": "Nej. Jeres oplysninger bruges til at besvare denne henvendelse. Der er intet nyhedsbrev, og intet gives videre til nogen."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privatliv",
+    "title": "Privatlivspolitik",
+    "lead": "Denne politik forklarer, hvilke personoplysninger Callaz indsamler via dette websted, hvorfor og hvilke rettigheder du har. Den er skrevet til at blive læst frem for til at være juridisk uangribelig.",
+    "updated": "Senest opdateret {date}",
+    "updatedDate": "august 2026",
+    "controllerTitle": "Dataansvarlig",
+    "sections": [
+      {
+        "title": "Hvad vi indsamler",
+        "paragraphs": [
+          "Sender du en henvendelse via en formular på dette websted, indsamler vi navn, virksomhed, e-mailadresse, eventuelt telefonnummer, det emne, du valgte, og den besked, du skrev.",
+          "Vores server behandler desuden de tekniske oplysninger, ethvert webopkald bærer med sig, herunder din IP-adresse og browsertype. Det bruges til at levere siden og til at begrænse automatisk misbrug af formularen. Det bruges ikke til at opbygge en profil af dig.",
+          "Webstedet indlæser ingen tredjepartsscripts, ingen annoncetags og ingen widgets fra sociale medier. Intet om dit besøg deles med en anden virksomhed, fordi du læser denne side."
+        ]
+      },
+      {
+        "title": "Hvorfor vi bruger det",
+        "paragraphs": [
+          "Oplysningerne fra en henvendelse bruges til ét formål: at besvare din henvendelse og, hvis den fører videre, at udarbejde et oplæg. Behandlingsgrundlaget er vores legitime interesse i at svare en, der har kontaktet os, og, hvor et samarbejde følger, opfyldelse af en aftale.",
+          "Vi bruger ikke henvendelser til markedsføring. Du kommer ikke på en mailingliste, fordi du stillede et spørgsmål, og dine oplysninger sælges aldrig eller gives videre til tredjepart til deres egne formål."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Vi sætter én strengt nødvendig cookie, der husker dit cookievalg, så du ikke bliver spurgt igen på hver side. Den indeholder kun selve valget og udløber efter tolv måneder.",
+          "Statistikcookies sættes kun, hvis du accepterer dem i banneret. Du kan til enhver tid ændre eller trække dit valg tilbage via linket til cookieindstillinger i sidefoden, og det er lige så let at trække samtykket tilbage som at give det.",
+          "Dit valg af lys eller mørk visning gemmes i browserens localStorage under nøglen callaz-theme. Det er en teknisk nødvendig indstilling, du selv har valgt aktivt, den forlader aldrig din browser, og den ryddes, hvis du sletter dine browserdata."
+        ]
+      },
+      {
+        "title": "Hvor længe vi gemmer det",
+        "paragraphs": [
+          "Henvendelser, der ikke fører til et samarbejde, slettes efter tolv måneder. Henvendelser, der gør, bliver en del af kundeoplysningerne og gemmes, så længe samarbejdet varer, plus den periode bogføringsloven kræver.",
+          "Serverlogs gemmes i en kort teknisk periode og kasseres derefter."
+        ]
+      },
+      {
+        "title": "Hvem andre ser det",
+        "paragraphs": [
+          "Vi bruger et lille antal databehandlere til at drive webstedet og levere e-mail, og de behandler kun oplysninger efter vores instruks under en databehandleraftale. Vi sælger ikke oplysninger, og vi deler dem ikke med annoncører.",
+          "Ligger en databehandler uden for EU eller EØS, er overførslen dækket af Europa-Kommissionens standardkontraktbestemmelser."
+        ]
+      },
+      {
+        "title": "Dine rettigheder",
+        "paragraphs": [
+          "Efter databeskyttelsesforordningen har du ret til indsigt i de personoplysninger, vi har om dig, til at få dem rettet, til at få dem slettet, til at få behandlingen begrænset, til at gøre indsigelse mod behandling baseret på legitim interesse og til at få dine oplysninger udleveret i et struktureret, almindeligt anvendt og maskinlæsbart format.",
+          "Skriv til adressen i panelet på denne side, så svarer vi inden for en måned. Det er gratis at gøre brug af rettighederne.",
+          "Er du ikke tilfreds med, hvordan vi håndterer dine oplysninger, kan du klage til Datatilsynet, Carl Jacobsens Vej 35, 2500 Valby, datatilsynet.dk."
+        ]
+      },
+      {
+        "title": "Ændringer i denne politik",
+        "paragraphs": [
+          "Ændres politikken væsentligt, opdaterer vi datoen øverst, og hvor ændringen påvirker vores brug af oplysninger, I allerede har givet os, kontakter vi jer direkte frem for at regne med, at I læser siden igen."
+        ]
+      }
+    ]
+  }
+}

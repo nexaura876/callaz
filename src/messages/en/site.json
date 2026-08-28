@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "siteName": "Callaz",
+    "home": {
+      "title": "Callaz — contact centre in Kolding, Denmark",
+      "description": "Callaz runs outbound calling for B2B teams in Denmark: appointment setting, outbound sales, customer service and lead generation, in Danish and English."
+    },
+    "solutions": {
+      "title": "Solutions",
+      "description": "Four outbound services, one operating method: appointment setting, outbound sales, customer service and lead generation, delivered by a named team on a monthly agreement."
+    },
+    "appointmentSetting": {
+      "title": "Appointment setting",
+      "description": "Qualified meetings booked straight into your calendar, with agreed criteria, recorded calls and a weekly report on what the market said."
+    },
+    "outboundSales": {
+      "title": "Outbound sales",
+      "description": "A trained outbound team closing on your behalf, working from your script, your pricing and your compliance rules."
+    },
+    "customerService": {
+      "title": "Customer service",
+      "description": "Inbound and follow-up handling in Danish and English, from overflow cover to a full front line, without lengthening your own payroll."
+    },
+    "leadGeneration": {
+      "title": "Lead generation",
+      "description": "List building, data cleaning and first-touch qualification, so your pipeline starts with contacts that are real and reachable."
+    },
+    "industries": {
+      "title": "Industries",
+      "description": "Sectors where Callaz runs campaigns, and an honest account of how the approach changes from one to the next."
+    },
+    "howWeWork": {
+      "title": "How we work",
+      "description": "The four phases of a Callaz campaign, from brief to steady state, plus the compliance and data rules the team works under."
+    },
+    "about": {
+      "title": "About Callaz",
+      "description": "A contact centre founded in Kolding, built for outbound work in the Danish market. Registered facts, values and address."
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Open roles at Callaz in Kolding and remote, what we offer, and how the hiring process runs."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Reach Callaz by phone, email or the enquiry form. Registered office in Kolding, Denmark."
+    },
+    "quote": {
+      "title": "Get a quote",
+      "description": "Tell us the market, the offer and the volume, and get a written proposal with scope, pricing and a start date."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "How Callaz collects, uses and stores personal data, and the rights you have under the GDPR."
+    },
+    "thankYou": {
+      "title": "Thank you",
+      "description": "Your enquiry has reached us."
+    }
+  },
+  "nav": {
+    "home": "Callaz — front page",
+    "mainLabel": "Main navigation",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageLabel": "Language",
+    "solutions": "Solutions",
+    "appointmentSetting": "Appointment setting",
+    "outboundSales": "Outbound sales",
+    "customerService": "Customer service",
+    "leadGeneration": "Lead generation",
+    "appointmentSettingDesc": "Qualified meetings booked into your calendar",
+    "outboundSalesDesc": "A trained team closing on your behalf",
+    "customerServiceDesc": "Inbound cover in Danish and English",
+    "leadGenerationDesc": "Clean lists and first-touch qualification",
+    "industries": "Industries",
+    "howWeWork": "How we work",
+    "about": "About",
+    "careers": "Careers",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "privacy": "Privacy policy",
+    "themeLabel": "Appearance",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "Match system"
+  },
+  "common": {
+    "ctaQuote": "Get a quote",
+    "readMore": "Read more",
+    "breadcrumbLabel": "Breadcrumb",
+    "slogan": "Covers everything you need, from A to Z"
+  },
+  "footer": {
+    "tagline": "An outbound contact centre in Kolding, calling Danish businesses in Danish and English.",
+    "solutionsTitle": "Solutions",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "marketsTitle": "Markets",
+    "cvr": "CVR",
+    "rights": "All rights reserved"
+  },
+  "consent": {
+    "title": "Cookies on callaz.dk",
+    "body": "We use cookies that are strictly necessary for the site to work. Anything beyond that is only set if you say yes, and you can change your mind at any time.",
+    "accept": "Accept all",
+    "reject": "Necessary only",
+    "details": "See details",
+    "necessaryTitle": "Necessary",
+    "necessaryBody": "Remembers only your answer to this box. It cannot be switched off, because without it we would ask you again on every page. Your language is carried in the address and needs no cookie.",
+    "analyticsTitle": "Statistics",
+    "analyticsBody": "Anonymous measurement of which pages get read, so we know what to improve. Only set with your consent.",
+    "privacyLink": "Privacy policy",
+    "regionLabel": "Cookie consent",
+    "manage": "Cookie settings"
+  },
+  "form": {
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "topic": "What is it about",
+    "topics": {
+      "appointmentSetting": "Appointment setting",
+      "outboundSales": "Outbound sales",
+      "customerService": "Customer service",
+      "leadGeneration": "Lead generation",
+      "partnership": "Partnership",
+      "careers": "Careers",
+      "other": "Something else"
+    },
+    "volume": "Expected volume",
+    "volumes": {
+      "exploring": "Still exploring",
+      "small": "Up to 500 calls a month",
+      "medium": "500 to 2,000 calls a month",
+      "large": "More than 2,000 calls a month"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Which market, which offer, and what a good result would look like.",
+    "consent": "I agree that Callaz may store and use the information above to answer my enquiry.",
+    "consentNote": "We use your details to reply, and for nothing else. No newsletter, no third parties.",
+    "submit": "Send enquiry",
+    "submitting": "Sending…",
+    "optional": "optional",
+    "choose": "Choose one",
+    "errors": {
+      "name": "Please write your name.",
+      "company": "Please write the company name.",
+      "email": "That does not look like a valid email address.",
+      "phone": "That does not look like a valid phone number.",
+      "topic": "Please choose what the enquiry is about.",
+      "message": "Please write at least a couple of sentences.",
+      "consent": "We need your consent before we can store the enquiry.",
+      "rateLimited": "That is a lot of enquiries from one place. Please wait a few minutes, or call us instead.",
+      "generic": "The message could not be sent. Please try again, or call {phone}."
+    }
+  },
+  "markets": {
+    "denmark": "Denmark"
+  },
+  "languages": {
+    "da": "Danish",
+    "en": "English"
+  },
+  "metrics": {
+    "answerTime": {
+      "label": "Target answer time",
+      "unit": "sec"
+    },
+    "onboarding": {
+      "label": "Brief to first call",
+      "unit": "h"
+    },
+    "recorded": {
+      "label": "Of calls recorded",
+      "unit": "%"
+    },
+    "notice": {
+      "label": "Notice period",
+      "unit": "mo"
+    }
+  },
+  "coverage": {
+    "eyebrow": "Market and languages",
+    "title": "One market, and we know it",
+    "lead": "We call in Denmark, in Danish and English. That is a deliberate choice over spreading thin: we know the buyer types, the objections and the rules here, and we do not put a market on the website that we cannot staff.",
+    "languagesLabel": "Languages we call in",
+    "marketLabel": "Market",
+    "baseLabel": "Base",
+    "reachLabel": "Direct number",
+    "note": "We are glad to run an English-language campaign into Danish businesses. We do not claim to cover other countries, because that would need people who can take the call in the language."
+  },
+  "cta": {
+    "eyebrow": "Start a campaign",
+    "title": "Tell us the market and the offer. We will tell you if we can sell it.",
+    "body": "A first call takes twenty minutes. You get an honest read on whether outbound suits what you sell, and a written proposal if it does.",
+    "primary": "Get a quote",
+    "steps": [
+      {
+        "title": "Twenty-minute call",
+        "body": "Market, offer, target customer, and what a good result looks like to you."
+      },
+      {
+        "title": "Written proposal",
+        "body": "Scope, team size, pricing and a start date. On paper, so nothing is remembered differently later."
+      },
+      {
+        "title": "Pilot, then scale",
+        "body": "A fixed pilot period with agreed criteria before anyone signs anything long."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "This page is not here",
+    "body": "The link may be old, or the address may have a typo in it. These are the pages people usually want.",
+    "cta": "Go to the front page",
+    "suggestionsLabel": "Suggested pages"
+  },
+  "thankYou": {
+    "title": "Your enquiry has reached us",
+    "body": "A person reads every enquiry that comes in through this form. You will hear back within one working day.",
+    "home": "Back to the front page",
+    "note": "In a hurry? Call instead, and you will get an answer straight away."
+  },
+  "countries": {
+    "DK": "Denmark"
+  }
+}

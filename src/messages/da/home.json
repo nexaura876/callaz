@@ -1,0 +1,109 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Callcenter · Kolding, Danmark",
+      "titleLead": "Jeres næste kunde er én",
+      "titleAccent": "samtale væk",
+      "lead": "Callaz laver de opkald, jeres eget team ikke når. Mødebooking, telefonsalg, kundeservice og leadgenerering til danske virksomheder, leveret af et navngivet team fra Kolding.",
+      "primary": "Få et tilbud",
+      "secondary": "Se løsningerne",
+      "assurances": [
+        "Navngivet team, ikke en pulje",
+        "Alle samtaler optages",
+        "Månedsaftale uden binding"
+      ],
+      "panel": {
+        "label": "Serviceløfter",
+        "status": "Live",
+        "note": "Det er de driftsmål, en Callaz-kampagne køres efter og rapporteres på hver uge. Det er løfter, ikke gennemsnit fra tidligere kampagner."
+      }
+    },
+    "marquee": [
+      "Mødebooking",
+      "Udgående B2B",
+      "Leadkvalificering",
+      "Kundeservice",
+      "Listeopbygning",
+      "CRM-overlevering",
+      "Samtaleoptagelse",
+      "Ugentlig rapportering",
+      "GDPR som standard",
+      "Dansk og engelsk"
+    ],
+    "solutions": {
+      "eyebrow": "Det gør vi",
+      "title": "Fire ydelser. Én måde at arbejde på.",
+      "lead": "Alle kampagner kører på den samme metode: aftalte kriterier, et navngivet team, optagede samtaler og en ugentlig rapport. Det, der ændrer sig, er den opgave, opkaldene løser.",
+      "cards": {
+        "appointmentSetting": "Vi booker møder, der opfylder kriterier, I selv har skrevet ned, direkte i kalenderen hos den, der skal holde dem.",
+        "outboundSales": "Et oplært team sælger på jeres vegne ud fra jeres manuskript og jeres priser, under de samme regler som jeres egne folk.",
+        "customerService": "Indgående opkald, opfølgning og overløb, besvaret på kundens sprog, uden at I skal udvide lønsummen.",
+        "leadGeneration": "Lister bygget og vasket, kontakter verificeret, første opkald taget. Pipelinen starter med folk, der findes og svarer."
+      }
+    },
+    "method": {
+      "eyebrow": "Sådan kører en kampagne",
+      "title": "Fire faser, og I ser tallene i dem alle",
+      "lead": "Udgående salg går galt i stilhed. Løsningen er ikke et bedre manuskript, men en kort feedbacksløjfe, så rapporteringen starter i uge ét frem for ved kvartalets slutning.",
+      "steps": [
+        {
+          "title": "Briefing",
+          "body": "Vi aftaler marked, tilbud, målgruppe og præcis, hvilke kriterier et resultat skal opfylde, før det tæller."
+        },
+        {
+          "title": "Opbygning",
+          "body": "Manuskript, indvendingshåndtering, liste og CRM-overlevering forberedes og godkendes af jer, før det første opkald går ud."
+        },
+        {
+          "title": "Pilot",
+          "body": "En fast periode med aftalt volumen. I hører rigtige optagelser og ser, hvad markedet faktisk svarer."
+        },
+        {
+          "title": "Opskalering",
+          "body": "Det, der virkede, får flere timer. Det, der ikke gjorde, bliver skrevet om. Rapporteret ugentligt, justeret månedligt."
+        }
+      ],
+      "cta": "Hele metoden"
+    },
+    "principles": {
+      "eyebrow": "Hvorfor Callaz",
+      "title": "Det, der afgør, om udgående salg er pengene værd",
+      "lead": "Alle kan ringe. Forskellen på en kampagne, der tjener sig hjem, og en, der stille brænder budget af, er, om I kan se ind i den, mens den kører.",
+      "cta": "Om Callaz",
+      "items": {
+        "recordedCalls": {
+          "title": "Alle samtaler optages",
+          "body": "I kan lytte til enhver samtale, der er ført i jeres navn, ikke et udvalg, vi har plukket. Det er den eneste ærlige måde at bedømme kvalitet på, og det holder os ansvarlige for, hvordan jeres brand lyder."
+        },
+        "namedTeam": {
+          "title": "Et navngivet team, ikke en pulje",
+          "body": "I ved, hvem der ringer for jer, og I kan tale med dem. De samme mennesker lærer jeres produkt at kende i stedet for at læse et manuskript koldt hver morgen."
+        },
+        "weeklyReporting": {
+          "title": "Ugentlige tal, sagt ligeud",
+          "body": "Opkald, samtaler, resultater og hvad markedet gjorde indsigelse mod. Virker en kampagne ikke, finder I ud af det i uge to, ikke i måned tre."
+        },
+        "gdprByDefault": {
+          "title": "GDPR håndteret ordentligt",
+          "body": "Databehandleraftale før første opkald, dokumenteret samtykkehåndtering og data leveret tilbage eller slettet, når kampagnen slutter."
+        },
+        "noLockIn": {
+          "title": "Månedsvilkår",
+          "body": "Kampagner kører på en månedsaftale. Tjener vi ikke den næste måned ind, skal I kunne stoppe, og det kan I."
+        }
+      }
+    },
+    "careers": {
+      "eyebrow": "Job",
+      "title": "Vi ansætter folk, der kan føre en samtale, ikke læse op",
+      "body": "Callaz er ungt og i vækst. Det betyder rigtigt ansvar tidligt, oplæring, der faktisk bliver givet frem for lovet, og en afdeling, hvor de gode samtaler bliver spillet højt.",
+      "cta": "Se ledige stillinger",
+      "points": [
+        "Fuld oplæring, før du tager det første live-opkald",
+        "Grundløn plus resultatløn, skrevet ned",
+        "Dansk og engelsk tales i afdelingen",
+        "Base på kontoret i Kolding"
+      ]
+    }
+  }
+}
