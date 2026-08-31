@@ -11,7 +11,6 @@ import { Icon, type IconName } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { LogoMark } from "@/components/layout/Logo";
-import { Coverage } from "@/components/sections/Coverage";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
@@ -151,9 +150,6 @@ export default async function HomePage({ params }: PageProps) {
           ))}
         </ul>
       </section>
-
-      {/* -------------------------------------------------------------- coverage */}
-      <Coverage />
 
       {/* --------------------------------------------------------------- careers */}
       <section className="container-page pb-24 lg:pb-32">

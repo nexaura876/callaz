@@ -1,12 +1,12 @@
 {
   "careers": {
     "eyebrow": "Careers",
-    "title": "Work somewhere the phone is a craft",
-    "lead": "What you do here still visibly changes the company. The rest is trainable.",
+    "title": "A place where the phone is a craft",
+    "lead": "What you do here counts. The rest is trainable.",
     "offer": {
       "eyebrow": "What we offer",
-      "title": "The parts of the job people actually ask about",
-      "lead": "Written here because a job ad that hides the pay structure is telling you something about the pay structure.",
+      "title": "What you get with us",
+      "lead": "Pay and development, told honestly.",
       "items": [
         {
           "title": "Training before live calls",
@@ -47,7 +47,7 @@
     "process": {
       "eyebrow": "Hiring",
       "title": "How the process runs",
-      "lead": "Four steps, about a week end to end. You will hear back either way, including if the answer is no.",
+      "lead": "Four steps, about a week. You will hear back either way.",
       "steps": [
         {
           "title": "Application",
@@ -82,7 +82,7 @@
     "jobs": {
       "sales-agent": {
         "title": "Sales agent",
-        "summary": "Outbound calling for client campaigns in Danish. Full training, base salary plus performance pay, based in the Kolding office.",
+        "summary": "Outbound calling in Danish. Full training, base salary plus performance pay.",
         "datePosted": "2026-08-01",
         "language": "Danish",
         "about": [
@@ -106,7 +106,7 @@
       },
       "team-lead": {
         "title": "Team lead",
-        "summary": "Run a campaign team of four to eight agents: quality, coaching, client reporting and the weekly numbers. Kolding office, full time.",
+        "summary": "Run a campaign team of four to eight agents. Kolding, full time.",
         "datePosted": "2026-08-01",
         "language": "Danish",
         "about": [

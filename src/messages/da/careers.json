@@ -1,12 +1,12 @@
 {
   "careers": {
     "eyebrow": "Job",
-    "title": "Arbejd et sted, hvor telefonen er et håndværk",
-    "lead": "Det, du laver her, kan stadig ses på virksomheden. Resten kan du lære.",
+    "title": "Et sted, hvor telefonen er et håndværk",
+    "lead": "Det, du laver her, tæller. Resten kan du lære.",
     "offer": {
       "eyebrow": "Det tilbyder vi",
-      "title": "De dele af jobbet, folk faktisk spørger om",
-      "lead": "Skrevet her, fordi et jobopslag, der skjuler lønstrukturen, fortæller noget om lønstrukturen.",
+      "title": "Det får du hos os",
+      "lead": "Løn og udvikling, ærligt fortalt.",
       "items": [
         {
           "title": "Oplæring før live-opkald",
@@ -47,7 +47,7 @@
     "process": {
       "eyebrow": "Ansættelse",
       "title": "Sådan forløber processen",
-      "lead": "Fire trin, cirka en uge fra start til slut. Du hører fra os uanset hvad, også hvis svaret er nej.",
+      "lead": "Fire trin, cirka en uge. Du hører fra os, uanset svaret.",
       "steps": [
         {
           "title": "Ansøgning",
@@ -82,7 +82,7 @@
     "jobs": {
       "sales-agent": {
         "title": "Salgsagent",
-        "summary": "Udgående opkald på kundekampagner på dansk. Fuld oplæring, grundløn plus resultatløn, med base på kontoret i Kolding.",
+        "summary": "Udgående opkald på dansk. Fuld oplæring, grundløn plus resultatløn.",
         "datePosted": "2026-08-01",
         "language": "Dansk",
         "about": [
@@ -106,7 +106,7 @@
       },
       "team-lead": {
         "title": "Teamleder",
-        "summary": "Driv et kampagneteam på fire til otte agenter: kvalitet, coaching, kunderapportering og ugens tal. Kontoret i Kolding, fuldtid.",
+        "summary": "Driv et kampagneteam på fire til otte agenter. Kolding, fuldtid.",
         "datePosted": "2026-08-01",
         "language": "Dansk",
         "about": [

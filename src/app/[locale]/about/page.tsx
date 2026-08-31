@@ -11,7 +11,6 @@ import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
-import { Coverage } from "@/components/sections/Coverage";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 import { Team } from "@/components/sections/Team";
 
@@ -140,8 +139,6 @@ export default async function AboutPage({ params }: PageProps) {
           </ul>
         </div>
       </section>
-
-      <Coverage />
 
       {/* -------------------------------------------------------------- offices */}
       <section className="container-page pb-24 lg:pb-32">

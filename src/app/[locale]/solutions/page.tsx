@@ -12,7 +12,6 @@ import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { Coverage } from "@/components/sections/Coverage";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
 
@@ -154,8 +153,6 @@ export default async function SolutionsPage({ params }: PageProps) {
           </ul>
         </div>
       </section>
-
-      <Coverage />
 
       <CtaBanner />
 

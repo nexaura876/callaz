@@ -162,16 +162,6 @@
       "unit": "mo"
     }
   },
-  "coverage": {
-    "eyebrow": "Market and languages",
-    "title": "One market, and we know it",
-    "lead": "We call in Denmark, in Danish — a deliberate choice over spreading thin. We know the buyer types, the objections and the rules here, and do not put a market on the site we cannot staff.",
-    "languagesLabel": "Languages we call in",
-    "marketLabel": "Market",
-    "baseLabel": "Base",
-    "reachLabel": "Direct number",
-    "note": "No queue and no menu system to click through — just a number that gets answered."
-  },
   "cta": {
     "eyebrow": "Start a campaign",
     "title": "Tell us about your market. We will say if we can sell it.",

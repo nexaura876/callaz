@@ -162,16 +162,6 @@
       "unit": "md."
     }
   },
-  "coverage": {
-    "eyebrow": "Marked og sprog",
-    "title": "Ét marked, og vi kender det",
-    "lead": "Vi ringer i Danmark, på dansk — et bevidst valg frem for at sprede sig tyndt. Vi kender kundetyperne, indvendingerne og reglerne her, og skriver ikke et marked på siden, vi ikke kan bemande.",
-    "languagesLabel": "Sprog vi ringer på",
-    "marketLabel": "Marked",
-    "baseLabel": "Base",
-    "reachLabel": "Direkte nummer",
-    "note": "Ingen kø og intet menusystem at klikke sig igennem — bare et nummer, der bliver taget."
-  },
   "cta": {
     "eyebrow": "Start en kampagne",
     "title": "Fortæl os om jeres marked. Vi siger, om vi kan sælge det.",
