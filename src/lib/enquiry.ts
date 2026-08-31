@@ -4,13 +4,10 @@ export const topics = [
   "appointmentSetting",
   "outboundSales",
   "customerService",
-  "leadGeneration",
   "partnership",
   "careers",
   "other",
 ] as const;
-
-export const volumes = ["exploring", "small", "medium", "large"] as const;
 
 /**
  * The message on each rule is an error *code*, not a sentence. The action runs on
@@ -25,11 +22,8 @@ export const enquirySchema = z.object({
     .string()
     .trim()
     .max(40)
-    .refine((value) => value === "" || /^[\d\s+()./-]{6,}$/.test(value), "phone")
-    .optional()
-    .or(z.literal("")),
+    .refine((value) => /^[\d\s+()./-]{6,}$/.test(value), "phone"),
   topic: z.enum(topics, "topic"),
-  volume: z.enum(volumes).optional().or(z.literal("")),
   message: z.string().trim().min(10, "message").max(4000, "message"),
   consent: z.literal("on", "consent"),
 });
@@ -65,7 +59,6 @@ export function parseEnquiry(formData: FormData) {
     email: formData.get("email") ?? "",
     phone: formData.get("phone") ?? "",
     topic: formData.get("topic") ?? "",
-    volume: formData.get("volume") ?? "",
     message: formData.get("message") ?? "",
     consent: formData.get("consent") ?? "",
   });

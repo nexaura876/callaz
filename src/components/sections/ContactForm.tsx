@@ -3,7 +3,7 @@
 import { useActionState, useEffect, useId, useRef, useState } from "react";
 import { useFormStatus } from "react-dom";
 import { submitEnquiry } from "@/app/[locale]/_actions/enquiry";
-import { topics, volumes, type EnquiryState } from "@/lib/enquiry";
+import { topics, type EnquiryState } from "@/lib/enquiry";
 import { cx } from "@/lib/cx";
 import { Icon } from "@/components/ui/Icon";
 
@@ -14,15 +14,12 @@ export type FormLabels = {
   phone: string;
   topic: string;
   topicOptions: Record<(typeof topics)[number], string>;
-  volume: string;
-  volumeOptions: Record<(typeof volumes)[number], string>;
   message: string;
   messagePlaceholder: string;
   consent: string;
   consentNote: string;
   submit: string;
   submitting: string;
-  optional: string;
   choose: string;
   errors: Record<string, string>;
 };
@@ -200,12 +197,13 @@ export function ContactForm({ labels }: { labels: FormLabels }) {
           />
         </Field>
 
-        <Field label={labels.phone} hint={labels.optional} error={errorFor("phone")}>
+        <Field label={labels.phone} error={errorFor("phone")}>
           <input
             name="phone"
             type="tel"
             inputMode="tel"
             autoComplete="tel"
+            required
             className={cx(controlStyles, errorFor("phone") && "border border-red-400/60")}
           />
         </Field>
@@ -224,23 +222,6 @@ export function ContactForm({ labels }: { labels: FormLabels }) {
               {topics.map((topic) => (
                 <option key={topic} value={topic} className="bg-panel-solid">
                   {labels.topicOptions[topic]}
-                </option>
-              ))}
-            </select>
-          </SelectShell>
-        </Field>
-
-        <Field label={labels.volume} hint={labels.optional}>
-          <SelectShell>
-            <select
-              name="volume"
-              defaultValue=""
-              className={cx(controlStyles, "appearance-none pr-11")}
-            >
-              <option value="">{labels.choose}</option>
-              {volumes.map((volume) => (
-                <option key={volume} value={volume} className="bg-panel-solid">
-                  {labels.volumeOptions[volume]}
                 </option>
               ))}
             </select>

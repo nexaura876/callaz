@@ -26,7 +26,6 @@ function plainTextBody(enquiry: EnquiryInput) {
     `Email:     ${enquiry.email}`,
     `Phone:     ${enquiry.phone || "-"}`,
     `Topic:     ${enquiry.topic}`,
-    `Volume:    ${enquiry.volume || "-"}`,
     "",
     enquiry.message,
   ].join("\n");

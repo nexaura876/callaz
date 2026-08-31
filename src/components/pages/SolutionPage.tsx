@@ -12,8 +12,6 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
 import { Faq } from "@/components/sections/Faq";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { Metrics } from "@/components/sections/Metrics";
-import { Waveform } from "@/components/sections/Waveform";
 
 type Entry = { title: string; body: string };
 type FaqEntry = { q: string; a: string };
@@ -54,40 +52,29 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
         <div className="container-page relative py-14 lg:py-20">
           <Breadcrumb trail={[{ label: nav("solutions"), href: "/solutions" }, { label: nav(id) }]} />
 
-          <div className="mt-10 grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-20">
-            <div className="flex flex-col items-start gap-6">
-              <span className="text-accent hairline inline-flex size-14 items-center justify-center rounded-2xl bg-panel">
-                <Icon name={icon} className="size-7" />
-              </span>
+          <div className="mt-10 flex max-w-3xl flex-col items-start gap-6">
+            <span className="text-accent hairline inline-flex size-14 items-center justify-center rounded-2xl bg-panel">
+              <Icon name={icon} className="size-7" />
+            </span>
 
-              <Eyebrow>{t("eyebrow")}</Eyebrow>
+            <Eyebrow>{t("eyebrow")}</Eyebrow>
 
-              <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
-                {t("title")}
-              </h1>
+            <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
+              {t("title")}
+            </h1>
 
-              <p className="text-muted max-w-2xl text-lg leading-relaxed">
-                {t("lead")}
-              </p>
+            <p className="text-muted max-w-2xl text-lg leading-relaxed">
+              {t("lead")}
+            </p>
 
-              <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-                <ButtonLink href="/quote" size="lg" withArrow>
-                  {shared("ctaPrimary")}
-                </ButtonLink>
-                <ButtonLink href="/contact" variant="outline" size="lg">
-                  {shared("ctaSecondary")}
-                </ButtonLink>
-              </div>
+            <div className="mt-2 flex flex-col gap-3 sm:flex-row">
+              <ButtonLink href="/quote" size="lg" withArrow>
+                {shared("ctaPrimary")}
+              </ButtonLink>
+              <ButtonLink href="/contact" variant="outline" size="lg">
+                {shared("ctaSecondary")}
+              </ButtonLink>
             </div>
-
-            <Reveal>
-              <div className="hairline rounded-[var(--radius-panel)] bg-panel p-7 lg:p-9">
-                <Waveform className="h-10" />
-                <div className="mt-8 border-t border-line pt-8">
-                  <Metrics />
-                </div>
-              </div>
-            </Reveal>
           </div>
         </div>
       </section>

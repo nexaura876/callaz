@@ -57,7 +57,7 @@ export function organizationSchema() {
         "@type": "ContactPoint",
         contactType: "human resources",
         email: company.careersEmail,
-        availableLanguage: ["da", "en"],
+        availableLanguage: ["da"],
       },
     ],
     // Only emitted when a profile actually exists, so the property never ships empty.

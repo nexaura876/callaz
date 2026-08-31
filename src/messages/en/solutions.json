@@ -2,23 +2,19 @@
   "solutionsIndex": {
     "eyebrow": "Solutions",
     "title": "Outbound work, run as an operation rather than an experiment",
-    "lead": "Four services that share one method. Pick the one that matches the job you need done, or tell us the outcome and we will say which of them gets you there.",
+    "lead": "Three services, one method. Pick the one that matches the job, or tell us the outcome you want — we will say which one gets you there.",
     "cards": {
       "appointmentSetting": {
-        "body": "Meetings booked into the calendar of whoever will run them, against criteria you write down before we start.",
+        "body": "Meetings booked straight into your calendar.",
         "points": ["Qualified on agreed criteria", "Calendar handover", "No-show follow-up"]
       },
       "outboundSales": {
-        "body": "A trained team selling on your behalf, from your script, your pricing and your compliance rules.",
+        "body": "A trained team, selling on your behalf.",
         "points": ["Closing on the call", "Order handling", "Recorded consent"]
       },
       "customerService": {
-        "body": "Inbound calls, follow-ups and overflow answered in the customer language, without new headcount.",
-        "points": ["Overflow or full line", "Danish and English", "Ticket handover"]
-      },
-      "leadGeneration": {
-        "body": "Lists built, contacts verified and first touch made, so your pipeline starts with people who actually answer.",
-        "points": ["List building", "Data cleaning", "First-touch qualification"]
+        "body": "We answer the calls you cannot get to.",
+        "points": ["Overflow or full line", "Fast answer time", "Ticket handover"]
       }
     },
     "engagement": {
@@ -51,35 +47,35 @@
       "faqEyebrow": "Questions",
       "fitTitle": "Good fit when",
       "noFitTitle": "Not the right call when",
-      "noFitNote": "If you recognise yourself on this list, say so on the first call. Turning down work that will not perform is cheaper for both of us than proving it over three months."
+      "noFitNote": "If you recognise yourself here, say so on the first call."
     },
 
     "appointmentSetting": {
       "eyebrow": "Appointment setting",
-      "title": "Meetings your sales team is glad to have in the calendar",
-      "lead": "The hard part of appointment setting is not booking meetings. It is booking the ones that are worth the travel time. We agree the criteria in writing first, and a meeting only counts when it meets them.",
+      "title": "Meetings worth taking",
+      "lead": "We book meetings that actually lead to sales.",
       "capabilitiesTitle": "How the meetings get made",
       "capabilitiesLead": "Every step is set up so the person who runs the meeting knows exactly what was promised on the call.",
       "capabilities": [
         {
           "title": "Criteria before calls",
-          "body": "Company size, role, budget signal, timing. Written down and agreed before the first dial, so nobody argues about what counts afterwards."
+          "body": "Written down and agreed before we make the first call."
         },
         {
           "title": "Research per account",
-          "body": "The caller knows what the company does before dialling. Generic openers are the fastest way to get hung up on."
+          "body": "We know what the company does before we dial."
         },
         {
           "title": "Direct calendar booking",
-          "body": "We book into the calendar of the person running the meeting, with the notes attached, so nothing is retyped or lost in a handover."
+          "body": "We book straight into the calendar of the person running the meeting."
         },
         {
           "title": "Confirmation and reminder",
-          "body": "Every booking is confirmed in writing and reminded before the day. It is the single cheapest way to cut no-shows."
+          "body": "Every booking is confirmed in writing and reminded."
         },
         {
           "title": "No-show recovery",
-          "body": "A missed meeting is followed up and rebooked rather than written off. Most of them were a diary problem, not a rejection."
+          "body": "A missed meeting is followed up and rebooked."
         }
       ],
       "deliverablesTitle": "What lands on your side",
@@ -141,30 +137,30 @@
 
     "outboundSales": {
       "eyebrow": "Outbound sales",
-      "title": "A sales floor you do not have to build yourself",
-      "lead": "Hiring, training and managing outbound sellers is a business in itself. We already run one. You get the output of a trained team without the eighteen months it takes to get one working.",
+      "title": "A sales team, ready to go",
+      "lead": "We sell on your behalf — professionally, every time.",
       "capabilitiesTitle": "How the selling is run",
       "capabilitiesLead": "The team works to your rules. What we bring is the discipline that makes a phone floor produce consistently.",
       "capabilities": [
         {
           "title": "Your script, our delivery",
-          "body": "You own the offer and the pricing. We turn it into something that survives contact with a sceptical person on the third call of their morning."
+          "body": "We turn your offer into something that works on the phone."
         },
         {
           "title": "Objection library",
-          "body": "Every objection heard is logged and answered, and the answer goes to the whole floor. The team gets better weekly rather than individually."
+          "body": "Every objection gets logged, answered and shared with the whole team."
         },
         {
           "title": "Compliance built in",
-          "body": "Consent recorded on the call where the rules require it, opt-outs honoured immediately, and no pressure tactics. A sale that gets cancelled costs everyone."
+          "body": "Consent, opt-outs and no pressure tactics — built into every call."
         },
         {
           "title": "Order handling",
-          "body": "Orders land in your system in the format you use, with the recording reference attached to each one."
+          "body": "Orders land straight in your system."
         },
         {
           "title": "Quality review",
-          "body": "Calls are sampled and scored by a team lead, not only by the numbers. Volume without quality is just churn arriving later."
+          "body": "Calls are scored by a team lead, not only by the numbers."
         }
       ],
       "deliverablesTitle": "What you get back",
@@ -226,30 +222,30 @@
 
     "customerService": {
       "eyebrow": "Customer service",
-      "title": "Someone answers, in the language the customer called in",
-      "lead": "An unanswered call is a cancelled customer that has not filled in the form yet. We take the calls you cannot get to, in the language they came in, without adding a single person to your payroll.",
+      "title": "We answer the phone for you",
+      "lead": "No missed calls. We are there when your customers call.",
       "capabilitiesTitle": "How the line is run",
       "capabilitiesLead": "Set up as an extension of your own service, not as a wall in front of it.",
       "capabilities": [
         {
           "title": "Overflow or full line",
-          "body": "Take everything, or only what your own team cannot reach within your target. Both are normal, and you can move between them."
+          "body": "We take what your own team cannot reach."
         },
         {
           "title": "Your systems",
-          "body": "The team works in your helpdesk and your phone system, so history stays in one place and nothing has to be synced afterwards."
+          "body": "The team works inside your own systems."
         },
         {
           "title": "Escalation rules",
-          "body": "We agree exactly what we resolve and what goes to you, in writing. Ambiguity here is what makes outsourced service feel like a maze."
+          "body": "We agree in writing what we resolve and what goes to you."
         },
         {
-          "title": "Danish and English",
-          "body": "Both answered by someone who actually speaks them, so an English-speaking customer does not land in a Danish queue."
+          "title": "Answer-time target",
+          "body": "Calls answered inside the target we have agreed."
         },
         {
           "title": "Saves and retention",
-          "body": "A cancellation call handled well is often a customer kept. Those conversations get the experienced people on the floor."
+          "body": "The experienced people take the cancellation calls."
         }
       ],
       "deliverablesTitle": "What you get back",
@@ -274,7 +270,7 @@
       ],
       "fit": [
         "You lose calls at peaks, in the evening or during holidays",
-        "You get calls in English but staff only for Danish",
+        "Your opening hours do not cover when customers actually call",
         "Your team is answering the same question all day",
         "Answer time is hurting your reviews or your churn"
       ],
@@ -305,91 +301,6 @@
         {
           "q": "Can you handle email and chat too?",
           "a": "Email and ticket follow-up, yes. Live chat is available in the larger setups, where volume justifies a dedicated seat."
-        }
-      ]
-    },
-
-    "leadGeneration": {
-      "eyebrow": "Lead generation",
-      "title": "A pipeline that starts with contacts who exist",
-      "lead": "Most outbound underperforms for an unglamorous reason: the list is wrong. Dead numbers, people who left two years ago, companies in the wrong segment. We fix the list before anyone spends a day dialling it.",
-      "capabilitiesTitle": "How the list gets built",
-      "capabilitiesLead": "Unglamorous work that decides whether everything downstream is worth doing.",
-      "capabilities": [
-        {
-          "title": "Segment definition",
-          "body": "We agree what a target account looks like in terms you can check: size, sector, geography, and the signal that makes them worth a call now."
-        },
-        {
-          "title": "List building",
-          "body": "Built from public registers and your own data rather than bought as a bulk file of unknown age."
-        },
-        {
-          "title": "Data cleaning",
-          "body": "Dead numbers removed, roles verified, duplicates merged against your CRM so your own sellers are not calling in parallel."
-        },
-        {
-          "title": "First-touch qualification",
-          "body": "A short call that establishes whether there is a reason to talk further, without trying to force a meeting that is not there."
-        },
-        {
-          "title": "Opt-out handling",
-          "body": "Anyone who says no is suppressed permanently across every campaign we run for you. It is a legal requirement and a reputational one."
-        }
-      ],
-      "deliverablesTitle": "What you get back",
-      "deliverablesLead": "A list you can hand to a seller without apologising for it.",
-      "deliverables": [
-        {
-          "title": "Verified contact list",
-          "body": "In your CRM format, with the source and verification date on every record."
-        },
-        {
-          "title": "Qualified leads",
-          "body": "Contacts who confirmed a relevant need, with the notes from the conversation attached."
-        },
-        {
-          "title": "Suppression list",
-          "body": "Everyone who opted out, so nobody in your organisation calls them again by accident."
-        },
-        {
-          "title": "Segment read",
-          "body": "Which parts of the segment responded and which were dead. This is what tells you where to aim next quarter."
-        }
-      ],
-      "fit": [
-        "Your CRM is full of records nobody trusts",
-        "You are entering a market and have no list at all",
-        "Your sellers spend more time researching than selling",
-        "You want to test a segment before committing a team to it"
-      ],
-      "noFit": [
-        "You want a bulk file cheaply and do not care about accuracy",
-        "The target group cannot be identified from public data",
-        "You have no capacity to follow up the leads once they land",
-        "The plan depends on contacting people who have already opted out"
-      ],
-      "faqTitle": "Lead generation, answered",
-      "faq": [
-        {
-          "q": "Where does the data come from?",
-          "a": "Public company registers, your own CRM, and verification by phone. We do not buy anonymous bulk files, because there is no way to document where the data came from, and that is exactly what you need if anyone asks."
-        },
-        {
-          "q": "Is this GDPR compliant?",
-          "a": "B2B contact data for a relevant business purpose is normally handled under legitimate interest, with a documented assessment and a working opt-out. We sign a data processing agreement before any data changes hands."
-        },
-        {
-          "q": "Do we own the list afterwards?",
-          "a": "Yes. The list is yours, delivered in your format, and it stays yours if the arrangement ends. We keep no copy beyond the retention period in the agreement."
-        },
-        {
-          "q": "How current is the data?",
-          "a": "Every record carries its verification date. Contact data decays at roughly two to three percent a month, which is why a list is a living thing rather than a one-off purchase."
-        },
-        {
-          "q": "Can you enrich our existing CRM instead?",
-          "a": "Often the better place to start. Dormant accounts that already know your name convert considerably better than cold ones, and the cleaning work is cheaper than building from nothing."
         }
       ]
     }

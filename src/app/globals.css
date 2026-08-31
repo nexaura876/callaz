@@ -47,7 +47,6 @@
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 
   --animate-drift: drift 26s var(--ease-out-soft) infinite alternate;
-  --animate-marquee: marquee 42s linear infinite;
   --animate-blip: blip 2.4s ease-in-out infinite;
 }
 
@@ -180,15 +179,6 @@
   }
   to {
     transform: translate3d(4%, -6%, 0) scale(1.12);
-  }
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
   }
 }
 

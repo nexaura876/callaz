@@ -11,7 +11,6 @@ import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
 import { Faq } from "@/components/sections/Faq";
-import { Metrics } from "@/components/sections/Metrics";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
@@ -63,23 +62,12 @@ export default async function HowWeWorkPage({ params }: PageProps) {
         <div className="container-page relative py-14 lg:py-20">
           <Breadcrumb trail={[{ label: nav("howWeWork") }]} />
 
-          <div className="mt-10 grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-20">
-            <div className="flex max-w-2xl flex-col items-start gap-6">
-              <Eyebrow>{t("eyebrow")}</Eyebrow>
-              <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
-                {t("title")}
-              </h1>
-              <p className="text-muted text-lg leading-relaxed">{t("lead")}</p>
-            </div>
-
-            <Reveal>
-              <div className="hairline rounded-[var(--radius-panel)] bg-panel p-7 lg:p-9">
-                <Metrics />
-                <p className="text-faint mt-7 border-t border-line pt-6 text-xs leading-relaxed">
-                  {t("metricsNote")}
-                </p>
-              </div>
-            </Reveal>
+          <div className="mt-10 flex max-w-2xl flex-col items-start gap-6">
+            <Eyebrow>{t("eyebrow")}</Eyebrow>
+            <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
+              {t("title")}
+            </h1>
+            <p className="text-muted text-lg leading-relaxed">{t("lead")}</p>
           </div>
         </div>
       </section>
@@ -169,44 +157,6 @@ export default async function HowWeWorkPage({ params }: PageProps) {
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* ------------------------------------------------------------ compliance */}
-      <section className="container-page py-24 lg:py-32">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1.05fr] lg:gap-20">
-          <div className="flex flex-col gap-8">
-            <SectionHeading
-              eyebrow={t("compliance.eyebrow")}
-              title={t("compliance.title")}
-              lead={t("compliance.lead")}
-            />
-          </div>
-
-          <Reveal>
-            <ul className="flex flex-col">
-              {(t.raw("compliance.items") as { title: string; body: string }[]).map(
-                (item) => (
-                  <li key={item.title} className="border-b border-line py-6">
-                    <div className="flex items-start gap-4">
-                      <Icon
-                        name="shield"
-                        className="text-accent mt-0.5 size-5 shrink-0"
-                      />
-                      <div className="flex flex-col gap-1.5">
-                        <h3 className="font-display font-semibold text-heading">
-                          {item.title}
-                        </h3>
-                        <p className="text-muted text-[0.95rem] leading-relaxed">
-                          {item.body}
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                ),
-              )}
-            </ul>
-          </Reveal>
         </div>
       </section>
 

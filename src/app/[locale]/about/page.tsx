@@ -13,6 +13,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
 import { Coverage } from "@/components/sections/Coverage";
 import { CtaBanner } from "@/components/sections/CtaBanner";
+import { Team } from "@/components/sections/Team";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
 
@@ -107,6 +108,8 @@ export default async function AboutPage({ params }: PageProps) {
         </div>
       </section>
 
+      <Team />
+
       {/* --------------------------------------------------------------- values */}
       <section className="border-y border-line bg-panel/60">
         <div className="container-page py-24 lg:py-32">
@@ -174,7 +177,6 @@ export default async function AboutPage({ params }: PageProps) {
                     <br />
                     {countryName(office.countryCode)}
                   </p>
-                  <p className="text-faint font-mono text-xs">{office.timezone}</p>
                 </li>
               ))}
             </ul>

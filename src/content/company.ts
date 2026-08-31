@@ -66,7 +66,6 @@ export type Office = {
   countryCode: string;
   street: string;
   postalCode: string;
-  timezone: string;
   headquarters?: boolean;
 };
 
@@ -85,7 +84,6 @@ export const offices: Office[] = [
     countryCode: "DK",
     street: "Tøndervej 10, 2. tv",
     postalCode: "6000",
-    timezone: "Europe/Copenhagen",
     headquarters: true,
   },
 ];
@@ -108,11 +106,11 @@ export type Market = {
 export const markets: Market[] = [{ id: "denmark", countryCode: "DK", dial: "+45" }];
 
 /**
- * CLIENT — Danish and English only. Swedish, Norwegian, German and Turkish were
- * in an earlier draft and are not offered; the owner confirmed this.
+ * CLIENT — Danish only. Calls are made and answered in Danish; the owner
+ * confirmed there is no English-language calling capability to offer.
  *
  * Labels live under "languages" in the messages, so each is written in the
  * reader's own language.
  */
-export const languages = ["da", "en"] as const;
+export const languages = ["da"] as const;
 export type LanguageId = (typeof languages)[number];

@@ -20,7 +20,6 @@ const icons: Record<string, IconName> = {
   appointmentSetting: "target",
   outboundSales: "chart",
   customerService: "headset",
-  leadGeneration: "layers",
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

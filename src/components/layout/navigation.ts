@@ -45,15 +45,8 @@ export const primaryNav: (NavItem | NavGroup)[] = [
         icon: "headset",
         descriptionKey: "customerServiceDesc",
       },
-      {
-        key: "leadGeneration",
-        href: "/solutions/lead-generation",
-        icon: "layers",
-        descriptionKey: "leadGenerationDesc",
-      },
     ],
   },
-  { key: "industries", href: "/industries" },
   { key: "howWeWork", href: "/how-we-work" },
   { key: "about", href: "/about" },
   { key: "careers", href: "/careers" },
@@ -64,12 +57,10 @@ export const footerNav = {
     { key: "appointmentSetting", href: "/solutions/appointment-setting" },
     { key: "outboundSales", href: "/solutions/outbound-sales" },
     { key: "customerService", href: "/solutions/customer-service" },
-    { key: "leadGeneration", href: "/solutions/lead-generation" },
   ],
   company: [
     { key: "about", href: "/about" },
     { key: "howWeWork", href: "/how-we-work" },
-    { key: "industries", href: "/industries" },
     { key: "careers", href: "/careers" },
   ],
   contact: [

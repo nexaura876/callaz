@@ -3,11 +3,11 @@
     "siteName": "Callaz",
     "home": {
       "title": "Callaz — callcenter i Kolding",
-      "description": "Callaz laver de opkald, din egen afdeling ikke når: mødebooking, telefonsalg, kundeservice og leadgenerering til danske virksomheder, på dansk og engelsk."
+      "description": "Callaz laver de opkald, din egen afdeling ikke når: mødebooking, telefonsalg og kundeservice til danske virksomheder."
     },
     "solutions": {
       "title": "Løsninger",
-      "description": "Fire ydelser og én arbejdsmetode: mødebooking, telefonsalg, kundeservice og leadgenerering, leveret af et navngivet team på en månedsaftale."
+      "description": "Tre ydelser og én arbejdsmetode: mødebooking, telefonsalg og kundeservice, leveret af et navngivet team på en månedsaftale."
     },
     "appointmentSetting": {
       "title": "Mødebooking",
@@ -19,15 +19,7 @@
     },
     "customerService": {
       "title": "Kundeservice",
-      "description": "Indgående opkald og opfølgning på dansk og engelsk, fra overløb til hele frontlinjen, uden at I skal ansætte flere."
-    },
-    "leadGeneration": {
-      "title": "Leadgenerering",
-      "description": "Listeopbygning, datavask og første kvalificerende opkald, så pipelinen starter med kontakter, der findes og tager telefonen."
-    },
-    "industries": {
-      "title": "Brancher",
-      "description": "De brancher Callaz kører kampagner i, og en ærlig beskrivelse af, hvad der ændrer sig fra den ene til den anden."
+      "description": "Indgående opkald og opfølgning, fra overløb til hele frontlinjen, uden at I skal ansætte flere."
     },
     "howWeWork": {
       "title": "Sådan arbejder vi",
@@ -69,12 +61,9 @@
     "appointmentSetting": "Mødebooking",
     "outboundSales": "Telefonsalg",
     "customerService": "Kundeservice",
-    "leadGeneration": "Leadgenerering",
     "appointmentSettingDesc": "Kvalificerede møder direkte i kalenderen",
     "outboundSalesDesc": "Et oplært team, der sælger for jer",
-    "customerServiceDesc": "Indgående opkald på dansk og engelsk",
-    "leadGenerationDesc": "Vaskede lister og første kvalificering",
-    "industries": "Brancher",
+    "customerServiceDesc": "Indgående opkald, ingen ny ansættelse",
     "howWeWork": "Sådan arbejder vi",
     "about": "Om os",
     "careers": "Ledige job",
@@ -93,7 +82,7 @@
     "slogan": "Dækker alt jeres behov fra A til Z"
   },
   "footer": {
-    "tagline": "Et callcenter i Kolding, som ringer til danske virksomheder på dansk og engelsk.",
+    "tagline": "Et callcenter i Kolding, som ringer til danske virksomheder.",
     "solutionsTitle": "Løsninger",
     "companyTitle": "Virksomheden",
     "contactTitle": "Kontakt",
@@ -125,17 +114,9 @@
       "appointmentSetting": "Mødebooking",
       "outboundSales": "Telefonsalg",
       "customerService": "Kundeservice",
-      "leadGeneration": "Leadgenerering",
       "partnership": "Samarbejde",
       "careers": "Job",
       "other": "Noget andet"
-    },
-    "volume": "Forventet volumen",
-    "volumes": {
-      "exploring": "Vi undersøger stadig",
-      "small": "Op til 500 opkald om måneden",
-      "medium": "500 til 2.000 opkald om måneden",
-      "large": "Mere end 2.000 opkald om måneden"
     },
     "message": "Besked",
     "messagePlaceholder": "Hvilket marked, hvilket tilbud og hvordan et godt resultat ser ud for jer.",
@@ -143,7 +124,6 @@
     "consentNote": "Vi bruger dine oplysninger til at svare dig og til intet andet. Ingen nyhedsbreve, ingen tredjeparter.",
     "submit": "Send henvendelse",
     "submitting": "Sender…",
-    "optional": "valgfri",
     "choose": "Vælg",
     "errors": {
       "name": "Skriv venligst dit navn.",
@@ -185,30 +165,30 @@
   "coverage": {
     "eyebrow": "Marked og sprog",
     "title": "Ét marked, og vi kender det",
-    "lead": "Vi ringer i Danmark, på dansk og engelsk. Det er et bevidst valg frem for at sprede sig tyndt: vi kender kundetyperne, indvendingerne og reglerne her, og vi skriver ikke et marked på hjemmesiden, som vi ikke kan bemande.",
+    "lead": "Vi ringer i Danmark, på dansk — et bevidst valg frem for at sprede sig tyndt. Vi kender kundetyperne, indvendingerne og reglerne her, og skriver ikke et marked på siden, vi ikke kan bemande.",
     "languagesLabel": "Sprog vi ringer på",
     "marketLabel": "Marked",
     "baseLabel": "Base",
     "reachLabel": "Direkte nummer",
-    "note": "Vi tager gerne en engelsksproget kampagne rettet mod danske virksomheder. Vi påstår ikke at dække andre lande, for det ville kræve folk, der kan tage samtalen på sproget."
+    "note": "Ingen kø og intet menusystem at klikke sig igennem — bare et nummer, der bliver taget."
   },
   "cta": {
     "eyebrow": "Start en kampagne",
-    "title": "Fortæl os markedet og tilbuddet. Så siger vi, om vi kan sælge det.",
-    "body": "Den første samtale tager tyve minutter. Du får en ærlig vurdering af, om udgående salg passer til det, I sælger, og et skriftligt oplæg, hvis det gør.",
+    "title": "Fortæl os om jeres marked. Vi siger, om vi kan sælge det.",
+    "body": "Et opkald på tyve minutter. En ærlig vurdering, og et skriftligt oplæg, hvis det passer.",
     "primary": "Få et tilbud",
     "steps": [
       {
         "title": "Tyve minutters samtale",
-        "body": "Marked, tilbud, målgruppe og hvordan et godt resultat ser ud for jer."
+        "body": "Marked, tilbud og målgruppe."
       },
       {
         "title": "Skriftligt oplæg",
-        "body": "Omfang, teamstørrelse, pris og startdato. På skrift, så ingen husker det forskelligt bagefter."
+        "body": "Omfang, pris og startdato — på skrift."
       },
       {
         "title": "Pilot, derefter opskalering",
-        "body": "En fast pilotperiode med aftalte kriterier, før nogen skriver under på noget langt."
+        "body": "En pilotperiode, før noget langt underskrives."
       }
     ]
   },

@@ -3,11 +3,11 @@
     "siteName": "Callaz",
     "home": {
       "title": "Callaz — contact centre in Kolding, Denmark",
-      "description": "Callaz runs outbound calling for B2B teams in Denmark: appointment setting, outbound sales, customer service and lead generation, in Danish and English."
+      "description": "Callaz runs outbound calling for B2B teams in Denmark: appointment setting, outbound sales and customer service."
     },
     "solutions": {
       "title": "Solutions",
-      "description": "Four outbound services, one operating method: appointment setting, outbound sales, customer service and lead generation, delivered by a named team on a monthly agreement."
+      "description": "Three outbound services, one operating method: appointment setting, outbound sales and customer service, delivered by a named team on a monthly agreement."
     },
     "appointmentSetting": {
       "title": "Appointment setting",
@@ -19,15 +19,7 @@
     },
     "customerService": {
       "title": "Customer service",
-      "description": "Inbound and follow-up handling in Danish and English, from overflow cover to a full front line, without lengthening your own payroll."
-    },
-    "leadGeneration": {
-      "title": "Lead generation",
-      "description": "List building, data cleaning and first-touch qualification, so your pipeline starts with contacts that are real and reachable."
-    },
-    "industries": {
-      "title": "Industries",
-      "description": "Sectors where Callaz runs campaigns, and an honest account of how the approach changes from one to the next."
+      "description": "Inbound and follow-up handling, from overflow cover to a full front line, without lengthening your own payroll."
     },
     "howWeWork": {
       "title": "How we work",
@@ -69,12 +61,9 @@
     "appointmentSetting": "Appointment setting",
     "outboundSales": "Outbound sales",
     "customerService": "Customer service",
-    "leadGeneration": "Lead generation",
     "appointmentSettingDesc": "Qualified meetings booked into your calendar",
     "outboundSalesDesc": "A trained team closing on your behalf",
-    "customerServiceDesc": "Inbound cover in Danish and English",
-    "leadGenerationDesc": "Clean lists and first-touch qualification",
-    "industries": "Industries",
+    "customerServiceDesc": "Inbound calls, no new hire needed",
     "howWeWork": "How we work",
     "about": "About",
     "careers": "Careers",
@@ -93,7 +82,7 @@
     "slogan": "Covers everything you need, from A to Z"
   },
   "footer": {
-    "tagline": "An outbound contact centre in Kolding, calling Danish businesses in Danish and English.",
+    "tagline": "An outbound contact centre in Kolding, calling Danish businesses.",
     "solutionsTitle": "Solutions",
     "companyTitle": "Company",
     "contactTitle": "Contact",
@@ -125,17 +114,9 @@
       "appointmentSetting": "Appointment setting",
       "outboundSales": "Outbound sales",
       "customerService": "Customer service",
-      "leadGeneration": "Lead generation",
       "partnership": "Partnership",
       "careers": "Careers",
       "other": "Something else"
-    },
-    "volume": "Expected volume",
-    "volumes": {
-      "exploring": "Still exploring",
-      "small": "Up to 500 calls a month",
-      "medium": "500 to 2,000 calls a month",
-      "large": "More than 2,000 calls a month"
     },
     "message": "Message",
     "messagePlaceholder": "Which market, which offer, and what a good result would look like.",
@@ -143,7 +124,6 @@
     "consentNote": "We use your details to reply, and for nothing else. No newsletter, no third parties.",
     "submit": "Send enquiry",
     "submitting": "Sending…",
-    "optional": "optional",
     "choose": "Choose one",
     "errors": {
       "name": "Please write your name.",
@@ -185,30 +165,30 @@
   "coverage": {
     "eyebrow": "Market and languages",
     "title": "One market, and we know it",
-    "lead": "We call in Denmark, in Danish and English. That is a deliberate choice over spreading thin: we know the buyer types, the objections and the rules here, and we do not put a market on the website that we cannot staff.",
+    "lead": "We call in Denmark, in Danish — a deliberate choice over spreading thin. We know the buyer types, the objections and the rules here, and do not put a market on the site we cannot staff.",
     "languagesLabel": "Languages we call in",
     "marketLabel": "Market",
     "baseLabel": "Base",
     "reachLabel": "Direct number",
-    "note": "We are glad to run an English-language campaign into Danish businesses. We do not claim to cover other countries, because that would need people who can take the call in the language."
+    "note": "No queue and no menu system to click through — just a number that gets answered."
   },
   "cta": {
     "eyebrow": "Start a campaign",
-    "title": "Tell us the market and the offer. We will tell you if we can sell it.",
-    "body": "A first call takes twenty minutes. You get an honest read on whether outbound suits what you sell, and a written proposal if it does.",
+    "title": "Tell us about your market. We will say if we can sell it.",
+    "body": "A twenty-minute call. An honest read, and a written proposal if it fits.",
     "primary": "Get a quote",
     "steps": [
       {
         "title": "Twenty-minute call",
-        "body": "Market, offer, target customer, and what a good result looks like to you."
+        "body": "Market, offer and target customer."
       },
       {
         "title": "Written proposal",
-        "body": "Scope, team size, pricing and a start date. On paper, so nothing is remembered differently later."
+        "body": "Scope, pricing and a start date — on paper."
       },
       {
         "title": "Pilot, then scale",
-        "body": "A fixed pilot period with agreed criteria before anyone signs anything long."
+        "body": "A pilot period, before anything long gets signed."
       }
     ]
   },

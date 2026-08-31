@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { company } from "@/content/company";
-import { topics, volumes } from "@/lib/enquiry";
+import { topics } from "@/lib/enquiry";
 import { ContactForm, type FormLabels } from "./ContactForm";
 
 /**
@@ -19,17 +19,12 @@ export async function EnquiryForm() {
     topicOptions: Object.fromEntries(
       topics.map((topic) => [topic, t(`topics.${topic}`)]),
     ) as FormLabels["topicOptions"],
-    volume: t("volume"),
-    volumeOptions: Object.fromEntries(
-      volumes.map((volume) => [volume, t(`volumes.${volume}`)]),
-    ) as FormLabels["volumeOptions"],
     message: t("message"),
     messagePlaceholder: t("messagePlaceholder"),
     consent: t("consent"),
     consentNote: t("consentNote"),
     submit: t("submit"),
     submitting: t("submitting"),
-    optional: t("optional"),
     choose: t("choose"),
     errors: {
       name: t("errors.name"),

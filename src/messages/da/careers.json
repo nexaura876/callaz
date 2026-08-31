@@ -1,8 +1,8 @@
 {
   "careers": {
     "eyebrow": "Job",
-    "title": "Arbejd et sted, hvor telefonen behandles som et håndværk",
-    "lead": "Callaz er tidligt nok i sin udvikling til, at det, du laver, stadig kan ses på virksomheden. Kan du føre en samtale med en fremmed og blive ved med at være nysgerrig efter det fjerde nej, er resten noget, man kan lære.",
+    "title": "Arbejd et sted, hvor telefonen er et håndværk",
+    "lead": "Det, du laver her, kan stadig ses på virksomheden. Resten kan du lære.",
     "offer": {
       "eyebrow": "Det tilbyder vi",
       "title": "De dele af jobbet, folk faktisk spørger om",
@@ -10,27 +10,23 @@
       "items": [
         {
           "title": "Oplæring før live-opkald",
-          "body": "Ingen bliver sat på en live linje på dag ét. Du lærer produktet, manuskriptet og indvendingerne først, og der bliver lyttet med på dine første opkald sammen med dig bagefter."
+          "body": "Du lærer produktet og manuskriptet, før du tager dit første opkald."
         },
         {
           "title": "Grundløn plus resultatløn",
-          "body": "En rigtig grundløn med resultatløn oveni og udregningen skrevet ned. Ingen stillinger på ren provision."
+          "body": "Skrevet ned. Ingen stillinger på ren provision."
         },
         {
           "title": "En navngiven teamleder",
-          "body": "Én person med ansvar for din udvikling, som lytter til dine samtaler og fortæller dig konkret, hvad du skal ændre."
-        },
-        {
-          "title": "Engelsk er en fordel her",
-          "body": "Vi kører kampagner på dansk og engelsk. Er du stærk på begge, åbner det flere kampagner og bedre løn."
+          "body": "Én person, der lytter til dine samtaler og hjælper dig videre."
         },
         {
           "title": "Udvikling, der findes",
-          "body": "Fra agent til senior til teamleder er en vej, folk faktisk er på, ikke et slide i en velkomstpræsentation."
+          "body": "Fra agent til senior til teamleder — en rigtig vej."
         },
         {
           "title": "Kontor i Kolding",
-          "body": "Vi sidder sammen i Kolding. Det er nemmere at lære telefonarbejde, når man kan høre kollegaen ved siden af tage samtalen."
+          "body": "Vi sidder sammen i Kolding."
         }
       ]
     },
@@ -40,7 +36,7 @@
       "featured": "Prioritet",
       "remote": "Remote",
       "spontaneousTitle": "Er der ikke noget, der passer?",
-      "spontaneousBody": "Vi læser alle uopfordrede ansøgninger, og stillinger åbner hurtigere, end denne side bliver opdateret.",
+      "spontaneousBody": "Vi læser alle uopfordrede ansøgninger, og du er også velkommen til bare at kigge forbi kontoret.",
       "spontaneous": "Send en uopfordret ansøgning"
     },
     "employmentTypes": {
@@ -55,19 +51,19 @@
       "steps": [
         {
           "title": "Ansøgning",
-          "body": "Et CV og et par linjer om, hvorfor lige dette job. En ansøgning skrevet til os slår en generisk hver gang."
+          "body": "Et CV og et par linjer om, hvorfor lige dette job."
         },
         {
           "title": "Telefonsamtale",
-          "body": "Tyve minutter. Det er et telefonjob, så den første samtale foregår i telefonen frem for over mail."
+          "body": "Tyve minutter — det er et telefonjob."
         },
         {
           "title": "Møde og prøve",
-          "body": "Du møder teamlederen, hører rigtige optagelser og laver et kort rollespil. Du skal også vurdere os her."
+          "body": "Du møder teamlederen og hører rigtige optagelser."
         },
         {
           "title": "Tilbud",
-          "body": "Skriftligt, med lønstrukturen skrevet ud og en startdato, der passer begge parter."
+          "body": "Skriftligt, med lønstruktur og startdato."
         }
       ]
     },
@@ -86,12 +82,12 @@
     "jobs": {
       "sales-agent": {
         "title": "Salgsagent",
-        "summary": "Udgående opkald på kundekampagner på dansk og engelsk. Fuld oplæring, grundløn plus resultatløn, med base på kontoret i Kolding.",
+        "summary": "Udgående opkald på kundekampagner på dansk. Fuld oplæring, grundløn plus resultatløn, med base på kontoret i Kolding.",
         "datePosted": "2026-08-01",
-        "language": "Dansk og engelsk",
+        "language": "Dansk",
         "about": [
-          "Du kommer til at ringe til virksomheder på vegne af vores kunder og booke møder eller lukke salg, afhængigt af, hvilken kampagne du er på. Hvert opkald sker i en kundes navn, og derfor bliver oplæringen og kvalitetskontrollen taget alvorligt.",
-          "Det er et job, hvor telefonen kommer først. Det meste af din dag er samtaler med folk, der ikke forventede at blive ringet op, og forskellen på at gøre det godt og skidt ligger næsten udelukkende i, hvordan du håndterer de første femten sekunder."
+          "Du ringer til virksomheder på vegne af vores kunder og booker møder eller lukker salg.",
+          "Telefonen kommer først. Det handler om, hvordan du håndterer de første femten sekunder."
         ],
         "responsibilities": [
           "Foretage udgående opkald til virksomheder på tildelte kampagner",
@@ -101,7 +97,7 @@
           "Holde øje med dine egne optagelser og handle på feedbacken"
         ],
         "requirements": [
-          "Flydende dansk og brugbart engelsk",
+          "Flydende dansk",
           "Tryg ved telefonen over for folk, du ikke har mødt",
           "Kan tage et nej uden at tage det personligt",
           "Omhyggelig med dataindtastning, for et forkert registreret opkald koster en anden en time",
@@ -112,10 +108,10 @@
         "title": "Teamleder",
         "summary": "Driv et kampagneteam på fire til otte agenter: kvalitet, coaching, kunderapportering og ugens tal. Kontoret i Kolding, fuldtid.",
         "datePosted": "2026-08-01",
-        "language": "Dansk og engelsk",
+        "language": "Dansk",
         "about": [
-          "Du ejer resultatet på en eller flere kampagner fra start til slut. Det vil sige tallene, kvaliteten af det, der bliver sagt i kundens navn, og den ugerapport, der går ud til dem.",
-          "Jobbet er groft sagt halvt coaching og halvt analyse. Du kommer til at bruge rigtig tid på at lytte til samtaler, og rigtig tid på at finde ud af, hvorfor et segment holdt op med at konvertere i uge tre."
+          "Du ejer resultatet på en eller flere kampagner — tallene, kvaliteten og ugerapporten.",
+          "Jobbet er halvt coaching, halvt analyse."
         ],
         "responsibilities": [
           "Lede et team på fire til otte agenter på tildelte kampagner",
@@ -128,7 +124,7 @@
           "Erfaring med udgående salg eller callcenterarbejde, herunder tid i telefonen selv",
           "Tryg ved at fortælle en kunde, at noget ikke virker",
           "Kan læse kampagnetal og danne dig en mening om hvorfor",
-          "Flydende dansk og solidt skriftligt engelsk",
+          "Flydende dansk, skriftligt og mundtligt",
           "Tidligere personaleansvar er en fordel"
         ]
       }

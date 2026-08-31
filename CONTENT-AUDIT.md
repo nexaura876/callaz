@@ -75,15 +75,30 @@ internally consistent, and still described a company that did not exist.
 | Eight industries | `content/solutions.ts`, `/brancher` | Written as illustration. The page says explicitly that the list is where campaigns have run, which is a claim about history. |
 | Two open jobs | `content/jobs.ts`, `/karriere` | Invented, and they carry `JobPosting` structured data, so Google may list them as real vacancies. |
 | Weekly reporting, call recording, DPA before first call, monthly terms | throughout | Operating promises, not observations. They are the backbone of the sales argument, so they have to be true. |
-| "Founded by people who had spent time inside phone floors" | `/om-callaz` | Invented backstory. Rewrite it in the owner's own words. |
+
+### Resolved since the first audit (2)
+
+| Was claimed | Actually | Where it had reached |
+| ----------- | -------- | --------------------- |
+| "Founded by people who had spent time inside phone floors" (invented, plural) | Founded by **Yusuf Caylak**, who has more than 10 years of personal experience in telephone sales and customer service, and has worked with more than 10 companies in Denmark, including in the electricity and cleaning sectors | `/om-callaz`, `about.story.paragraphs` |
+
+The owner confirmed the experience and company-count figures directly. They are
+now the opening paragraph of the About page story, tagged CLIENT rather than
+invented. This is a claim about the **founder's** personal track record, not
+Callaz the legal entity's (see the note below) — keep that distinction if the
+copy is ever extended, since the company itself remains newly registered.
 
 ### Numbers deliberately **not** claimed
 
-No employee count, revenue, client count, meetings booked, conversion rate,
-customer logo, testimonial, case study or certification appears anywhere. The
-register shows no registered employment yet, and none of those could be evidenced.
-The hero panel says in both languages that the figures shown are operating targets
-rather than past results.
+No Callaz-the-company employee count, revenue, client count, meetings booked,
+conversion rate, customer logo, testimonial, case study or certification appears
+anywhere. The register shows no registered employment yet, and none of those
+could be evidenced. The hero panel says in both languages that the figures shown
+are operating targets rather than past results.
+
+The one exception is the founder's personal pre-Callaz track record (10+ years,
+10+ companies — see above), which the owner confirmed directly and which is
+about Yusuf's own history rather than the company's.
 
 This matters legally, not only reputationally: under the Danish marketing act
 (markedsføringsloven §§ 5–6) the burden of proving a performance claim sits with

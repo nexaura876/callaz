@@ -141,9 +141,7 @@ export default async function ContactPage({ params }: PageProps) {
                   <br />
                   {countryName(headquarters.countryCode)}
                 </p>
-                <p className="text-faint font-mono text-xs">
-                  CVR {company.cvr} · {headquarters.timezone}
-                </p>
+                <p className="text-faint font-mono text-xs">CVR {company.cvr}</p>
               </div>
             ) : null}
 

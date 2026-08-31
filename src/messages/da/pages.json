@@ -1,9 +1,8 @@
 {
   "howWeWork": {
     "eyebrow": "Metode",
-    "title": "Sådan kører en Callaz-kampagne i praksis",
-    "lead": "Udgående salg fejler i stilhed. En kampagne kan se travl ud i to måneder og ikke producere noget, og når det bliver tydeligt, er budgettet væk. Hele metoden herunder findes for at forkorte afstanden mellem en beslutning og beviset på, at den var forkert.",
-    "metricsNote": "Det er de driftsmål, hver kampagne køres efter og rapporteres på. De beskriver, hvordan vi arbejder, ikke resultater fra tidligere kunder.",
+    "title": "Sådan kører en Callaz-kampagne",
+    "lead": "Udgående salg fejler i stilhed. Metoden herunder findes for at fange det tidligt.",
     "phases": {
       "eyebrow": "De fire faser",
       "title": "Fra briefing til drift",
@@ -12,7 +11,7 @@
         {
           "title": "Briefing og kriterier",
           "duration": "Uge 1",
-          "body": "Vi finder ud af, hvad I sælger, til hvem, og hvordan et resultat skal se ud, før det tæller som ét. Det er den fase, folk gerne vil springe over, og det er derfor kampagner bliver diskuteret bagefter.",
+          "body": "Vi finder ud af, hvad I sælger, til hvem, og hvordan et resultat skal se ud.",
           "outputs": [
             "Skriftlig definition af et kvalificeret resultat",
             "Målsegment og geografi",
@@ -22,7 +21,7 @@
         {
           "title": "Opbygning",
           "duration": "Uge 1 til 2",
-          "body": "Manuskript, indvendingshåndtering, liste og systemadgang forberedes. Intet går live, før I har læst manuskriptet og bekræftet, at det lyder som jeres virksomhed.",
+          "body": "Manuskript, indvendingshåndtering, liste og systemadgang forberedes.",
           "outputs": [
             "Godkendt manuskript og indvendingshåndtering",
             "Vasket og verificeret liste",
@@ -32,7 +31,7 @@
         {
           "title": "Pilot",
           "duration": "Uge 2 til 6",
-          "body": "En fast volumen inden for aftalte tider. I lytter til rigtige optagelser allerede i uge ét, ikke plukkede højdepunkter, og vi justerer manuskriptet, mens kampagnen kører frem for bagefter.",
+          "body": "En fast volumen inden for aftalte tider. I lytter til rigtige optagelser fra uge ét.",
           "outputs": [
             "Ugerapport fra første uge",
             "Fuld adgang til optagelser",
@@ -42,7 +41,7 @@
         {
           "title": "Opskalering og drift",
           "duration": "Løbende",
-          "body": "Det, der virkede, får flere timer. Det, der ikke gjorde, skrives om eller droppes. Rapporteret ugentligt, gennemgået månedligt, og aftalen forbliver månedlig, så det altid er muligt at stoppe.",
+          "body": "Det, der virkede, får flere timer. Det, der ikke gjorde, skrives om eller droppes.",
           "outputs": [
             "Månedlig gennemgang med teamlederen",
             "Performance opdelt på segmentniveau",
@@ -58,52 +57,25 @@
       "items": {
         "recordedCalls": {
           "title": "Alle samtaler optages",
-          "body": "Dem alle sammen, tilgængelige for jer, ikke et udvalg, vi har plukket. Det er den eneste ærlige måde at vurdere, om kvaliteten matcher tallene."
+          "body": "Alle sammen, tilgængelige for jer — ikke et udvalg, vi har plukket."
         },
         "namedTeam": {
           "title": "Et navngivet team",
-          "body": "I ved, hvem der ringer for jer. De lærer jeres produkt ordentligt, og I kan tale direkte med dem frem for gennem en kundechef."
+          "body": "I ved, hvem der ringer for jer, og I kan tale direkte med dem."
         },
         "weeklyReporting": {
           "title": "Ugentlig rapportering",
-          "body": "Én side, samme format, hver uge fra uge ét. Opkald, samtaler, resultater og hvad markedet gjorde indsigelse mod."
+          "body": "Én side, samme format, hver uge fra uge ét."
         },
         "gdprByDefault": {
           "title": "GDPR som standard",
-          "body": "Databehandleraftale før første opkald, dokumenteret hjemmel, framelding, der virker, og data leveret tilbage eller slettet til sidst."
+          "body": "Databehandleraftale før første opkald, og data leveret tilbage eller slettet til sidst."
         },
         "noLockIn": {
           "title": "Ingen binding",
-          "body": "Månedsvilkår. Holder vi op med at være pengene værd, skal I kunne handle på det med det samme, og det kan I."
+          "body": "Månedsvilkår. I kan altid stoppe med det samme."
         }
       }
-    },
-    "compliance": {
-      "eyebrow": "Compliance og data",
-      "title": "De regler, vi arbejder under",
-      "lead": "Udgående telefoni er reguleret, og reguleringen er forskellig fra marked til marked. At tage fejl her er dyrt for jer, ikke kun for os, og derfor aftales det skriftligt, før nogen ringer.",
-      "items": [
-        {
-          "title": "Databehandleraftale",
-          "body": "Underskrevet før data skifter hænder. Den fastlægger, hvad vi behandler, på hvilket grundlag, hvor længe og hvad der sker med det, når kampagnen slutter."
-        },
-        {
-          "title": "Dokumenteret hjemmel",
-          "body": "B2B-opkald under legitim interesse med en skriftlig vurdering eller samtykke, hvor markedet kræver det. Under alle omstændigheder skrevet ned, ikke forudsat."
-        },
-        {
-          "title": "Framelding respekteres straks",
-          "body": "Et nej registreres på opkaldet og spærres på tværs af alle kampagner, vi kører for jer. I Danmark indebærer det opslag i Robinsonlisten ved forbrugerkampagner."
-        },
-        {
-          "title": "Adgangsstyring",
-          "body": "Navngivne brugerkonti i jeres systemer, ingen delte logins og adgang lukket samme dag, en kampagne slutter, eller en medarbejder stopper."
-        },
-        {
-          "title": "Opbevaring og sletning",
-          "body": "Optagelser og kampagnedata opbevares i den periode, databehandleraftalen fastsætter, og slettes derefter. I kan til enhver tid bede om at få data retur."
-        }
-      ]
     },
     "faqTitle": "Om metoden",
     "faq": [
@@ -113,7 +85,7 @@
       },
       {
         "q": "Hvad koster det?",
-        "a": "Prisen afhænger af timer, sprog og hvor meget opsætning kampagnen kræver, så et tal nævnt, før vi har hørt tilbuddet, ville være meningsløst. I får et skriftligt oplæg med omfanget prissat, før noget skrives under."
+        "a": "Prisen afhænger af timer og hvor meget opsætning kampagnen kræver, så et tal nævnt, før vi har hørt tilbuddet, ville være meningsløst. I får et skriftligt oplæg med omfanget prissat, før noget skrives under."
       },
       {
         "q": "Kan vi lytte med live?",
@@ -129,79 +101,16 @@
       }
     ]
   },
-  "industries": {
-    "eyebrow": "Brancher",
-    "title": "De brancher, vi tager kampagner i",
-    "lead": "Brancheerfaring betyder mindre, end de fleste bureauer påstår, og mere end ingenting. Det, der faktisk kan overføres, er at kende indvendingerne, før man hører dem, og at vide, hvilke regler der gælder, før man ringer.",
-    "sectors": {
-      "energy": {
-        "title": "Energi og forsyning",
-        "body": "Skiftekampagner og genforhandling, hvor samtykkehåndtering og klar prisoplysning afgør, om et salg overlever fortrydelsesfristen."
-      },
-      "telecom": {
-        "title": "Telekommunikation",
-        "body": "Erhvervsabonnementer og opgraderinger. Høj volumen, korte opkald og et marked, der har hørt hver eneste indledning før."
-      },
-      "saas": {
-        "title": "Software og SaaS",
-        "body": "Mødebooking til demoer. Opgaven er at filtrere hårdt, så demoteamet bruger sine timer på kunder, der faktisk kan købe."
-      },
-      "insurance": {
-        "title": "Forsikring og finans",
-        "body": "Rådgivningsmøder frem for lukning på opkaldet, da den regulerede del hører hjemme hos jeres egne autoriserede folk."
-      },
-      "trades": {
-        "title": "Håndværk og installation",
-        "body": "Lokal B2B og opfølgning på tilbud, der er gået i sig selv. Et kort opkald redder overraskende mange af dem."
-      },
-      "logistics": {
-        "title": "Transport og logistik",
-        "body": "Fragt og lager, hvor beslutningstageren sjældent sidder ved et skrivebord, og ringevinduet er smalt."
-      },
-      "membership": {
-        "title": "Medlemsorganisationer",
-        "body": "Hvervning og fornyelse for fagforbund og brancheforeninger, hvor tonen betyder mere end tempoet."
-      },
-      "nonprofit": {
-        "title": "Almennyttige organisationer",
-        "body": "Støttekontakt og fornyelse, kørt under de strengere samtykkeregler, der gælder for indsamling."
-      }
-    },
-    "adapt": {
-      "eyebrow": "Det ændrer sig per branche",
-      "title": "Tre ting vi justerer hver gang",
-      "lead": "Metoden er den samme. De her tre flytter sig, og at tage fejl af dem er grunden til, at en kampagne i en ny branche underpræsterer.",
-      "items": [
-        {
-          "title": "Ringevinduet",
-          "body": "En pladsformand og en økonomichef er tilgængelige i hver sin ende af dagen. At ringe på det forkerte tidspunkt ligner en dårlig liste."
-        },
-        {
-          "title": "De regler, der gælder",
-          "body": "Forbrugerkampagner, finansielle ydelser og indsamling har hver deres krav, som B2B-software ikke har. Vi tjekker før første opkald, ikke efter en klage."
-        },
-        {
-          "title": "Hvad der tæller som kvalificeret",
-          "body": "Et kvalificeret møde til en SaaS-demo og et kvalificeret møde om en fragtaftale har næsten intet til fælles. Definitionen skrives om for hver kampagne."
-        }
-      ]
-    },
-    "honesty": {
-      "eyebrow": "Ligeud",
-      "title": "Er jeres branche ikke på listen, er det ikke et problem",
-      "body": "Listen er, hvor vi har kørt kampagner, ikke en grænse for, hvor vi kan. Det, der reelt afgør, om udgående salg virker, er tilbuddet, listen og dækningsbidraget, og dem kan I vurdere på tyve minutter uanset hvilken branchekode der står på virksomheden."
-    }
-  },
   "about": {
     "eyebrow": "Om os",
-    "title": "Et callcenter, der behandler sine kunder, som vi selv gerne vil behandles",
-    "lead": "Callaz blev stiftet i Kolding i 2025 af folk, der havde tilbragt tid nok i telefonafdelinger til at vide præcis, hvilke dele af branchen der har fortjent dens ry.",
+    "title": "Et callcenter, I kan stole på",
+    "lead": "Callaz blev stiftet i Kolding i 2025 af Yusuf Caylak.",
     "story": {
       "title": "Derfor findes virksomheden",
       "paragraphs": [
-        "De fleste virksomheder, der køber udgående salg, har købt det før og er blevet skuffede. Mønsteret gentager sig: et imponerende oplæg, et team, man aldrig møder, en månedsrapport, der mest består af aktivitetstal, og en langsom erkendelse af, at ingen kan sige, om det virker.",
-        "Callaz er bygget til at gøre netop den fejl svær. Alle samtaler optages og er tilgængelige for jer. Teamet, der ringer for jer, har navne, I kender. Rapporten kommer ugentligt fra uge ét og siger lige så tydeligt, hvad der ikke virkede, som hvad der gjorde. Og aftalen er månedlig, så hvis vi holder op med at gøre os fortjent til den, kan I handle med det samme frem for at vente en kontrakt ud.",
-        "Vi er en ung virksomhed, og vi lader ikke som om andet. Det, vi kan love, er den del, der er helt inden for vores egen kontrol: hvordan vi arbejder, hvad I kan se, og hvad der sker, når noget går galt."
+        "Yusuf Caylak har mere end 10 års erfaring med telefonsalg og kundeservice, og har arbejdet med mere end 10 virksomheder i Danmark — heriblandt inden for el og rengøring.",
+        "Alle samtaler optages. Teamet har navne, I kender. Rapporten kommer hver uge, og aftalen er månedlig, uden binding.",
+        "Callaz er en ung virksomhed. Vi arbejder ærligt, og I kan altid se, hvad der foregår."
       ]
     },
     "facts": {
@@ -211,6 +120,21 @@
       "headquarters": "Hovedkontor",
       "sector": "Registreret branche",
       "sectorValue": "Drift af callcentre"
+    },
+    "team": {
+      "eyebrow": "Mød os",
+      "title": "To personer",
+      "lead": "Ringer Callaz for jer, er det en af de her to, der står bag. Ingen anonymt callcenter-personale.",
+      "members": {
+        "yusuf": {
+          "name": "Yusuf Caylak",
+          "role": "CEO"
+        },
+        "mohammed": {
+          "name": "Mohammed",
+          "role": "Administrerende partner & IT-support"
+        }
+      }
     },
     "values": {
       "eyebrow": "Sådan arbejder vi",
@@ -288,7 +212,7 @@
       },
       {
         "q": "Hvordan er prisen skruet sammen?",
-        "a": "Overvejende en månedspris baseret på timer og sprog, nogle gange med et resultatelement oveni. Pilotforløb prissættes som et fast projekt. Vi arbejder ikke på ren provision, fordi det skaber den forkerte adfærd i telefonen."
+        "a": "Overvejende en månedspris baseret på timer, nogle gange med et resultatelement oveni. Pilotforløb prissættes som et fast projekt. Vi arbejder ikke på ren provision, fordi det skaber den forkerte adfærd i telefonen."
       },
       {
         "q": "Hvor lang er bindingen?",

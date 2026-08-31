@@ -2,10 +2,10 @@
   "solutionsIndex": {
     "eyebrow": "Løsninger",
     "title": "Udgående salg drevet som drift frem for som eksperiment",
-    "lead": "Fire ydelser, der deler én metode. Vælg den, der passer til opgaven, eller fortæl os resultatet, I vil have, så siger vi hvilken af dem der fører derhen.",
+    "lead": "Tre ydelser, én metode. Vælg den, der passer til opgaven, eller fortæl os resultatet, I vil have — så siger vi, hvilken af dem der fører derhen.",
     "cards": {
       "appointmentSetting": {
-        "body": "Møder booket direkte i kalenderen hos den, der skal holde dem, efter kriterier, I skriver ned, inden vi går i gang.",
+        "body": "Møder booket direkte i jeres kalender.",
         "points": [
           "Kvalificeret på aftalte kriterier",
           "Direkte i kalenderen",
@@ -13,7 +13,7 @@
         ]
       },
       "outboundSales": {
-        "body": "Et oplært team, der sælger på jeres vegne ud fra jeres manuskript, jeres priser og jeres regler.",
+        "body": "Et oplært team, der sælger på jeres vegne.",
         "points": [
           "Lukning på opkaldet",
           "Ordrehåndtering",
@@ -21,19 +21,11 @@
         ]
       },
       "customerService": {
-        "body": "Indgående opkald, opfølgning og overløb besvaret på kundens sprog, uden nye ansættelser.",
+        "body": "Vi besvarer opkaldene, I ikke når.",
         "points": [
           "Overløb eller hele linjen",
-          "Dansk og engelsk",
+          "Kort svartid",
           "Overlevering af sager"
-        ]
-      },
-      "leadGeneration": {
-        "body": "Lister bygget, kontakter verificeret og første opkald taget, så pipelinen starter med folk, der faktisk svarer.",
-        "points": [
-          "Listeopbygning",
-          "Datavask",
-          "Første kvalificering"
         ]
       }
     },
@@ -66,34 +58,34 @@
       "faqEyebrow": "Spørgsmål",
       "fitTitle": "Godt match, når",
       "noFitTitle": "Ikke det rigtige valg, når",
-      "noFitNote": "Genkender I jer selv på listen, så sig det på den første samtale. At sige nej til arbejde, der ikke kommer til at virke, er billigere for os begge end at bevise det over tre måneder."
+      "noFitNote": "Genkender I jer selv, så sig det på den første samtale."
     },
     "appointmentSetting": {
       "eyebrow": "Mødebooking",
-      "title": "Møder, jeres sælgere er glade for at have i kalenderen",
-      "lead": "Det svære ved mødebooking er ikke at booke møder. Det er at booke dem, der er køreturen værd. Vi aftaler kriterierne skriftligt først, og et møde tæller kun, når det opfylder dem.",
+      "title": "Møder, der er værd at tage",
+      "lead": "Vi booker møder, der rent faktisk fører til salg.",
       "capabilitiesTitle": "Sådan bliver møderne til",
       "capabilitiesLead": "Hvert trin er sat op, så den, der holder mødet, ved præcis, hvad der blev lovet på opkaldet.",
       "capabilities": [
         {
           "title": "Kriterier før opkald",
-          "body": "Virksomhedsstørrelse, rolle, budgetsignal, timing. Skrevet ned og aftalt før første opkald, så ingen diskuterer bagefter, hvad der talte."
+          "body": "Skrevet ned og aftalt, før vi ringer første gang."
         },
         {
           "title": "Research per virksomhed",
-          "body": "Den, der ringer, ved, hvad virksomheden laver, før der bliver ringet. Generiske indledninger er den hurtigste vej til at få røret smækket på."
+          "body": "Vi ved, hvad virksomheden laver, før vi ringer."
         },
         {
           "title": "Booking direkte i kalenderen",
-          "body": "Vi booker hos den, der skal holde mødet, med noterne vedhæftet, så intet skal tastes igen eller går tabt i en overlevering."
+          "body": "Vi booker direkte hos den, der skal holde mødet."
         },
         {
           "title": "Bekræftelse og påmindelse",
-          "body": "Hver booking bekræftes skriftligt og påmindes inden dagen. Det er den billigste måde at nedbringe udeblivelser på."
+          "body": "Hver booking bekræftes skriftligt og påmindes."
         },
         {
           "title": "Genbooking ved udeblivelse",
-          "body": "Et mistet møde bliver fulgt op og booket igen frem for afskrevet. De fleste var et kalenderproblem, ikke en afvisning."
+          "body": "Et mistet møde bliver fulgt op og booket igen."
         }
       ],
       "deliverablesTitle": "Det lander hos jer",
@@ -154,30 +146,30 @@
     },
     "outboundSales": {
       "eyebrow": "Telefonsalg",
-      "title": "En salgsafdeling, I ikke selv skal bygge",
-      "lead": "At ansætte, oplære og lede udgående sælgere er en forretning i sig selv. Vi driver allerede én. I får resultatet af et oplært team uden de atten måneder, det tager at få ét til at fungere.",
+      "title": "En salgsafdeling, klar til brug",
+      "lead": "Vi sælger på jeres vegne — professionelt, hver gang.",
       "capabilitiesTitle": "Sådan drives salget",
       "capabilitiesLead": "Teamet arbejder efter jeres regler. Det, vi bringer, er den disciplin, der får en telefonafdeling til at levere stabilt.",
       "capabilities": [
         {
           "title": "Jeres manuskript, vores levering",
-          "body": "I ejer tilbuddet og prisen. Vi laver det om til noget, der overlever mødet med en skeptisk person på dagens tredje opkald."
+          "body": "Vi omskriver jeres tilbud til noget, der virker i telefonen."
         },
         {
           "title": "Indvendingsbibliotek",
-          "body": "Hver indvending, vi hører, bliver noteret og besvaret, og svaret går ud til hele afdelingen. Teamet bliver bedre ugentligt frem for enkeltvis."
+          "body": "Hver indvending bliver noteret, besvaret og delt med hele teamet."
         },
         {
           "title": "Compliance indbygget",
-          "body": "Samtykke optaget på opkaldet, hvor reglerne kræver det, framelding respekteret med det samme og ingen pressalg. Et salg, der bliver fortrudt, koster alle penge."
+          "body": "Samtykke, framelding og ingen pressalg — indbygget i hvert opkald."
         },
         {
           "title": "Ordrehåndtering",
-          "body": "Ordrer lander i jeres system i det format, I bruger, med reference til optagelsen på hver enkelt."
+          "body": "Ordrer lander direkte i jeres system."
         },
         {
           "title": "Kvalitetskontrol",
-          "body": "Samtaler udtages og vurderes af en teamleder, ikke kun af tallene. Volumen uden kvalitet er bare frafald, der kommer senere."
+          "body": "Samtaler vurderes af en teamleder, ikke kun af tallene."
         }
       ],
       "deliverablesTitle": "Det får I retur",
@@ -238,30 +230,30 @@
     },
     "customerService": {
       "eyebrow": "Kundeservice",
-      "title": "Nogen tager telefonen på det sprog, der blev ringet på",
-      "lead": "Et ubesvaret opkald er en opsagt kunde, der bare ikke har udfyldt formularen endnu. Vi tager de opkald, I ikke når, på det sprog, de kommer ind på, uden at I skal ansætte en eneste.",
+      "title": "Vi tager telefonen for jer",
+      "lead": "Ingen ubesvarede opkald. Vi er der, når jeres kunder ringer.",
       "capabilitiesTitle": "Sådan drives linjen",
       "capabilitiesLead": "Sat op som en forlængelse af jeres egen service, ikke som en mur foran den.",
       "capabilities": [
         {
           "title": "Overløb eller hele linjen",
-          "body": "Tag det hele eller kun det, jeres eget team ikke når inden for jeres mål. Begge dele er normalt, og I kan flytte jer imellem dem."
+          "body": "Vi tager det, jeres eget team ikke når."
         },
         {
           "title": "Jeres systemer",
-          "body": "Teamet arbejder i jeres helpdesk og jeres telefonsystem, så historikken bliver ét sted, og intet skal synkroniseres bagefter."
+          "body": "Teamet arbejder i jeres egne systemer."
         },
         {
           "title": "Eskaleringsregler",
-          "body": "Vi aftaler skriftligt præcis, hvad vi løser, og hvad der går videre til jer. Tvetydighed her er det, der får outsourcet service til at føles som en labyrint."
+          "body": "Vi aftaler skriftligt, hvad vi løser, og hvad der går videre til jer."
         },
         {
-          "title": "Dansk og engelsk",
-          "body": "Begge sprog besvaret af nogen, der rent faktisk taler dem, så en engelsktalende kunde ikke ender i en dansk kø."
+          "title": "Svartidsmål",
+          "body": "Opkald besvares inden for det mål, vi har aftalt."
         },
         {
           "title": "Fastholdelse",
-          "body": "Et opsigelsesopkald håndteret godt er ofte en kunde beholdt. De samtaler får de erfarne folk i afdelingen."
+          "body": "De erfarne folk tager opsigelsessamtalerne."
         }
       ],
       "deliverablesTitle": "Det får I retur",
@@ -286,7 +278,7 @@
       ],
       "fit": [
         "I mister opkald i spidsbelastninger, om aftenen eller i ferier",
-        "I får opkald på engelsk, men bemander kun til dansk",
+        "Jeres åbningstider dækker ikke, når kunderne rent faktisk ringer",
         "Jeres team svarer på det samme spørgsmål hele dagen",
         "Svartiden skader jeres anmeldelser eller jeres frafald"
       ],
@@ -317,90 +309,6 @@
         {
           "q": "Kan I også håndtere mail og chat?",
           "a": "Mail og opfølgning på sager, ja. Livechat er muligt i de større opsætninger, hvor volumen kan bære en dedikeret plads."
-        }
-      ]
-    },
-    "leadGeneration": {
-      "eyebrow": "Leadgenerering",
-      "title": "En pipeline, der starter med kontakter, som findes",
-      "lead": "De fleste udgående kampagner underpræsterer af en ret uglamourøs grund: listen er forkert. Døde numre, folk, der stoppede for to år siden, virksomheder i det forkerte segment. Vi retter listen, før nogen bruger en dag på at ringe den igennem.",
-      "capabilitiesTitle": "Sådan bygges listen",
-      "capabilitiesLead": "Uglamourøst arbejde, der afgør, om alt det efterfølgende er indsatsen værd.",
-      "capabilities": [
-        {
-          "title": "Segmentdefinition",
-          "body": "Vi aftaler, hvordan en målvirksomhed ser ud, i termer, I kan kontrollere: størrelse, branche, geografi og det signal, der gør dem værd at ringe til nu."
-        },
-        {
-          "title": "Listeopbygning",
-          "body": "Bygget ud fra offentlige registre og jeres egne data frem for købt som en bulkfil af ukendt alder."
-        },
-        {
-          "title": "Datavask",
-          "body": "Døde numre fjernet, roller verificeret, dubletter samlet mod jeres CRM, så jeres egne sælgere ikke ringer parallelt."
-        },
-        {
-          "title": "Første kvalificering",
-          "body": "Et kort opkald, der afklarer, om der er grund til at tale videre, uden at presse et møde igennem, der ikke er der."
-        },
-        {
-          "title": "Frameldinger",
-          "body": "Enhver, der siger nej, spærres permanent på tværs af alle kampagner, vi kører for jer. Det er både et lovkrav og et omdømmespørgsmål."
-        }
-      ],
-      "deliverablesTitle": "Det får I retur",
-      "deliverablesLead": "En liste, I kan give en sælger uden at undskylde for den.",
-      "deliverables": [
-        {
-          "title": "Verificeret kontaktliste",
-          "body": "I jeres CRM-format, med kilde og verificeringsdato på hver eneste post."
-        },
-        {
-          "title": "Kvalificerede leads",
-          "body": "Kontakter, der har bekræftet et relevant behov, med noterne fra samtalen vedhæftet."
-        },
-        {
-          "title": "Spærreliste",
-          "body": "Alle, der har frameldt sig, så ingen i jeres organisation kommer til at ringe til dem igen."
-        },
-        {
-          "title": "Segmentaflæsning",
-          "body": "Hvilke dele af segmentet der reagerede, og hvilke der var døde. Det er det, der fortæller, hvor I skal sigte næste kvartal."
-        }
-      ],
-      "fit": [
-        "Jeres CRM er fuldt af poster, ingen stoler på",
-        "I går ind på et marked og har slet ingen liste",
-        "Jeres sælgere bruger mere tid på research end på salg",
-        "I vil teste et segment, før I binder et team til det"
-      ],
-      "noFit": [
-        "I vil have en billig bulkfil og går ikke op i præcisionen",
-        "Målgruppen kan ikke identificeres ud fra offentlige data",
-        "I har ikke kapacitet til at følge op på leads, når de lander",
-        "Planen bygger på at kontakte folk, der allerede har frameldt sig"
-      ],
-      "faqTitle": "Leadgenerering, kort fortalt",
-      "faq": [
-        {
-          "q": "Hvor kommer data fra?",
-          "a": "Offentlige virksomhedsregistre, jeres eget CRM og verificering over telefonen. Vi køber ikke anonyme bulkfiler, for der er ingen måde at dokumentere, hvor data kommer fra, og det er præcis det, I skal bruge, hvis nogen spørger."
-        },
-        {
-          "q": "Er det GDPR-compliant?",
-          "a": "B2B-kontaktdata til et relevant forretningsformål håndteres normalt under legitim interesse, med en dokumenteret vurdering og en framelding, der virker. Vi underskriver en databehandleraftale, før data skifter hænder."
-        },
-        {
-          "q": "Ejer vi listen bagefter?",
-          "a": "Ja. Listen er jeres, leveret i jeres format, og den bliver ved med at være jeres, hvis samarbejdet stopper. Vi beholder ingen kopi ud over opbevaringsperioden i aftalen."
-        },
-        {
-          "q": "Hvor aktuelle er data?",
-          "a": "Hver post har sin verificeringsdato. Kontaktdata forældes med omkring to til tre procent om måneden, og derfor er en liste noget levende frem for et engangskøb."
-        },
-        {
-          "q": "Kan I berige vores eksisterende CRM i stedet?",
-          "a": "Ofte det bedre sted at starte. Sovende kunder, der allerede kender jeres navn, konverterer betydeligt bedre end kolde, og vaskearbejdet er billigere end at bygge fra nul."
         }
       ]
     }

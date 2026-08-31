@@ -1,10 +1,6 @@
 import type { StaticPathname } from "@/i18n/routing";
 
-export type SolutionId =
-  | "appointmentSetting"
-  | "outboundSales"
-  | "customerService"
-  | "leadGeneration";
+export type SolutionId = "appointmentSetting" | "outboundSales" | "customerService";
 
 export type Solution = {
   id: SolutionId;
@@ -42,33 +38,8 @@ export const solutions: Solution[] = [
     faq: 5,
     tag: "03",
   },
-  {
-    id: "leadGeneration",
-    href: "/solutions/lead-generation",
-    capabilities: 5,
-    deliverables: 4,
-    faq: 5,
-    tag: "04",
-  },
 ];
 
 export function getSolution(id: SolutionId) {
   return solutions.find((solution) => solution.id === id);
 }
-
-/**
- * Sectors Callaz takes campaigns in. Copy lives under "industries.<id>".
- * Keep this list short — a page that claims every industry claims none.
- */
-export const industries = [
-  "energy",
-  "telecom",
-  "saas",
-  "insurance",
-  "trades",
-  "logistics",
-  "membership",
-  "nonprofit",
-] as const;
-
-export type IndustryId = (typeof industries)[number];

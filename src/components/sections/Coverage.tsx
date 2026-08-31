@@ -39,7 +39,7 @@ export async function Coverage() {
       icon: "pin" as const,
       label: t("baseLabel"),
       value: headquarters ? `${headquarters.city}, ${countryName(headquarters.countryCode)}` : "-",
-      meta: headquarters ? headquarters.timezone : null,
+      meta: null,
     },
     {
       icon: "phone" as const,

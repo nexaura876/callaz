@@ -1,9 +1,8 @@
 {
   "howWeWork": {
     "eyebrow": "Method",
-    "title": "How a Callaz campaign actually runs",
-    "lead": "Outbound fails quietly. A campaign can look busy for two months and produce nothing, and by the time that is obvious the budget is gone. The whole method below exists to shorten the distance between a decision and the evidence that it was wrong.",
-    "metricsNote": "These are the operating targets every campaign is run against and reported on. They describe how we work, not results from past clients.",
+    "title": "How a Callaz campaign runs",
+    "lead": "Outbound fails quietly. The method below exists to catch that early.",
     "phases": {
       "eyebrow": "The four phases",
       "title": "From brief to steady state",
@@ -12,7 +11,7 @@
         {
           "title": "Brief and criteria",
           "duration": "Week 1",
-          "body": "We work out what you are selling, to whom, and what a result has to look like before it counts as one. This is the phase people want to skip, and skipping it is why campaigns get argued about later.",
+          "body": "We work out what you are selling, to whom, and what a result has to look like.",
           "outputs": [
             "Written definition of a qualified result",
             "Target segment and geography",
@@ -22,7 +21,7 @@
         {
           "title": "Build",
           "duration": "Week 1 to 2",
-          "body": "Script, objection handling, list and system access are prepared. Nothing goes live until you have read the script and agreed it sounds like your company.",
+          "body": "Script, objection handling, list and system access are prepared.",
           "outputs": [
             "Approved script and objection handling",
             "Cleaned and verified list",
@@ -32,7 +31,7 @@
         {
           "title": "Pilot",
           "duration": "Week 2 to 6",
-          "body": "A fixed volume at agreed hours. You listen to real recordings in week one, not curated highlights, and we adjust the script while the campaign is running rather than afterwards.",
+          "body": "A fixed volume at agreed hours. You listen to real recordings from week one.",
           "outputs": [
             "Weekly report from the first week",
             "Full recording access",
@@ -42,7 +41,7 @@
         {
           "title": "Scale and steady state",
           "duration": "Ongoing",
-          "body": "The parts that worked get more hours. The parts that did not get rewritten or dropped. Reported weekly, reviewed monthly, and the agreement stays monthly so stopping is always available.",
+          "body": "The parts that worked get more hours. The parts that did not get rewritten or dropped.",
           "outputs": [
             "Monthly review with the team lead",
             "Segment-level performance breakdown",
@@ -58,52 +57,25 @@
       "items": {
         "recordedCalls": {
           "title": "Every call is recorded",
-          "body": "All of them, available to you, not a selection we picked. It is the only honest way to judge whether the quality matches the numbers."
+          "body": "All of them, available to you — not a selection we picked."
         },
         "namedTeam": {
           "title": "A named team",
-          "body": "You know who calls for you. They learn your product properly, and you can speak to them directly rather than through an account manager."
+          "body": "You know who calls for you, and you can speak to them directly."
         },
         "weeklyReporting": {
           "title": "Weekly reporting",
-          "body": "One page, same format, every week from week one. Dials, conversations, results, and what the market pushed back on."
+          "body": "One page, same format, every week from week one."
         },
         "gdprByDefault": {
           "title": "GDPR by default",
-          "body": "Processing agreement before the first call, documented lawful basis, working opt-out, and data returned or deleted at the end."
+          "body": "Processing agreement before the first call, and data returned or deleted at the end."
         },
         "noLockIn": {
           "title": "No lock-in",
-          "body": "Monthly terms. If we stop being worth the money, you should be able to act on that immediately, and you can."
+          "body": "Monthly terms. You can always act on that immediately."
         }
       }
-    },
-    "compliance": {
-      "eyebrow": "Compliance and data",
-      "title": "The rules we work under",
-      "lead": "Outbound calling is regulated, and the regulation differs by market. Getting this wrong is expensive for you, not only for us, so it is agreed in writing before anyone dials.",
-      "items": [
-        {
-          "title": "Data processing agreement",
-          "body": "Signed before any data changes hands. It sets out what we process, on what basis, for how long, and what happens to it when the campaign ends."
-        },
-        {
-          "title": "Lawful basis, documented",
-          "body": "B2B calling under legitimate interest with a written assessment, or consent where the market requires it. Either way it is written down, not assumed."
-        },
-        {
-          "title": "Opt-out honoured immediately",
-          "body": "A refusal is recorded on the call and suppressed across every campaign we run for you. In Denmark that includes checking against the Robinson list for consumer campaigns."
-        },
-        {
-          "title": "Access control",
-          "body": "Named user accounts in your systems, no shared logins, and access revoked the day a campaign ends or a team member leaves."
-        },
-        {
-          "title": "Retention and deletion",
-          "body": "Recordings and campaign data are kept for the period agreed in the processing agreement, then deleted. You can ask for the data back at any point."
-        }
-      ]
     },
     "faqTitle": "About the method",
     "faq": [
@@ -113,7 +85,7 @@
       },
       {
         "q": "What does it cost?",
-        "a": "Pricing depends on hours, languages and how much setup the campaign needs, so a number quoted before we have heard the offer would be meaningless. You get a written proposal with the scope priced out before anything is signed."
+        "a": "Pricing depends on hours and how much setup the campaign needs, so a number quoted before we have heard the offer would be meaningless. You get a written proposal with the scope priced out before anything is signed."
       },
       {
         "q": "Can we listen to calls live?",
@@ -129,79 +101,16 @@
       }
     ]
   },
-  "industries": {
-    "eyebrow": "Industries",
-    "title": "Sectors we take campaigns in",
-    "lead": "Experience in a sector matters less than most agencies claim, and more than nothing. What actually transfers is knowing the objections before you hear them, and knowing which rules apply before you dial.",
-    "sectors": {
-      "energy": {
-        "title": "Energy and utilities",
-        "body": "Switching campaigns and contract renewal, where consent handling and clear price presentation decide whether a sale survives the cooling-off period."
-      },
-      "telecom": {
-        "title": "Telecom",
-        "body": "Business subscriptions and upgrades. High volume, short calls, and a market that has heard every opener before."
-      },
-      "saas": {
-        "title": "Software and SaaS",
-        "body": "Appointment setting into demo calls. The job is filtering hard so the demo team spends its hours on accounts that can actually buy."
-      },
-      "insurance": {
-        "title": "Insurance and finance",
-        "body": "Advisory meetings rather than closing on the call, since the regulated part belongs with your own licensed people."
-      },
-      "trades": {
-        "title": "Trades and installation",
-        "body": "Local B2B and follow-up on quotes that went quiet. A short call recovers a surprising share of them."
-      },
-      "logistics": {
-        "title": "Transport and logistics",
-        "body": "Freight and warehousing where the decision maker is rarely at a desk and the calling window is narrow."
-      },
-      "membership": {
-        "title": "Membership organisations",
-        "body": "Recruitment and renewal for unions and trade associations, where tone matters more than pace."
-      },
-      "nonprofit": {
-        "title": "Non-profit",
-        "body": "Supporter contact and renewal, run under the stricter consent rules that apply to fundraising."
-      }
-    },
-    "adapt": {
-      "eyebrow": "What changes by sector",
-      "title": "Three things we adjust every time",
-      "lead": "The method stays the same. These three move, and getting them wrong is what makes a campaign in a new sector underperform.",
-      "items": [
-        {
-          "title": "The calling window",
-          "body": "A site manager and a finance director are reachable at opposite ends of the day. Calling at the wrong hour looks like a bad list."
-        },
-        {
-          "title": "The rules that apply",
-          "body": "Consumer campaigns, financial services and fundraising each carry requirements that B2B software does not. We check before the first dial, not after a complaint."
-        },
-        {
-          "title": "What counts as qualified",
-          "body": "A qualified meeting for a SaaS demo and a qualified meeting for a freight contract have almost nothing in common. The definition gets rewritten for every campaign."
-        }
-      ]
-    },
-    "honesty": {
-      "eyebrow": "Straight answer",
-      "title": "If your sector is not here, it is not a problem",
-      "body": "This list is where we have run campaigns, not a limit on where we can. What actually decides whether outbound works is the offer, the list and the margin, and those you can assess in a twenty-minute call regardless of the industry label on your company."
-    }
-  },
   "about": {
     "eyebrow": "About",
-    "title": "A contact centre built the way we wanted to be treated as clients",
-    "lead": "Callaz was founded in Kolding in 2025 by people who had spent enough time inside phone floors to know exactly which parts of the industry deserve their reputation.",
+    "title": "A contact centre you can trust",
+    "lead": "Callaz was founded in Kolding in 2025 by Yusuf Caylak.",
     "story": {
       "title": "Why this company exists",
       "paragraphs": [
-        "Most companies that buy outbound have bought it before and been disappointed. The pattern repeats: an impressive pitch, a team you never meet, a monthly report that is mostly activity counts, and a slow realisation that nobody can tell you whether it is working.",
-        "Callaz is built to make that specific failure hard. Every call is recorded and available to you. The team calling for you has names you know. The report arrives weekly from week one and says what did not work as plainly as what did. And the agreement is monthly, so if we stop earning it you can act immediately rather than waiting out a contract.",
-        "We are a young company and we do not pretend otherwise. What we can promise is the part that is entirely within our control: how we work, what you can see, and what happens when something goes wrong."
+        "Yusuf Caylak has more than 10 years of experience in telephone sales and customer service, and has worked with more than 10 companies in Denmark — including in the electricity and cleaning sectors.",
+        "Every call is recorded. The team has names you know. The report arrives every week, and the agreement is monthly, with no lock-in.",
+        "Callaz is a young company. We work honestly, and you can always see what is going on."
       ]
     },
     "facts": {
@@ -211,6 +120,21 @@
       "headquarters": "Headquarters",
       "sector": "Registered activity",
       "sectorValue": "Contact centre operations"
+    },
+    "team": {
+      "eyebrow": "Meet us",
+      "title": "Two people",
+      "lead": "If Callaz calls for you, it is one of these two behind it. No anonymous call centre staff.",
+      "members": {
+        "yusuf": {
+          "name": "Yusuf Caylak",
+          "role": "CEO"
+        },
+        "mohammed": {
+          "name": "Mohammed",
+          "role": "Managing Partner & IT Support"
+        }
+      }
     },
     "values": {
       "eyebrow": "How we operate",
@@ -288,7 +212,7 @@
       },
       {
         "q": "How is pricing structured?",
-        "a": "Mostly a monthly rate based on hours and languages, sometimes with a performance element on top. Pilots are priced as a fixed project. We do not do commission-only, because it produces the wrong behaviour on the phone."
+        "a": "Mostly a monthly rate based on hours, sometimes with a performance element on top. Pilots are priced as a fixed project. We do not do commission-only, because it produces the wrong behaviour on the phone."
       },
       {
         "q": "How long is the commitment?",
