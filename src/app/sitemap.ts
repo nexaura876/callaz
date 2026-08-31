@@ -17,7 +17,6 @@ const pages: Entry[] = [
   { href: "/solutions/outbound-sales", priority: 0.9, changeFrequency: "monthly" },
   { href: "/solutions/customer-service", priority: 0.9, changeFrequency: "monthly" },
   { href: "/quote", priority: 0.9, changeFrequency: "monthly" },
-  { href: "/how-we-work", priority: 0.8, changeFrequency: "monthly" },
   { href: "/about", priority: 0.7, changeFrequency: "monthly" },
   { href: "/careers", priority: 0.8, changeFrequency: "weekly" },
   { href: "/contact", priority: 0.7, changeFrequency: "monthly" },

@@ -21,10 +21,6 @@
       "title": "Kundeservice",
       "description": "Indgående opkald og opfølgning, fra overløb til hele frontlinjen, uden at I skal ansætte flere."
     },
-    "howWeWork": {
-      "title": "Sådan arbejder vi",
-      "description": "De fire faser i en Callaz-kampagne, fra briefing til drift, samt de compliance- og dataregler teamet arbejder under."
-    },
     "about": {
       "title": "Om Callaz",
       "description": "Et callcenter stiftet i Kolding, bygget til udgående arbejde på det danske marked. Registrerede oplysninger, værdier og adresse."
@@ -64,7 +60,6 @@
     "appointmentSettingDesc": "Kvalificerede møder direkte i kalenderen",
     "outboundSalesDesc": "Et oplært team, der sælger for jer",
     "customerServiceDesc": "Indgående opkald, ingen ny ansættelse",
-    "howWeWork": "Sådan arbejder vi",
     "about": "Om os",
     "careers": "Ledige job",
     "contact": "Kontakt",

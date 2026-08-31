@@ -47,7 +47,6 @@ export const primaryNav: (NavItem | NavGroup)[] = [
       },
     ],
   },
-  { key: "howWeWork", href: "/how-we-work" },
   { key: "about", href: "/about" },
   { key: "careers", href: "/careers" },
 ];
@@ -60,7 +59,6 @@ export const footerNav = {
   ],
   company: [
     { key: "about", href: "/about" },
-    { key: "howWeWork", href: "/how-we-work" },
     { key: "careers", href: "/careers" },
   ],
   contact: [

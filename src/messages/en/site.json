@@ -21,10 +21,6 @@
       "title": "Customer service",
       "description": "Inbound and follow-up handling, from overflow cover to a full front line, without lengthening your own payroll."
     },
-    "howWeWork": {
-      "title": "How we work",
-      "description": "The four phases of a Callaz campaign, from brief to steady state, plus the compliance and data rules the team works under."
-    },
     "about": {
       "title": "About Callaz",
       "description": "A contact centre founded in Kolding, built for outbound work in the Danish market. Registered facts, values and address."
@@ -64,7 +60,6 @@
     "appointmentSettingDesc": "Qualified meetings booked into your calendar",
     "outboundSalesDesc": "A trained team closing on your behalf",
     "customerServiceDesc": "Inbound calls, no new hire needed",
-    "howWeWork": "How we work",
     "about": "About",
     "careers": "Careers",
     "contact": "Contact",

@@ -45,10 +45,6 @@ export const routing = defineRouting({
       da: "/loesninger/kundeservice",
     },
 
-    "/how-we-work": {
-      en: "/how-we-work",
-      da: "/saadan-arbejder-vi",
-    },
     "/about": {
       en: "/about",
       da: "/om-callaz",

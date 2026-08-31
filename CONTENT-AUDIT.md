@@ -80,13 +80,15 @@ internally consistent, and still described a company that did not exist.
 
 | Was claimed | Actually | Where it had reached |
 | ----------- | -------- | --------------------- |
-| "Founded by people who had spent time inside phone floors" (invented, plural) | Founded by **Yusuf Caylak**, who has more than 10 years of personal experience in telephone sales and customer service, and has worked with more than 10 companies in Denmark, including in the electricity and cleaning sectors | `/om-callaz`, `about.story.paragraphs` |
+| "Founded by people who had spent time inside phone floors" (invented, plural) | Founded by **Yusuf Caylak**. The team's people have a combined more than 10 years of experience in telephone sales and customer service, and have worked with a wide range of companies in Denmark, including in the electricity and cleaning sectors | `/om-callaz`, `about.story.paragraphs` |
 
-The owner confirmed the experience and company-count figures directly. They are
-now the opening paragraph of the About page story, tagged CLIENT rather than
-invented. This is a claim about the **founder's** personal track record, not
-Callaz the legal entity's (see the note below) — keep that distinction if the
-copy is ever extended, since the company itself remains newly registered.
+The owner confirmed the experience and company-count figures directly, and asked
+for the wording to describe the **team's combined** experience rather than one
+person's individual tenure. That is now the opening paragraph of the About page
+story, tagged CLIENT rather than invented. It is a claim about the people who
+work at Callaz, not about the legal entity's track record (see the note below)
+— keep that distinction if the copy is ever extended, since the company itself
+remains newly registered.
 
 ### Numbers deliberately **not** claimed
 
@@ -96,9 +98,9 @@ anywhere. The register shows no registered employment yet, and none of those
 could be evidenced. The hero panel says in both languages that the figures shown
 are operating targets rather than past results.
 
-The one exception is the founder's personal pre-Callaz track record (10+ years,
-10+ companies — see above), which the owner confirmed directly and which is
-about Yusuf's own history rather than the company's.
+The one exception is the team's combined pre-Callaz track record (10+ years,
+a wide range of companies — see above), which the owner confirmed directly and
+which is about the people who work there rather than the company's own history.
 
 This matters legally, not only reputationally: under the Danish marketing act
 (markedsføringsloven §§ 5–6) the burden of proving a performance claim sits with

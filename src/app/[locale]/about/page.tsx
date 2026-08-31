@@ -90,7 +90,6 @@ export default async function AboutPage({ params }: PageProps) {
                     ? `${headquarters.city}, ${countryName(headquarters.countryCode)}`
                     : "-",
                 },
-                { label: t("facts.sector"), value: t("facts.sectorValue") },
               ].map((fact) => (
                 <div
                   key={fact.label}

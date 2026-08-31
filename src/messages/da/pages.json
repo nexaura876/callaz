@@ -1,106 +1,4 @@
 {
-  "howWeWork": {
-    "eyebrow": "Metode",
-    "title": "Sådan kører en Callaz-kampagne",
-    "lead": "Udgående salg fejler i stilhed. Metoden herunder findes for at fange det tidligt.",
-    "phases": {
-      "eyebrow": "De fire faser",
-      "title": "Fra briefing til drift",
-      "lead": "Typiske tider for en første kampagne. En kampagne nummer to for samme kunde springer som regel det meste af fase ét over.",
-      "items": [
-        {
-          "title": "Briefing og kriterier",
-          "duration": "Uge 1",
-          "body": "Vi finder ud af, hvad I sælger, til hvem, og hvordan et resultat skal se ud.",
-          "outputs": [
-            "Skriftlig definition af et kvalificeret resultat",
-            "Målsegment og geografi",
-            "Databehandleraftale underskrevet"
-          ]
-        },
-        {
-          "title": "Opbygning",
-          "duration": "Uge 1 til 2",
-          "body": "Manuskript, indvendingshåndtering, liste og systemadgang forberedes.",
-          "outputs": [
-            "Godkendt manuskript og indvendingshåndtering",
-            "Vasket og verificeret liste",
-            "CRM- og kalenderoverlevering testet"
-          ]
-        },
-        {
-          "title": "Pilot",
-          "duration": "Uge 2 til 6",
-          "body": "En fast volumen inden for aftalte tider. I lytter til rigtige optagelser fra uge ét.",
-          "outputs": [
-            "Ugerapport fra første uge",
-            "Fuld adgang til optagelser",
-            "Skriftlig vurdering af, om der skal fortsættes"
-          ]
-        },
-        {
-          "title": "Opskalering og drift",
-          "duration": "Løbende",
-          "body": "Det, der virkede, får flere timer. Det, der ikke gjorde, skrives om eller droppes.",
-          "outputs": [
-            "Månedlig gennemgang med teamlederen",
-            "Performance opdelt på segmentniveau",
-            "Kvartalsvis anbefaling af, hvor der skal sigtes"
-          ]
-        }
-      ]
-    },
-    "principles": {
-      "eyebrow": "Driftsprincipper",
-      "title": "Fem ting, vi ikke forhandler om",
-      "lead": "De koster os arbejde en gang imellem. De er også grunden til, at kunder bliver hængende efter piloten.",
-      "items": {
-        "recordedCalls": {
-          "title": "Alle samtaler optages",
-          "body": "Alle sammen, tilgængelige for jer — ikke et udvalg, vi har plukket."
-        },
-        "namedTeam": {
-          "title": "Et navngivet team",
-          "body": "I ved, hvem der ringer for jer, og I kan tale direkte med dem."
-        },
-        "weeklyReporting": {
-          "title": "Ugentlig rapportering",
-          "body": "Én side, samme format, hver uge fra uge ét."
-        },
-        "gdprByDefault": {
-          "title": "GDPR som standard",
-          "body": "Databehandleraftale før første opkald, og data leveret tilbage eller slettet til sidst."
-        },
-        "noLockIn": {
-          "title": "Ingen binding",
-          "body": "Månedsvilkår. I kan altid stoppe med det samme."
-        }
-      }
-    },
-    "faqTitle": "Om metoden",
-    "faq": [
-      {
-        "q": "Hvor hurtigt kan en kampagne starte?",
-        "a": "Fra briefing til første opkald er målet 48 timer for en ligetil kampagne, hvor I allerede har en liste og et klart tilbud. En kampagne, der kræver listeopbygning og et nyt manuskript, er realistisk en til to uger."
-      },
-      {
-        "q": "Hvad koster det?",
-        "a": "Prisen afhænger af timer og hvor meget opsætning kampagnen kræver, så et tal nævnt, før vi har hørt tilbuddet, ville være meningsløst. I får et skriftligt oplæg med omfanget prissat, før noget skrives under."
-      },
-      {
-        "q": "Kan vi lytte med live?",
-        "a": "Ja. Medlytning kan arrangeres for jeres eget team, og det er værd at gøre i den første uge. De fleste kunder hører noget i den første time, der ændrer deres manuskript."
-      },
-      {
-        "q": "Hvad sker der med vores data, når vi stopper?",
-        "a": "De leveres tilbage i jeres format og slettes derefter fra vores systemer inden for den frist, databehandleraftalen fastsætter. I får skriftlig bekræftelse, når sletningen er gennemført."
-      },
-      {
-        "q": "Arbejder I sammen med vores nuværende bureau eller interne team?",
-        "a": "Ofte. Overløb ved siden af et internt team er en af de mest almindelige opsætninger, og det undgår forstyrrelsen ved at flytte alt på én gang."
-      }
-    ]
-  },
   "about": {
     "eyebrow": "Om os",
     "title": "Et callcenter, I kan stole på",
@@ -108,7 +6,7 @@
     "story": {
       "title": "Derfor findes virksomheden",
       "paragraphs": [
-        "Yusuf Caylak har mere end 10 års erfaring med telefonsalg og kundeservice, og har arbejdet med mere end 10 virksomheder i Danmark — heriblandt inden for el og rengøring.",
+        "Hos Callaz har vores medarbejdere tilsammen mere end 10 års erfaring med telefonsalg og kundeservice. Vi har arbejdet med en lang række virksomheder i Danmark og har opbygget stærk erfaring inden for blandt andet el, rengøring og kundeservice.",
         "Alle samtaler optages. Teamet har navne, I kender. Rapporten kommer hver uge, og aftalen er månedlig, uden binding.",
         "Callaz er en ung virksomhed. Vi arbejder ærligt, og I kan altid se, hvad der foregår."
       ]
@@ -117,14 +15,12 @@
       "legalName": "Registreret navn",
       "cvr": "CVR",
       "founded": "Stiftet",
-      "headquarters": "Hovedkontor",
-      "sector": "Registreret branche",
-      "sectorValue": "Drift af callcentre"
+      "headquarters": "Hovedkontor"
     },
     "team": {
       "eyebrow": "Mød os",
-      "title": "To personer",
-      "lead": "Ringer Callaz for jer, er det en af de her to, der står bag. Ingen anonymt callcenter-personale.",
+      "title": "Menneskene bag Callaz",
+      "lead": "To personer. Én fælles ambition. Hos Callaz kombinerer vi salgserfaring, kundeservice og IT-kompetencer for at skabe stærke resultater for vores kunder.",
       "members": {
         "yusuf": {
           "name": "Yusuf Caylak",
@@ -239,7 +135,7 @@
       {
         "title": "Hvad vi indsamler",
         "paragraphs": [
-          "Sender du en henvendelse via en formular på dette websted, indsamler vi navn, virksomhed, e-mailadresse, eventuelt telefonnummer, det emne, du valgte, og den besked, du skrev.",
+          "Sender du en henvendelse via en formular på dette websted, indsamler vi navn, virksomhed, e-mailadresse, telefonnummer, det emne, du valgte, og den besked, du skrev.",
           "Vores server behandler desuden de tekniske oplysninger, ethvert webopkald bærer med sig, herunder din IP-adresse og browsertype. Det bruges til at levere siden og til at begrænse automatisk misbrug af formularen. Det bruges ikke til at opbygge en profil af dig.",
           "Webstedet indlæser ingen tredjepartsscripts, ingen annoncetags og ingen widgets fra sociale medier. Intet om dit besøg deles med en anden virksomhed, fordi du læser denne side."
         ]

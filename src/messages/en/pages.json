@@ -1,106 +1,4 @@
 {
-  "howWeWork": {
-    "eyebrow": "Method",
-    "title": "How a Callaz campaign runs",
-    "lead": "Outbound fails quietly. The method below exists to catch that early.",
-    "phases": {
-      "eyebrow": "The four phases",
-      "title": "From brief to steady state",
-      "lead": "Typical timings for a first campaign. A second campaign for the same client usually skips most of phase one.",
-      "items": [
-        {
-          "title": "Brief and criteria",
-          "duration": "Week 1",
-          "body": "We work out what you are selling, to whom, and what a result has to look like.",
-          "outputs": [
-            "Written definition of a qualified result",
-            "Target segment and geography",
-            "Data processing agreement signed"
-          ]
-        },
-        {
-          "title": "Build",
-          "duration": "Week 1 to 2",
-          "body": "Script, objection handling, list and system access are prepared.",
-          "outputs": [
-            "Approved script and objection handling",
-            "Cleaned and verified list",
-            "CRM and calendar handover tested"
-          ]
-        },
-        {
-          "title": "Pilot",
-          "duration": "Week 2 to 6",
-          "body": "A fixed volume at agreed hours. You listen to real recordings from week one.",
-          "outputs": [
-            "Weekly report from the first week",
-            "Full recording access",
-            "Written read on whether to continue"
-          ]
-        },
-        {
-          "title": "Scale and steady state",
-          "duration": "Ongoing",
-          "body": "The parts that worked get more hours. The parts that did not get rewritten or dropped.",
-          "outputs": [
-            "Monthly review with the team lead",
-            "Segment-level performance breakdown",
-            "Quarterly recommendation on where to aim next"
-          ]
-        }
-      ]
-    },
-    "principles": {
-      "eyebrow": "Operating principles",
-      "title": "Five things we do not negotiate on",
-      "lead": "These cost us work occasionally. They are also the reason clients stay past the pilot.",
-      "items": {
-        "recordedCalls": {
-          "title": "Every call is recorded",
-          "body": "All of them, available to you — not a selection we picked."
-        },
-        "namedTeam": {
-          "title": "A named team",
-          "body": "You know who calls for you, and you can speak to them directly."
-        },
-        "weeklyReporting": {
-          "title": "Weekly reporting",
-          "body": "One page, same format, every week from week one."
-        },
-        "gdprByDefault": {
-          "title": "GDPR by default",
-          "body": "Processing agreement before the first call, and data returned or deleted at the end."
-        },
-        "noLockIn": {
-          "title": "No lock-in",
-          "body": "Monthly terms. You can always act on that immediately."
-        }
-      }
-    },
-    "faqTitle": "About the method",
-    "faq": [
-      {
-        "q": "How quickly can a campaign start?",
-        "a": "Brief to first call is targeted at 48 hours for a straightforward campaign where you already have a list and a clear offer. A campaign that needs list building and a new script is realistically one to two weeks."
-      },
-      {
-        "q": "What does it cost?",
-        "a": "Pricing depends on hours and how much setup the campaign needs, so a number quoted before we have heard the offer would be meaningless. You get a written proposal with the scope priced out before anything is signed."
-      },
-      {
-        "q": "Can we listen to calls live?",
-        "a": "Yes. Live listening can be arranged for your own team, and it is worth doing in the first week. Most clients hear something in the first hour that changes their script."
-      },
-      {
-        "q": "What happens to our data when we stop?",
-        "a": "It is returned in your format and then deleted from our systems within the period set in the processing agreement. You get written confirmation when the deletion is done."
-      },
-      {
-        "q": "Do you work with our existing agency or in-house team?",
-        "a": "Frequently. Overflow alongside an in-house team is one of the most common setups, and it avoids the disruption of moving everything at once."
-      }
-    ]
-  },
   "about": {
     "eyebrow": "About",
     "title": "A contact centre you can trust",
@@ -108,7 +6,7 @@
     "story": {
       "title": "Why this company exists",
       "paragraphs": [
-        "Yusuf Caylak has more than 10 years of experience in telephone sales and customer service, and has worked with more than 10 companies in Denmark — including in the electricity and cleaning sectors.",
+        "At Callaz, our people have a combined more than 10 years of experience in telephone sales and customer service. We have worked with a wide range of companies in Denmark and built strong experience in sectors including electricity, cleaning and customer service.",
         "Every call is recorded. The team has names you know. The report arrives every week, and the agreement is monthly, with no lock-in.",
         "Callaz is a young company. We work honestly, and you can always see what is going on."
       ]
@@ -117,14 +15,12 @@
       "legalName": "Registered name",
       "cvr": "CVR",
       "founded": "Founded",
-      "headquarters": "Headquarters",
-      "sector": "Registered activity",
-      "sectorValue": "Contact centre operations"
+      "headquarters": "Headquarters"
     },
     "team": {
       "eyebrow": "Meet us",
-      "title": "Two people",
-      "lead": "If Callaz calls for you, it is one of these two behind it. No anonymous call centre staff.",
+      "title": "The people behind Callaz",
+      "lead": "Two people. One shared ambition. At Callaz, we combine sales experience, customer service and IT skills to create strong results for our customers.",
       "members": {
         "yusuf": {
           "name": "Yusuf Caylak",
@@ -239,7 +135,7 @@
       {
         "title": "What we collect",
         "paragraphs": [
-          "If you send an enquiry through a form on this site, we collect the name, company, email address, optional phone number, the topic you selected and the message you wrote.",
+          "If you send an enquiry through a form on this site, we collect the name, company, email address, phone number, the topic you selected and the message you wrote.",
           "Our server also processes technical data that every web request carries, including your IP address and browser type. This is used to serve the page and to limit automated abuse of the enquiry form. It is not used to build a profile of you.",
           "This site loads no third-party scripts, no advertising tags and no social media widgets. Nothing about your visit is shared with another company as a result of you reading this page."
         ]

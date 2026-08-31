@@ -30,17 +30,3 @@ export const commitments: Metric[] = [
   { id: "recorded", value: "100", unit: "percent" },
   { id: "notice", value: "1", unit: "month" },
 ];
-
-/**
- * The operating principles behind the numbers above. Each one is a promise the
- * business controls directly, which is what makes it safe to publish.
- */
-export const principles = [
-  "recordedCalls",
-  "namedTeam",
-  "weeklyReporting",
-  "gdprByDefault",
-  "noLockIn",
-] as const;
-
-export type PrincipleId = (typeof principles)[number];
