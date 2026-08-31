@@ -20,17 +20,14 @@
       }
     },
 
-    "careers": {
-      "eyebrow": "Careers",
-      "title": "We hire people who are good on the phone",
-      "body": "Callaz is a small, new company — but we stand behind what we can do. The people we have worked with before are the best proof of that.",
-      "cta": "See open roles",
-      "points": [
-        "Full training before you take a live call",
-        "Base salary plus performance pay, written down",
-        "A named team lead, not a manual",
-        "Based in the Kolding office"
-      ]
+    "whyChoose": {
+      "eyebrow": "Why choose Callaz",
+      "title": "That is why companies choose Callaz",
+      "lead": "We understand your industry and your customers' needs. With deep insight into telemarketing, we optimise your customer service and create better results.",
+      "item": {
+        "title": "Payment based on results",
+        "body": "We believe our value should be felt on your bottom line. That is why you only pay for the results we deliver – no results, no payment."
+      }
     }
   }
 }

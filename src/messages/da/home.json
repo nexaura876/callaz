@@ -18,17 +18,14 @@
         "customerService": "Vi besvarer opkaldene, I ikke når."
       }
     },
-    "careers": {
-      "eyebrow": "Job",
-      "title": "Vi ansætter folk, der kan tale med kunder",
-      "body": "Callaz er en lille, ny virksomhed — men vi står inde for det, vi kan. Dem, vi har arbejdet med før, er det bedste bevis på det.",
-      "cta": "Se ledige stillinger",
-      "points": [
-        "Fuld oplæring, før du tager det første live-opkald",
-        "Grundløn plus resultatløn, skrevet ned",
-        "En navngiven teamleder, ikke en manual",
-        "Base på kontoret i Kolding"
-      ]
+    "whyChoose": {
+      "eyebrow": "Hvorfor vælge Callaz",
+      "title": "Derfor vælger virksomheder Callaz",
+      "lead": "Vi forstår din branche og dine kunders behov. Med dybdegående indsigt i telemarketing optimerer vi din kundeservice og skaber bedre resultater.",
+      "item": {
+        "title": "Betaling efter resultater",
+        "body": "Vi tror på, at vores værdi skal kunne mærkes på bundlinjen. Derfor betaler I kun for de resultater, vi leverer – ingen resultater, ingen betaling."
+      }
     }
   }
 }

@@ -222,32 +222,40 @@
 
     "customerService": {
       "eyebrow": "Customer service",
-      "title": "We answer the phone for you",
-      "lead": "No missed calls. We are there when your customers call.",
-      "capabilitiesTitle": "How the line is run",
+      "title": "Customer service that creates value",
+      "lead": "We lift your customer service to the next level with professional handling and measurable results. With a focus on customer satisfaction and efficiency, we build strong customer relationships that support your company's growth.",
+      "capabilitiesTitle": "Our strengths in customer service",
       "capabilitiesLead": "Set up as an extension of your own service, not as a wall in front of it.",
       "capabilities": [
         {
-          "title": "Overflow or full line",
-          "body": "We take what your own team cannot reach."
+          "title": "Support and service",
+          "body": "Professional and efficient handling of customer enquiries."
         },
         {
-          "title": "Your systems",
-          "body": "The team works inside your own systems."
+          "title": "Payment collection",
+          "body": "Effective follow-up on outstanding payments from active customers."
         },
         {
-          "title": "Escalation rules",
-          "body": "We agree in writing what we resolve and what goes to you."
+          "title": "Customer retention",
+          "body": "Focused effort to retain valuable customer relationships."
         },
         {
-          "title": "Answer-time target",
-          "body": "Calls answered inside the target we have agreed."
-        },
-        {
-          "title": "Saves and retention",
-          "body": "The experienced people take the cancellation calls."
+          "title": "CRM integration",
+          "body": "Direct handling of customer enquiries in your own CRM system."
         }
       ],
+      "trust": {
+        "eyebrow": "Your customers. Our responsibility.",
+        "title": "Personal service tailored to your business",
+        "paragraphs": [
+          "We deliver personal customer service, tailored to your needs and your brand. Our staff are trained to handle everything from everyday customer support to complex enquiries.",
+          "We work as a natural extension of your business and make sure every customer contact reflects your values. From first contact to final resolution, we create professional customer experiences and strong relationships."
+        ]
+      },
+      "ctaPanel": {
+        "title": "Ready to strengthen your customer service?",
+        "lead": "Tell us about your customers and your current setup. You will get a no-obligation quote and an honest assessment of where we can make a difference."
+      },
       "deliverablesTitle": "What you get back",
       "deliverablesLead": "Coverage, plus a clear view of what your customers are actually calling about.",
       "deliverables": [

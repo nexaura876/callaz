@@ -5,7 +5,7 @@ import type { Locale } from "@/i18n/navigation";
 import { company } from "@/content/company";
 import { solutions } from "@/content/solutions";
 import { alternatesFor, openGraphFor } from "@/lib/site";
-import { ButtonLink, ExternalButtonLink } from "@/components/ui/Button";
+import { ButtonLink } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Icon, type IconName } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
@@ -151,47 +151,23 @@ export default async function HomePage({ params }: PageProps) {
         </ul>
       </section>
 
-      {/* --------------------------------------------------------------- careers */}
+      {/* ------------------------------------------------------------ why choose */}
       <section className="container-page pb-24 lg:pb-32">
-        <div className="hairline relative overflow-hidden rounded-[var(--radius-panel)] bg-panel px-6 py-14 sm:px-12 lg:px-16">
-          <div
-            aria-hidden="true"
-            className="bg-accent-glow/14 pointer-events-none absolute -top-28 right-0 size-80 rounded-full blur-3xl"
-          />
-          <div className="relative grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:gap-16">
-            <div className="flex flex-col gap-5">
-              <Eyebrow>{t("careers.eyebrow")}</Eyebrow>
-              <h2 className="font-display text-[1.9rem] leading-[1.1] font-semibold text-heading sm:text-[2.4rem]">
-                {t("careers.title")}
-              </h2>
-              <p className="text-muted max-w-xl leading-relaxed">{t("careers.body")}</p>
-              <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-                <ButtonLink href="/careers" withArrow>
-                  {t("careers.cta")}
-                </ButtonLink>
-                <ExternalButtonLink
-                  href={`mailto:${company.careersEmail}`}
-                  variant="ghost"
-                >
-                  <Icon name="mail" className="size-4" />
-                  {company.careersEmail}
-                </ExternalButtonLink>
-              </div>
-            </div>
+        <SectionHeading
+          eyebrow={t("whyChoose.eyebrow")}
+          title={t("whyChoose.title")}
+          lead={t("whyChoose.lead")}
+          align="center"
+        />
 
-            <ul className="flex flex-col gap-3">
-              {t.raw("careers.points").map((point: string) => (
-                <li
-                  key={point}
-                  className="text-body flex items-start gap-3 text-[0.95rem]"
-                >
-                  <Icon name="check" className="text-accent mt-1 size-4 shrink-0" />
-                  {point}
-                </li>
-              ))}
-            </ul>
+        <Reveal className="mx-auto mt-10 max-w-2xl">
+          <div className="hairline flex flex-col gap-3 rounded-[var(--radius-card)] bg-panel p-8 text-center lg:p-10">
+            <h3 className="font-display text-xl font-semibold text-heading">
+              {t("whyChoose.item.title")}
+            </h3>
+            <p className="text-muted leading-relaxed">{t("whyChoose.item.body")}</p>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       <CtaBanner />

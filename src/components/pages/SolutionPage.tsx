@@ -1,9 +1,12 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/navigation";
 import type { StaticPathname } from "@/i18n/routing";
 import type { SolutionId } from "@/content/solutions";
 import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { ButtonLink } from "@/components/ui/Button";
+import yusufPhoto from "../../../public/media/team-yusuf.jpg";
+import mohammedPhoto from "../../../public/media/team-mohammed.jpg";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Icon, type IconName } from "@/components/ui/Icon";
@@ -105,6 +108,64 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
           ))}
         </ol>
       </section>
+
+      {/* -------------------------------------------------------------- trust */}
+      {id === "customerService" ? (
+        <section className="container-page pb-24 lg:pb-32">
+          <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
+            <Eyebrow>{t("trust.eyebrow")}</Eyebrow>
+            <h2 className="font-display text-[2rem] leading-[1.1] font-semibold text-heading sm:text-[2.5rem] lg:text-[3rem]">
+              {t("trust.title")}
+            </h2>
+            <div className="flex flex-col gap-4">
+              {(t.raw("trust.paragraphs") as string[]).map((paragraph) => (
+                <p key={paragraph} className="text-muted leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+
+            <div className="mt-2 hairline relative overflow-hidden rounded-[var(--radius-panel)] bg-panel px-6 py-14 sm:px-12 lg:px-16">
+              <div
+                aria-hidden="true"
+                className="bg-accent-glow/14 pointer-events-none absolute -top-28 left-1/2 size-80 -translate-x-1/2 rounded-full blur-3xl"
+              />
+              <div className="relative flex flex-col items-center gap-6 text-center">
+                <div className="flex -space-x-4">
+                  <div className="border-page relative size-14 overflow-hidden rounded-full border-2">
+                    <Image
+                      src={yusufPhoto}
+                      alt=""
+                      fill
+                      sizes="56px"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="border-page relative size-14 overflow-hidden rounded-full border-2">
+                    <Image
+                      src={mohammedPhoto}
+                      alt=""
+                      fill
+                      sizes="56px"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                <h2 className="font-display max-w-xl text-[1.9rem] leading-[1.1] font-semibold text-heading sm:text-[2.4rem]">
+                  {t("ctaPanel.title")}
+                </h2>
+                <p className="text-muted max-w-xl leading-relaxed">
+                  {t("ctaPanel.lead")}
+                </p>
+                <ButtonLink href="/quote" size="lg" withArrow>
+                  {shared("ctaPrimary")}
+                </ButtonLink>
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* --------------------------------------------------------- deliverables */}
       <section className="border-y border-line bg-panel/60">

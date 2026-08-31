@@ -4,10 +4,8 @@ import type { Locale } from "@/i18n/navigation";
 import { company, offices } from "@/content/company";
 import { alternatesFor, openGraphFor } from "@/lib/site";
 import { breadcrumbSchema } from "@/lib/schema";
-import { ButtonLink } from "@/components/ui/Button";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { Eyebrow } from "@/components/ui/Eyebrow";
-import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
@@ -136,51 +134,6 @@ export default async function AboutPage({ params }: PageProps) {
               ),
             )}
           </ul>
-        </div>
-      </section>
-
-      {/* -------------------------------------------------------------- offices */}
-      <section className="container-page pb-24 lg:pb-32">
-        <div className="grid gap-14 lg:grid-cols-[1fr_1.05fr] lg:gap-20">
-          <SectionHeading
-            eyebrow={t("offices.eyebrow")}
-            title={t("offices.title")}
-            lead={t("offices.lead")}
-          />
-
-          <div className="flex flex-col gap-5">
-            <ul className="grid gap-4 sm:grid-cols-2">
-              {offices.map((office) => (
-                <li
-                  key={office.id}
-                  className="hairline flex flex-col gap-3 rounded-[var(--radius-card)] bg-panel p-6"
-                >
-                  <div className="flex items-center gap-3">
-                    <Icon name="pin" className="text-accent size-5 shrink-0" />
-                    <h3 className="font-display text-lg font-semibold text-heading">
-                      {office.city}
-                    </h3>
-                    {office.headquarters ? (
-                      <span className="text-accent hairline rounded-full px-2.5 py-1 font-mono text-[0.6rem] tracking-[0.16em] uppercase">
-                        {t("offices.hq")}
-                      </span>
-                    ) : null}
-                  </div>
-                  <p className="text-muted text-sm leading-relaxed">
-                    {office.street}
-                    <br />
-                    {office.postalCode} {office.city}
-                    <br />
-                    {countryName(office.countryCode)}
-                  </p>
-                </li>
-              ))}
-            </ul>
-
-            <ButtonLink href="/contact" variant="outline" withArrow className="self-start">
-              {t("offices.cta")}
-            </ButtonLink>
-          </div>
         </div>
       </section>
 

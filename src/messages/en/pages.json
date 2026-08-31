@@ -2,7 +2,7 @@
   "about": {
     "eyebrow": "About",
     "title": "A contact centre you can trust",
-    "lead": "Callaz was founded in Kolding in 2025 by Yusuf Caylak.",
+    "lead": "Callaz is built on more than 10 years of combined team experience in telephone sales and customer service. We work closely with our clients, with a focus on professional customer dialogue and measurable results.",
     "story": {
       "title": "Why this company exists",
       "paragraphs": [
@@ -28,35 +28,28 @@
         },
         "mohammed": {
           "name": "Mohammed",
-          "role": "Managing Partner & IT Support"
+          "role": "Co-owner & IT Support"
         }
       }
     },
     "values": {
       "eyebrow": "How we operate",
-      "title": "Three commitments that shape the rest",
-      "lead": "These are not aspirations on a wall. Each one has a mechanism behind it that you can check.",
+      "title": "Three principles we work by",
+      "lead": "We believe in transparency, honest dialogue and results you can point to. That is why we work by three clear principles.",
       "items": [
         {
-          "title": "Say no to the wrong work",
-          "body": "If we do not think outbound will work for your offer, we say so on the first call. Taking a campaign that will fail costs us a reference and costs you a quarter."
+          "title": "We say no when it does not make sense",
+          "body": "We do not start a campaign just because we can. If we judge that your offer does not fit the target audience, we say so honestly."
         },
         {
           "title": "Show the bad numbers first",
-          "body": "The weekly report leads with what is not working. A report that only contains good news is not a report, it is marketing."
+          "body": "Our reports show the whole picture — including what did not work. We believe in honest numbers over reports that only highlight the good results."
         },
         {
           "title": "Treat the brand as borrowed",
-          "body": "We call in your name, which means every conversation spends a little of your reputation. That is why calls are recorded, sampled and scored rather than just counted."
+          "body": "We represent your company as if it were our own. That is why calls are continuously recorded, sampled and reviewed — with a focus on quality, tone and results."
         }
       ]
-    },
-    "offices": {
-      "eyebrow": "Where we are",
-      "title": "Registered in Kolding, calling across Denmark",
-      "lead": "The registered office is in Kolding, and that is where the campaigns are run from. We call nationwide.",
-      "hq": "Head office",
-      "cta": "Get in touch"
     }
   },
   "contact": {

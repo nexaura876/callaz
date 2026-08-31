@@ -1,8 +1,8 @@
 {
   "about": {
     "eyebrow": "Om os",
-    "title": "Et callcenter, I kan stole på",
-    "lead": "Callaz blev stiftet i Kolding i 2025 af Yusuf Caylak.",
+    "title": "Et callcenter, du kan stole på",
+    "lead": "Callaz er bygget på mere end 10 års samlet erfaring i teamet inden for telefonsalg og kundeservice. Vi arbejder tæt med vores kunder og har fokus på professionel kundedialog og målbare resultater.",
     "story": {
       "title": "Derfor findes virksomheden",
       "paragraphs": [
@@ -28,35 +28,28 @@
         },
         "mohammed": {
           "name": "Mohammed",
-          "role": "Administrerende partner & IT-support"
+          "role": "Medejer & IT-supporter"
         }
       }
     },
     "values": {
       "eyebrow": "Sådan arbejder vi",
-      "title": "Tre løfter, der former resten",
-      "lead": "Det er ikke plakater på en væg. Bag hvert enkelt ligger en mekanisme, I kan efterprøve.",
+      "title": "Tre principper, vi arbejder efter",
+      "lead": "Vi tror på gennemsigtighed, ærlig dialog og dokumenterbare resultater. Derfor arbejder vi efter tre klare principper.",
       "items": [
         {
-          "title": "Sig nej til det forkerte arbejde",
-          "body": "Tror vi ikke på, at udgående salg virker for jeres tilbud, siger vi det på den første samtale. At tage en kampagne, der vil fejle, koster os en reference og koster jer et kvartal."
+          "title": "Vi siger nej, når det ikke giver mening",
+          "body": "Vi starter ikke en kampagne, bare fordi vi kan. Hvis vi vurderer, at jeres tilbud ikke passer til målgruppen, siger vi det ærligt."
         },
         {
           "title": "Vis de dårlige tal først",
-          "body": "Ugerapporten begynder med det, der ikke virker. En rapport, der kun indeholder gode nyheder, er ikke en rapport, men markedsføring."
+          "body": "Vores rapporter viser hele billedet – også det, der ikke virkede. Vi tror på ærlige tal frem for rapporter, der kun fremhæver de gode resultater."
         },
         {
           "title": "Behandl brandet som lånt",
-          "body": "Vi ringer i jeres navn, og hver samtale bruger derfor en lille smule af jeres omdømme. Derfor bliver samtaler optaget, udtaget og vurderet frem for bare talt."
+          "body": "Vi repræsenterer jeres virksomhed, som var det vores egen. Derfor bliver samtaler løbende optaget, udtaget og vurderet – med fokus på kvalitet, tone og resultater."
         }
       ]
-    },
-    "offices": {
-      "eyebrow": "Hvor vi er",
-      "title": "Registreret i Kolding, ringer i hele Danmark",
-      "lead": "Den registrerede adresse er i Kolding, og det er også der, kampagnerne køres fra. Vi ringer i hele landet.",
-      "hq": "Hovedkontor",
-      "cta": "Kontakt os"
     }
   },
   "contact": {

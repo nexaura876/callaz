@@ -230,32 +230,40 @@
     },
     "customerService": {
       "eyebrow": "Kundeservice",
-      "title": "Vi tager telefonen for jer",
-      "lead": "Ingen ubesvarede opkald. Vi er der, når jeres kunder ringer.",
-      "capabilitiesTitle": "Sådan drives linjen",
+      "title": "Kundeservice der skaber værdi",
+      "lead": "Vi løfter din kundeservice til næste niveau med professionel håndtering og målbare resultater. Med fokus på kundetilfredshed og effektivitet skaber vi stærke kunderelationer, der understøtter din virksomheds vækst.",
+      "capabilitiesTitle": "Vores styrker inden for kundeservice",
       "capabilitiesLead": "Sat op som en forlængelse af jeres egen service, ikke som en mur foran den.",
       "capabilities": [
         {
-          "title": "Overløb eller hele linjen",
-          "body": "Vi tager det, jeres eget team ikke når."
+          "title": "Support og service",
+          "body": "Professionel og effektiv håndtering af kundehenvendelser."
         },
         {
-          "title": "Jeres systemer",
-          "body": "Teamet arbejder i jeres egne systemer."
+          "title": "Betalingsinddrivelse",
+          "body": "Effektiv opfølgning på udestående betalinger fra aktive kunder."
         },
         {
-          "title": "Eskaleringsregler",
-          "body": "Vi aftaler skriftligt, hvad vi løser, og hvad der går videre til jer."
+          "title": "Kundefastholdelse",
+          "body": "Målrettet indsats for at fastholde værdifulde kunderelationer."
         },
         {
-          "title": "Svartidsmål",
-          "body": "Opkald besvares inden for det mål, vi har aftalt."
-        },
-        {
-          "title": "Fastholdelse",
-          "body": "De erfarne folk tager opsigelsessamtalerne."
+          "title": "CRM-integration",
+          "body": "Direkte håndtering af kundehenvendelser i jeres eget CRM-system."
         }
       ],
+      "trust": {
+        "eyebrow": "Jeres kunder. Vores ansvar.",
+        "title": "Personlig service tilpasset din forretning",
+        "paragraphs": [
+          "Vi leverer personlig kundeservice, tilpasset jeres behov og jeres brand. Vores medarbejdere er trænet til at håndtere alt fra daglig kundesupport til komplekse henvendelser.",
+          "Vi fungerer som en naturlig forlængelse af jeres forretning og sikrer, at hver kundekontakt afspejler jeres værdier. Fra første kontakt til den endelige løsning skaber vi professionelle kundeoplevelser og stærke relationer."
+        ]
+      },
+      "ctaPanel": {
+        "title": "Klar til at styrke jeres kundeservice?",
+        "lead": "Fortæl os om jeres kunder og jeres nuværende opsætning. I får et uforpligtende tilbud og en ærlig vurdering af, hvor vi kan gøre en forskel."
+      },
       "deliverablesTitle": "Det får I retur",
       "deliverablesLead": "Dækning, plus et klart billede af, hvad jeres kunder faktisk ringer om.",
       "deliverables": [
