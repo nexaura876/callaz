@@ -36,7 +36,6 @@ export async function SiteFooter() {
       <div className="container-page grid gap-14 py-16 lg:grid-cols-[1.5fr_repeat(3,1fr)] lg:py-20">
         <div className="flex flex-col gap-6">
           <Logo label={nav("home")} size="lg" />
-          <p className="text-muted max-w-xs leading-relaxed">{t("tagline")}</p>
 
           <div className="flex flex-col gap-2 text-sm">
             <a
