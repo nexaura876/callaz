@@ -14,18 +14,14 @@
       },
       "outboundSales": {
         "body": "Et oplært team, der sælger på jeres vegne.",
-        "points": [
-         
-        ]
+        "points": []
       },
       "customerService": {
         "body": "Vi håndterer jeres kundehenvendelser professionelt og effektivt.",
-        "points": [
-          
-        ]
+        "points": []
       }
-    },
-   
+    }
+  },
   "solutions": {
     "shared": {
       "ctaPrimary": "Få et tilbud",
@@ -59,8 +55,6 @@
         {
           "title": "Bekræftelse og påmindelse",
           "body": "Hver booking bekræftes skriftligt og påmindes."
-        },
-        
         }
       ],
       "deliverablesTitle": "Det lander hos jer",

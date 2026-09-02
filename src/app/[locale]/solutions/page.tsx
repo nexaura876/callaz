@@ -9,7 +9,6 @@ import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Icon, type IconName } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 
@@ -125,33 +124,6 @@ export default async function SolutionsPage({ params }: PageProps) {
             </li>
           ))}
         </ul>
-      </section>
-
-      <section className="border-y border-line bg-panel/60">
-        <div className="container-page py-24 lg:py-32">
-          <SectionHeading
-            eyebrow={t("engagement.eyebrow")}
-            title={t("engagement.title")}
-            lead={t("engagement.lead")}
-          />
-
-          <ul className="mt-16 grid gap-5 md:grid-cols-3">
-            {(t.raw("engagement.models") as { title: string; body: string }[]).map(
-              (model, index) => (
-                <li key={model.title}>
-                  <Reveal delay={index * 70} className="h-full">
-                    <div className="hairline flex h-full flex-col gap-4 rounded-[var(--radius-card)] bg-panel p-8">
-                      <h3 className="font-display text-xl font-semibold text-heading">
-                        {model.title}
-                      </h3>
-                      <p className="text-muted leading-relaxed">{model.body}</p>
-                    </div>
-                  </Reveal>
-                </li>
-              ),
-            )}
-          </ul>
-        </div>
       </section>
 
       <CtaBanner />

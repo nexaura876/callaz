@@ -3,39 +3,39 @@
     "siteName": "Callaz",
     "home": {
       "title": "Callaz — contact centre in Kolding, Denmark",
-      "description": "Callaz runs outbound calling for B2B teams in Denmark: appointment setting, outbound sales and customer service."
+      "description": "Callaz helps Danish businesses with appointment setting, outbound sales and customer service."
     },
     "solutions": {
       "title": "Solutions",
-      "description": "Three outbound services, one operating method: appointment setting, outbound sales and customer service, delivered by a named team on a monthly agreement."
+      "description": "We offer appointment setting, outbound sales and customer service – with a dedicated team that represents your company."
     },
     "appointmentSetting": {
       "title": "Appointment setting",
-      "description": "Qualified meetings booked straight into your calendar, with agreed criteria, recorded calls and a weekly report on what the market said."
+      "description": "We create qualified meetings with the right decision-makers."
     },
     "outboundSales": {
       "title": "Outbound sales",
-      "description": "A trained outbound team closing on your behalf, working from your script, your pricing and your compliance rules."
+      "description": "We take the dialogue with your customers and create sales on behalf of your company."
     },
     "customerService": {
       "title": "Customer service",
-      "description": "Inbound and follow-up handling, from overflow cover to a full front line, without lengthening your own payroll."
+      "description": "We handle your customer contact professionally and make sure customers always get a fast, competent answer."
     },
     "about": {
       "title": "About Callaz",
-      "description": "A contact centre founded in Kolding, built for outbound work in the Danish market. Registered facts, values and address."
+      "description": "Callaz is a contact centre focused on sales, appointment setting and customer service. We become a natural extension of your company and make sure every conversation is handled professionally."
     },
     "careers": {
       "title": "Careers",
-      "description": "Open roles at Callaz in Kolding and remote, what we offer, and how the hiring process runs."
+      "description": "Join Callaz. We are looking for ambitious people who want to help create strong customer experiences and results for our partners."
     },
     "contact": {
-      "title": "Contact",
-      "description": "Reach Callaz by phone, email or the enquiry form. Registered office in Kolding, Denmark."
+      "title": "Contact Callaz",
+      "description": "Need more customers, stronger sales or sharper customer service? Get in touch and we will find the solution that fits your company."
     },
     "quote": {
       "title": "Get a quote",
-      "description": "Tell us the market, the offer and the volume, and get a written proposal with scope, pricing and a start date."
+      "description": "Tell us about your needs and we will find the solution that fits your company."
     },
     "privacy": {
       "title": "Privacy policy",
@@ -43,7 +43,7 @@
     },
     "thankYou": {
       "title": "Thank you",
-      "description": "Your enquiry has reached us."
+      "description": "Thank you for reaching out – we will get back to you as soon as possible."
     }
   },
   "nav": {
@@ -58,8 +58,8 @@
     "outboundSales": "Outbound sales",
     "customerService": "Customer service",
     "appointmentSettingDesc": "Qualified meetings booked into your calendar",
-    "outboundSalesDesc": "A trained team closing on your behalf",
-    "customerServiceDesc": "Inbound calls, no new hire needed",
+    "outboundSalesDesc": "A professional sales team that represents your company and creates new customers.",
+    "customerServiceDesc": "We handle your customer enquiries professionally and ensure fast, personal service",
     "about": "About",
     "careers": "Careers",
     "contact": "Contact",
@@ -74,7 +74,7 @@
     "ctaQuote": "Get a quote",
     "readMore": "Read more",
     "breadcrumbLabel": "Breadcrumb",
-    "slogan": "Covers everything you need, from A to Z"
+    "slogan": "Professional customer contact, sales and appointment setting – all in one place."
   },
   "footer": {
     "solutionsTitle": "Solutions",
@@ -158,21 +158,18 @@
   },
   "cta": {
     "eyebrow": "Start a campaign",
-    "title": "Tell us about your market. We will say if we can sell it.",
-    "body": "A twenty-minute call. An honest read, and a written proposal if it fits.",
+    "title": "Get free advice and a fixed price per customer",
+    "body": "At Callaz you get a fixed customer price, so you avoid surprises. With clear insight into your Customer Acquisition Cost (CAC), you can optimise your marketing and get the most out of your budget.",
     "primary": "Get a quote",
     "steps": [
       {
-        "title": "Twenty-minute call",
-        "body": "Market, offer and target customer."
+        "title": "We find leads"
       },
       {
-        "title": "Written proposal",
-        "body": "Scope, pricing and a start date — on paper."
+        "title": "We close the deal"
       },
       {
-        "title": "Pilot, then scale",
-        "body": "A pilot period, before anything long gets signed."
+        "title": "Leads straight into your CRM system"
       }
     ]
   },

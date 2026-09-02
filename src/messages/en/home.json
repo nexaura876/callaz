@@ -4,28 +4,28 @@
       "eyebrow": "Outbound contact centre · Kolding, Denmark",
       "titleLead": "Your next customer is one",
       "titleAccent": "conversation away",
-      "lead": "We run the calls your team does not have time to make. Appointment setting, outbound sales and customer service for Danish businesses.",
+      "lead": "Callaz delivers phone-based solutions that strengthen your customer contact and free up time in your day. We help with appointment setting, outbound sales and customer service – always with a focus on quality and the good conversation. You get a professional team that represents your company and makes sure your customers are well taken care of.",
       "primary": "Get a quote",
       "secondary": "See the solutions"
     },
 
     "solutions": {
-      "eyebrow": "What we do",
-      "title": "Three services. One way of working.",
-      "lead": "One method, three ways to use it. We match the job to what you need.",
+      "eyebrow": "What we can do",
+      "title": "Telemarketing that fits your business.",
+      "lead": "Callaz helps Danish businesses with appointment setting, outbound sales and customer service. We tailor our approach to your business, target audience and needs. Our goal is to build partnerships that last. That is why we work flexibly, with a focus on quality, good customer experiences and measurable results.",
       "cards": {
-        "appointmentSetting": "Meetings booked straight into your calendar.",
-        "outboundSales": "A trained team, selling on your behalf.",
-        "customerService": "We answer the calls you cannot get to."
+        "appointmentSetting": "More relevant meetings straight into your calendar.",
+        "outboundSales": "A professional sales team on your behalf.",
+        "customerService": "Professional customer service when your customers call."
       }
     },
 
     "whyChoose": {
       "eyebrow": "Why choose Callaz",
-      "title": "That is why companies choose Callaz",
-      "lead": "We understand your industry and your customers' needs. With deep insight into telemarketing, we optimise your customer service and create better results.",
+      "title": "Payment based on results",
+      "lead": "We believe our work should create value for you. That is why we can offer a results-based model, where your payment follows the results we deliver.",
       "item": {
-        "title": "Payment based on results",
+        "title": "That is Callaz' risk – not yours.",
         "body": "We believe our value should be felt on your bottom line. That is why you only pay for the results we deliver – no results, no payment."
       }
     }

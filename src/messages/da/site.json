@@ -21,25 +21,25 @@
       "title": "Kundeservice",
       "description": "Vi håndterer jeres kundekontakt professionelt og sikrer, at kunderne altid får et hurtigt og kompetent svar."
     },
-   "about": {
-    "title": "Om Callaz",
-    "description": "Callaz er et callcenter med fokus på salg, mødebooking og kundeservice. Vi bliver en naturlig forlængelse af jeres virksomhed og sørger for, at hver samtale bliver håndteret professionelt."
-},
+    "about": {
+      "title": "Om Callaz",
+      "description": "Callaz er et callcenter med fokus på salg, mødebooking og kundeservice. Vi bliver en naturlig forlængelse af jeres virksomhed og sørger for, at hver samtale bliver håndteret professionelt."
     },
-  "careers": {
-    "title": "Ledige job",
-    "description": "Bliv en del af Callaz. Vi søger ambitiøse medarbejdere, der vil være med til at skabe stærke kundeoplevelser og resultater for vores samarbejdspartnere."
-},
+    "careers": {
+      "title": "Ledige job",
+      "description": "Bliv en del af Callaz. Vi søger ambitiøse medarbejdere, der vil være med til at skabe stærke kundeoplevelser og resultater for vores samarbejdspartnere."
     },
-      "contact": {
-    "title": "Kontakt Callaz",
-    "description": "Har I brug for flere kunder, stærkere salg eller en skarpere kundeservice? Tag fat i os, så finder vi den løsning, der passer til jeres virksomhed."
-}
+    "contact": {
+      "title": "Kontakt Callaz",
+      "description": "Har I brug for flere kunder, stærkere salg eller en skarpere kundeservice? Tag fat i os, så finder vi den løsning, der passer til jeres virksomhed."
     },
     "quote": {
       "title": "Få et tilbud",
       "description": "Fortæl os om jeres behov, så finder vi den løsning, der passer til jeres virksomhed."
     },
+    "privacy": {
+      "title": "Privatlivspolitik",
+      "description": "Hvordan Callaz indsamler, bruger og opbevarer personoplysninger og hvilke rettigheder du har efter GDPR."
     },
     "thankYou": {
       "title": "Tak",
@@ -163,14 +163,13 @@
     "primary": "Få et tilbud",
     "steps": [
       {
-        "title": "Vi finder leads",
+        "title": "Vi finder leads"
       },
       {
         "title": "Vi lukker aftalen"
-       
       },
       {
-        "title": "Leads direkte ind i dit CRM system",
+        "title": "Leads direkte ind i dit CRM system"
       }
     ]
   },

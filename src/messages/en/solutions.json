@@ -1,40 +1,21 @@
 {
   "solutionsIndex": {
     "eyebrow": "Solutions",
-    "title": "Outbound work, run as an operation rather than an experiment",
-    "lead": "Three services, one method. Pick the one that matches the job, or tell us the outcome you want — we will say which one gets you there.",
+    "title": "Outbound sales and customer service that get results",
+    "lead": "At Callaz we help businesses get more out of their customer contact. We handle appointment setting, outbound sales and customer service with a focus on quality, good conversations and real results.",
     "cards": {
       "appointmentSetting": {
-        "body": "Meetings booked straight into your calendar.",
-        "points": ["Qualified on agreed criteria", "Calendar handover", "No-show follow-up"]
+        "body": "We create relevant meetings straight into your calendar.",
+        "points": ["Lead qualification", "Booking straight into your calendar", "Meeting follow-up"]
       },
       "outboundSales": {
         "body": "A trained team, selling on your behalf.",
-        "points": ["Closing on the call", "Order handling", "Recorded consent"]
+        "points": []
       },
       "customerService": {
-        "body": "We answer the calls you cannot get to.",
-        "points": ["Overflow or full line", "Fast answer time", "Ticket handover"]
+        "body": "We handle your customer enquiries professionally and efficiently.",
+        "points": []
       }
-    },
-    "engagement": {
-      "eyebrow": "Engagement models",
-      "title": "Three ways to run this",
-      "lead": "The right shape depends on how certain you are that outbound works for what you sell. Most companies start in the middle.",
-      "models": [
-        {
-          "title": "Pilot",
-          "body": "A fixed period at agreed volume, priced as a project. You find out what the market says before committing to a team."
-        },
-        {
-          "title": "Dedicated team",
-          "body": "A named group working only on your campaigns, at a monthly rate. The usual choice once a pilot has proved out."
-        },
-        {
-          "title": "Overflow",
-          "body": "We take the calls your own team cannot reach in time. Sized by hours rather than headcount, and it flexes with your season."
-        }
-      ]
     }
   },
 
@@ -72,10 +53,6 @@
         {
           "title": "Confirmation and reminder",
           "body": "Every booking is confirmed in writing and reminded."
-        },
-        {
-          "title": "No-show recovery",
-          "body": "A missed meeting is followed up and rebooked."
         }
       ],
       "deliverablesTitle": "What lands on your side",
