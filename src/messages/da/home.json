@@ -4,26 +4,28 @@
       "eyebrow": "Callcenter · Kolding, Danmark",
       "titleLead": "Jeres næste kunde er én",
       "titleAccent": "samtale væk",
-      "lead": "Vi laver de opkald, jeres eget team ikke når. Mødebooking, telefonsalg og kundeservice for danske virksomheder.",
+      "lead": "Callaz leverer telefoniske løsninger, der styrker jeres kundekontakt og frigiver tid i hverdagen. Vi hjælper med mødebooking, telefonsalg og kundeservice – altid med fokus på kvalitet og den gode samtale. I får et professionelt team, der repræsenterer jeres virksomhed og sikrer, at jeres kunder bliver taget godt hånd om..",
       "primary": "Få et tilbud",
       "secondary": "Se løsningerne"
     },
     "solutions": {
-      "eyebrow": "Det gør vi",
-      "title": "Tre ydelser. Én måde at arbejde på.",
-      "lead": "Én metode, tre måder at bruge den på. Vi tilpasser opgaven til det, I har brug for.",
+      "eyebrow": "Hvad vi kan",
+      "title": "Telemarketing, der passer til jeres forretning.",
+      "lead": "Callaz hjælper danske virksomheder med mødebooking, telefonsalg og kundeservice. Vi tilpasser vores indsats til jeres forretning, målgruppe og behov.
+
+Vores mål er at skabe samarbejder, der holder. Derfor arbejder vi fleksibelt og med fokus på kvalitet, gode kundeoplevelser og målbare resultater.",
       "cards": {
-        "appointmentSetting": "Møder booket direkte i jeres kalender.",
-        "outboundSales": "Et oplært team, der sælger på jeres vegne.",
-        "customerService": "Vi besvarer opkaldene, I ikke når."
+        "appointmentSetting": "Flere relevante møder direkte i jeres kalender..",
+        "outboundSales": "Et professionelt salgsteam på jeres vegne..",
+        "customerService": "Professionel kundeservice, når jeres kunder ringer.."
       }
     },
     "whyChoose": {
       "eyebrow": "Hvorfor vælge Callaz",
-      "title": "Derfor vælger virksomheder Callaz",
-      "lead": "Vi forstår din branche og dine kunders behov. Med dybdegående indsigt i telemarketing optimerer vi din kundeservice og skaber bedre resultater.",
+      "title": "Betaling efter resultater",
+      "lead": "Vi tror på, at vores arbejde skal skabe værdi for jer. Derfor kan vi tilbyde en resultatbaseret model, hvor jeres betaling følger de resultater, vi leverer.",
       "item": {
-        "title": "Betaling efter resultater",
+        "title": "Det er Callaz' risiko – ikke jeres.",
         "body": "Vi tror på, at vores værdi skal kunne mærkes på bundlinjen. Derfor betaler I kun for de resultater, vi leverer – ingen resultater, ingen betaling."
       }
     }
