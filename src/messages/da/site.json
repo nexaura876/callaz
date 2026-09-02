@@ -3,47 +3,47 @@
     "siteName": "Callaz",
     "home": {
       "title": "Callaz — callcenter i Kolding",
-      "description": "Callaz laver de opkald, din egen afdeling ikke når: mødebooking, telefonsalg og kundeservice til danske virksomheder."
+      "description": "Callaz hjælper danske virksomheder med mødebooking, telefonsalg og kundeservice."
     },
     "solutions": {
       "title": "Løsninger",
-      "description": "Tre ydelser og én arbejdsmetode: mødebooking, telefonsalg og kundeservice, leveret af et navngivet team på en månedsaftale."
+     "description": "Vi tilbyder mødebooking, telefonsalg og kundeservice – med et fast team, der repræsenterer jeres virksomhed."
     },
     "appointmentSetting": {
       "title": "Mødebooking",
-      "description": "Kvalificerede møder direkte i kalenderen, efter kriterier, I selv har skrevet ned, med optagede samtaler og en ugentlig rapport."
+     "description": "Vi skaber kvalificerede møder med de rette beslutningstagere."
     },
     "outboundSales": {
       "title": "Telefonsalg",
-      "description": "Et oplært team, der sælger på jeres vegne ud fra jeres manuskript, jeres priser og jeres compliance-regler."
+      "description": "Vi tager dialogen med jeres kunder og skaber salg på vegne af jeres virksomhed."
     },
     "customerService": {
       "title": "Kundeservice",
-      "description": "Indgående opkald og opfølgning, fra overløb til hele frontlinjen, uden at I skal ansætte flere."
+      "description": "Vi håndterer jeres kundekontakt professionelt og sikrer, at kunderne altid får et hurtigt og kompetent svar."
     },
-    "about": {
-      "title": "Om Callaz",
-      "description": "Et callcenter stiftet i Kolding, bygget til udgående arbejde på det danske marked. Registrerede oplysninger, værdier og adresse."
+   "about": {
+    "title": "Om Callaz",
+    "description": "Callaz er et callcenter med fokus på salg, mødebooking og kundeservice. Vi bliver en naturlig forlængelse af jeres virksomhed og sørger for, at hver samtale bliver håndteret professionelt."
+},
     },
-    "careers": {
-      "title": "Ledige job",
-      "description": "Ledige stillinger hos Callaz i Kolding og remote, hvad vi tilbyder, og hvordan ansættelsesprocessen forløber."
+  "careers": {
+    "title": "Ledige job",
+    "description": "Bliv en del af Callaz. Vi søger ambitiøse medarbejdere, der vil være med til at skabe stærke kundeoplevelser og resultater for vores samarbejdspartnere."
+},
     },
-    "contact": {
-      "title": "Kontakt",
-      "description": "Kontakt Callaz på telefon, mail eller via formularen. Registreret adresse i Kolding."
+      "contact": {
+    "title": "Kontakt Callaz",
+    "description": "Har I brug for flere kunder, stærkere salg eller en skarpere kundeservice? Tag fat i os, så finder vi den løsning, der passer til jeres virksomhed."
+}
     },
     "quote": {
       "title": "Få et tilbud",
-      "description": "Fortæl os marked, tilbud og volumen, og få et skriftligt oplæg med omfang, pris og startdato."
+      "description": "Fortæl os om jeres behov, så finder vi den løsning, der passer til jeres virksomhed."
     },
-    "privacy": {
-      "title": "Privatlivspolitik",
-      "description": "Hvordan Callaz indsamler, bruger og opbevarer personoplysninger og hvilke rettigheder du har efter GDPR."
     },
     "thankYou": {
       "title": "Tak",
-      "description": "Din henvendelse er modtaget."
+      "description": "Tak for din henvendelse – vi vender tilbage hurtigst muligt."
     }
   },
   "nav": {
@@ -58,8 +58,8 @@
     "outboundSales": "Telefonsalg",
     "customerService": "Kundeservice",
     "appointmentSettingDesc": "Kvalificerede møder direkte i kalenderen",
-    "outboundSalesDesc": "Et oplært team, der sælger for jer",
-    "customerServiceDesc": "Indgående opkald, ingen ny ansættelse",
+    "outboundSalesDesc": "Et professionelt salgsteam, der repræsenterer jeres virksomhed og skaber nye kunder.",
+    "customerServiceDesc": "Vi håndterer jeres kundehenvendelser professionelt og sikrer hurtig, personlig service",
     "about": "Om os",
     "careers": "Ledige job",
     "contact": "Kontakt",
@@ -74,7 +74,7 @@
     "ctaQuote": "Få et tilbud",
     "readMore": "Læs mere",
     "breadcrumbLabel": "Brødkrummesti",
-    "slogan": "Dækker alt jeres behov fra A til Z"
+    "slogan": "Professionel kundekontakt, salg og mødebooking – samlet ét sted."
   },
   "footer": {
     "solutionsTitle": "Løsninger",
@@ -158,21 +158,19 @@
   },
   "cta": {
     "eyebrow": "Start en kampagne",
-    "title": "Fortæl os om jeres marked. Vi siger, om vi kan sælge det.",
-    "body": "Et opkald på tyve minutter. En ærlig vurdering, og et skriftligt oplæg, hvis det passer.",
+    "title": "Få gratis rådgivning og en fast pris pr. kunde",
+    "body": "Hos Callaz får du en fast kundepris, så du undgår overraskelser. Med klar indsigt i din Customer Acquisition Cost (CAC) kan du optimere din markedsføring og få mest muligt ud af dit budget.",
     "primary": "Få et tilbud",
     "steps": [
       {
-        "title": "Tyve minutters samtale",
-        "body": "Marked, tilbud og målgruppe."
+        "title": "Vi finder leads",
       },
       {
-        "title": "Skriftligt oplæg",
-        "body": "Omfang, pris og startdato — på skrift."
+        "title": "Vi lukker aftalen"
+       
       },
       {
-        "title": "Pilot, derefter opskalering",
-        "body": "En pilotperiode, før noget langt underskrives."
+        "title": "Leads direkte ind i dit CRM system",
       }
     ]
   },
