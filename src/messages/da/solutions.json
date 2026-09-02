@@ -1,54 +1,31 @@
 {
   "solutionsIndex": {
     "eyebrow": "Løsninger",
-    "title": "Udgående salg drevet som drift frem for som eksperiment",
-    "lead": "Tre ydelser, én metode. Vælg den, der passer til opgaven, eller fortæl os resultatet, I vil have — så siger vi, hvilken af dem der fører derhen.",
+    "title": "Telefonisk salg og kundeservice, der skaber resultater",
+    "lead": "Hos Callaz hjælper vi virksomheder med at få mere ud af deres kundekontakt. Vi håndterer mødebooking, telefonsalg og kundeservice med fokus på kvalitet, gode samtaler og konkrete resultater.",
     "cards": {
       "appointmentSetting": {
-        "body": "Møder booket direkte i jeres kalender.",
+        "body": "Vi skaber relevante møder direkte i jeres kalender.",
         "points": [
-          "Kvalificeret på aftalte kriterier",
-          "Direkte i kalenderen",
-          "Opfølgning på udeblivelser"
+          "Kvalificering af leads",
+          "Booking direkte i kalenderen",
+          "Opfølgning på møder"
         ]
       },
       "outboundSales": {
         "body": "Et oplært team, der sælger på jeres vegne.",
         "points": [
-          "Lukning på opkaldet",
-          "Ordrehåndtering",
-          "Optaget samtykke"
+         
         ]
       },
       "customerService": {
-        "body": "Vi besvarer opkaldene, I ikke når.",
+        "body": "Vi håndterer jeres kundehenvendelser professionelt og effektivt.",
         "points": [
-          "Overløb eller hele linjen",
-          "Kort svartid",
-          "Overlevering af sager"
+          
         ]
       }
     },
-    "engagement": {
-      "eyebrow": "Samarbejdsformer",
-      "title": "Tre måder at gøre det på",
-      "lead": "Den rigtige form afhænger af, hvor sikre I er på, at udgående salg virker for det, I sælger. De fleste starter i midten.",
-      "models": [
-        {
-          "title": "Pilot",
-          "body": "En fast periode med aftalt volumen, prissat som et projekt. I finder ud af, hvad markedet siger, før I binder jer til et team."
-        },
-        {
-          "title": "Dedikeret team",
-          "body": "En navngiven gruppe, der kun arbejder på jeres kampagner, til en månedspris. Det oplagte valg, når piloten har bevist sit værd."
-        },
-        {
-          "title": "Overløb",
-          "body": "Vi tager de opkald, jeres eget team ikke når i tide. Købt i timer frem for i hoveder, og det følger jeres sæson."
-        }
-      ]
-    }
-  },
+   
   "solutions": {
     "shared": {
       "ctaPrimary": "Få et tilbud",
@@ -83,9 +60,7 @@
           "title": "Bekræftelse og påmindelse",
           "body": "Hver booking bekræftes skriftligt og påmindes."
         },
-        {
-          "title": "Genbooking ved udeblivelse",
-          "body": "Et mistet møde bliver fulgt op og booket igen."
+        
         }
       ],
       "deliverablesTitle": "Det lander hos jer",
