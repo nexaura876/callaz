@@ -116,6 +116,7 @@ export function ContactForm({ labels }: { labels: FormLabels }) {
 
   // Stamped after hydration, so the value is never baked into a statically rendered page.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setRenderedAt(String(Date.now()));
   }, []);
 

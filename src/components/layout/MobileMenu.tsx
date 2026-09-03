@@ -20,11 +20,14 @@ export function MobileMenu({ openLabel, closeLabel, children }: Props) {
   const panelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // createPortal needs document.body, which only exists once mounted on the client.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
   // Navigation happens through ordinary links, so the panel has to close itself.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setOpen(false);
   }, [pathname]);
 

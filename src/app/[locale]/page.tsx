@@ -151,25 +151,6 @@ export default async function HomePage({ params }: PageProps) {
         </ul>
       </section>
 
-      {/* ------------------------------------------------------------ why choose */}
-      <section className="container-page pb-24 lg:pb-32">
-        <SectionHeading
-          eyebrow={t("whyChoose.eyebrow")}
-          title={t("whyChoose.title")}
-          lead={t("whyChoose.lead")}
-          align="center"
-        />
-
-        <Reveal className="mx-auto mt-10 max-w-2xl">
-          <div className="hairline flex flex-col gap-3 rounded-[var(--radius-card)] bg-panel p-8 text-center lg:p-10">
-            <h3 className="font-display text-xl font-semibold text-heading">
-              {t("whyChoose.item.title")}
-            </h3>
-            <p className="text-muted leading-relaxed">{t("whyChoose.item.body")}</p>
-          </div>
-        </Reveal>
-      </section>
-
       <CtaBanner />
     </>
   );

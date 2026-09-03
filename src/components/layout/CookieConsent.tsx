@@ -28,6 +28,9 @@ export function CookieConsent({ labels }: { labels: Labels }) {
   const [showDetails, setShowDetails] = useState(false);
 
   useEffect(() => {
+    // Consent lives in localStorage, unreadable during SSR, so the initial
+    // open state can only be known once this runs on the client.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (readConsent() === null) setOpen(true);
 
     const reopen = () => {

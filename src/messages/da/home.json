@@ -11,20 +11,11 @@
     "solutions": {
       "eyebrow": "Hvad vi kan",
       "title": "Telemarketing, der passer til jeres forretning.",
-      "lead": "Callaz hjælper danske virksomheder med mødebooking, telefonsalg og kundeservice. Vi tilpasser vores indsats til jeres forretning, målgruppe og behov.Vores mål er at skabe samarbejder, der holder. Derfor arbejder vi fleksibelt og med fokus på kvalitet, gode kundeoplevelser og målbare resultater.",
+      "lead": "Callaz hjælper virksomheder med mødebooking, telefonsalg og kundeservice. Vi tilpasser vores indsats til jeres forretning, målgruppe og behov.Vores mål er at skabe samarbejder, der holder. Derfor arbejder vi fleksibelt og med fokus på kvalitet, gode kundeoplevelser og målbare resultater.",
       "cards": {
         "appointmentSetting": "Flere relevante møder direkte i jeres kalender..",
         "outboundSales": "Et professionelt salgsteam på jeres vegne..",
         "customerService": "Professionel kundeservice, når jeres kunder ringer.."
-      }
-    },
-    "whyChoose": {
-      "eyebrow": "Hvorfor vælge Callaz",
-      "title": "Betaling efter resultater",
-      "lead": "Vi tror på, at vores arbejde skal skabe værdi for jer. Derfor kan vi tilbyde en resultatbaseret model, hvor jeres betaling følger de resultater, vi leverer.",
-      "item": {
-        "title": "Det er Callaz' risiko – ikke jeres.",
-        "body": "Vi tror på, at vores værdi skal kunne mærkes på bundlinjen. Derfor betaler I kun for de resultater, vi leverer – ingen resultater, ingen betaling."
       }
     }
   }

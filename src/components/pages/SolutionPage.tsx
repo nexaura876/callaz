@@ -109,6 +109,29 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
         </ol>
       </section>
 
+      {/* -------------------------------------------------------------- process */}
+      {id === "customerService" ? (
+        <section className="container-page pb-24 lg:pb-32">
+          <ol className="grid gap-8 md:grid-cols-3">
+            {(t.raw("process.steps") as Entry[]).map((step, index) => (
+              <li key={step.title}>
+                <Reveal delay={index * 70} className="h-full">
+                  <div className="hairline flex h-full flex-col gap-4 rounded-[var(--radius-card)] bg-panel p-7">
+                    <span className="text-accent hairline inline-flex size-10 items-center justify-center rounded-xl bg-panel-2 font-display numeric text-sm font-medium">
+                      {index + 1}
+                    </span>
+                    <h3 className="font-display text-lg font-semibold text-heading">
+                      {step.title}
+                    </h3>
+                    <p className="text-muted leading-relaxed">{step.body}</p>
+                  </div>
+                </Reveal>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
+
       {/* -------------------------------------------------------------- trust */}
       {id === "customerService" ? (
         <section className="container-page pb-24 lg:pb-32">
@@ -168,92 +191,98 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
       ) : null}
 
       {/* --------------------------------------------------------- deliverables */}
-      <section className="border-y border-line bg-panel/60">
-        <div className="container-page py-24 lg:py-32">
-          <div className="grid gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
-            <div className="flex flex-col gap-8 lg:sticky lg:top-28 lg:self-start">
-              <SectionHeading
-                eyebrow={shared("deliverablesEyebrow")}
-                title={t("deliverablesTitle")}
-                lead={t("deliverablesLead")}
-              />
-            </div>
+      {id !== "outboundSales" && id !== "appointmentSetting" ? (
+        <section className="border-y border-line bg-panel/60">
+          <div className="container-page py-24 lg:py-32">
+            <div className="grid gap-14 lg:grid-cols-[1fr_1.1fr] lg:gap-20">
+              <div className="flex flex-col gap-8 lg:sticky lg:top-28 lg:self-start">
+                <SectionHeading
+                  eyebrow={shared("deliverablesEyebrow")}
+                  title={t("deliverablesTitle")}
+                  lead={t("deliverablesLead")}
+                />
+              </div>
 
-            <ul className="flex flex-col">
-              {deliverables.map((deliverable, index) => (
-                <li key={deliverable.title}>
-                  <Reveal delay={index * 60}>
-                    <div className="flex items-start gap-5 border-b border-line py-7">
-                      <Icon
-                        name="check"
-                        className="text-accent mt-1 size-5 shrink-0"
-                      />
-                      <div className="flex flex-col gap-2">
-                        <h3 className="font-display text-lg font-semibold text-heading">
-                          {deliverable.title}
-                        </h3>
-                        <p className="text-muted leading-relaxed">
-                          {deliverable.body}
-                        </p>
+              <ul className="flex flex-col">
+                {deliverables.map((deliverable, index) => (
+                  <li key={deliverable.title}>
+                    <Reveal delay={index * 60}>
+                      <div className="flex items-start gap-5 border-b border-line py-7">
+                        <Icon
+                          name="check"
+                          className="text-accent mt-1 size-5 shrink-0"
+                        />
+                        <div className="flex flex-col gap-2">
+                          <h3 className="font-display text-lg font-semibold text-heading">
+                            {deliverable.title}
+                          </h3>
+                          <p className="text-muted leading-relaxed">
+                            {deliverable.body}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  </Reveal>
-                </li>
-              ))}
-            </ul>
+                    </Reveal>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
 
       {/* ---------------------------------------------------------- fit / no fit */}
-      <section className="container-page py-24 lg:py-32">
-        <div className="grid gap-5 md:grid-cols-2">
-          <Reveal className="h-full">
-            <div className="hairline flex h-full flex-col gap-5 rounded-[var(--radius-card)] bg-panel p-8 lg:p-10">
-              <span className="text-accent inline-flex items-center gap-2.5 font-mono text-[0.7rem] tracking-[0.2em] uppercase">
-                <Icon name="check" className="size-4" />
-                {shared("fitTitle")}
-              </span>
-              <ul className="flex flex-col gap-3.5">
-                {(t.raw("fit") as string[]).map((item) => (
-                  <li key={item} className="text-body flex items-start gap-3">
-                    <Icon
-                      name="check"
-                      className="text-accent mt-1 size-4 shrink-0"
-                    />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Reveal>
+      {id !== "customerService" && id !== "outboundSales" && id !== "appointmentSetting" ? (
+        <section className="container-page py-24 lg:py-32">
+          <div className="grid gap-5 md:grid-cols-2">
+            <Reveal className="h-full">
+              <div className="hairline flex h-full flex-col gap-5 rounded-[var(--radius-card)] bg-panel p-8 lg:p-10">
+                <span className="text-accent inline-flex items-center gap-2.5 font-mono text-[0.7rem] tracking-[0.2em] uppercase">
+                  <Icon name="check" className="size-4" />
+                  {shared("fitTitle")}
+                </span>
+                <ul className="flex flex-col gap-3.5">
+                  {(t.raw("fit") as string[]).map((item) => (
+                    <li key={item} className="text-body flex items-start gap-3">
+                      <Icon
+                        name="check"
+                        className="text-accent mt-1 size-4 shrink-0"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
 
-          <Reveal delay={80} className="h-full">
-            <div className="hairline flex h-full flex-col gap-5 rounded-[var(--radius-card)] p-8 lg:p-10">
-              <span className="text-muted inline-flex items-center gap-2.5 font-mono text-[0.7rem] tracking-[0.2em] uppercase">
-                <Icon name="close" className="size-4" />
-                {shared("noFitTitle")}
-              </span>
-              <ul className="flex flex-col gap-3.5">
-                {(t.raw("noFit") as string[]).map((item) => (
-                  <li key={item} className="text-muted flex items-start gap-3">
-                    <span
-                      aria-hidden="true"
-                      className="bg-ink-600 mt-2.5 size-1.5 shrink-0 rounded-full"
-                    />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="text-faint mt-auto pt-4 text-sm leading-relaxed">
-                {shared("noFitNote")}
-              </p>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+            <Reveal delay={80} className="h-full">
+              <div className="hairline flex h-full flex-col gap-5 rounded-[var(--radius-card)] p-8 lg:p-10">
+                <span className="text-muted inline-flex items-center gap-2.5 font-mono text-[0.7rem] tracking-[0.2em] uppercase">
+                  <Icon name="close" className="size-4" />
+                  {shared("noFitTitle")}
+                </span>
+                <ul className="flex flex-col gap-3.5">
+                  {(t.raw("noFit") as string[]).map((item) => (
+                    <li key={item} className="text-muted flex items-start gap-3">
+                      <span
+                        aria-hidden="true"
+                        className="bg-ink-600 mt-2.5 size-1.5 shrink-0 rounded-full"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-faint mt-auto pt-4 text-sm leading-relaxed">
+                  {shared("noFitNote")}
+                </p>
+              </div>
+            </Reveal>
+          </div>
+        </section>
+      ) : null}
 
-      <Faq eyebrow={shared("faqEyebrow")} title={t("faqTitle")} entries={faq} />
+      {id !== "customerService" && id !== "appointmentSetting" ? (
+        <Faq eyebrow={shared("faqEyebrow")} title={t("faqTitle")} entries={faq} />
+      ) : null}
 
       <CtaBanner />
 
@@ -265,7 +294,7 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
             name: t("title"),
             description: t("lead"),
           }),
-          faqSchema(faq),
+          ...(id !== "customerService" && id !== "appointmentSetting" ? [faqSchema(faq)] : []),
           breadcrumbSchema(locale, [
             { name: nav("home"), href: "/" },
             { name: nav("solutions"), href: "/solutions" },

@@ -89,6 +89,8 @@ export function ThemeToggle({
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // Theme preference lives in localStorage/matchMedia, unreadable during SSR.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTheme(readTheme());
     setMounted(true);
     // An OS-level theme change hits the same stuck-transition problem as the

@@ -1,32 +1,28 @@
 {
   "careers": {
     "eyebrow": "Job",
-    "title": "Et sted, hvor telefonen er et håndværk",
-    "lead": "Det, du laver her, tæller. Resten kan du lære.",
+    "title": "",
+    "lead": "",
     "offer": {
       "eyebrow": "Det tilbyder vi",
-      "title": "Det får du hos os",
-      "lead": "Løn og udvikling, ærligt fortalt.",
+      "title": "Mere end et callcenterjob",
+      "lead": "Hos Callaz handler det ikke kun om at sælge. Vi investerer i mennesker, udvikler kompetencer og bygger sælgere, der bliver bedre over tid.",
       "items": [
         {
-          "title": "Oplæring før live-opkald",
-          "body": "Du lærer produktet og manuskriptet, før du tager dit første opkald."
+          "title": "Salgs- & mødebookingstræning",
+          "body": "Du bliver oplært ordentligt, før du går live. Vi træner både salg og mødebooking, så du lærer at forstå kunden, håndtere indvendinger og skabe resultater – ikke bare følge et manuskript."
         },
         {
-          "title": "Provision uden loft",
-          "body": "En procentdel af det, du sælger — ingen grænse opad. Vi tror på dig og på teamet, og de fleste ender med en løn over det normale i branchen."
+          "title": "Personlig udvikling",
+          "body": "Vi arbejder også med dig uden for selve salget. Gennem bedre vaner, struktur, disciplin og mindset hjælper vi dig med at udvikle dig både professionelt og personligt."
         },
         {
-          "title": "En teamleder",
-          "body": "Én person, der lytter til dine samtaler og hjælper dig videre."
+          "title": "Høj provision – uden loft",
+          "body": "Hos Callaz skal din løn afspejle dine resultater. Derfor tilbyder vi en attraktiv provisionsmodel med højere indtjeningsmuligheder end mange traditionelle callcentre – og uden loft over, hvor meget du kan tjene."
         },
         {
-          "title": "Udvikling, der findes",
-          "body": "Fra agent til senior til teamleder — en rigtig vej."
-        },
-        {
-          "title": "Kontor i Kolding",
-          "body": "Vi sidder sammen i Kolding."
+          "title": "En vej frem",
+          "body": "Du starter som sælger, men behøver ikke blive der. Når du udvikler dig og skaber resultater, åbner vi døren til mere ansvar, seniorroller, teamleder og andre muligheder i Callaz."
         }
       ]
     },
@@ -43,29 +39,6 @@
       "FULL_TIME": "Fuldtid",
       "PART_TIME": "Deltid",
       "CONTRACTOR": "Freelance"
-    },
-    "process": {
-      "eyebrow": "Ansættelse",
-      "title": "Sådan forløber processen",
-      "lead": "Fire trin, cirka en uge. Du hører fra os, uanset svaret.",
-      "steps": [
-        {
-          "title": "Ansøgning",
-          "body": "Et CV og et par linjer om, hvorfor lige dette job."
-        },
-        {
-          "title": "Telefonsamtale",
-          "body": "Tyve minutter — det er et telefonjob."
-        },
-        {
-          "title": "Møde og prøve",
-          "body": "Du møder teamlederen og hører rigtige optagelser."
-        },
-        {
-          "title": "Tilbud",
-          "body": "Skriftligt, med lønstruktur og startdato."
-        }
-      ]
     },
     "job": {
       "aboutTitle": "Om stillingen",

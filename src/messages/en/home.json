@@ -12,21 +12,11 @@
     "solutions": {
       "eyebrow": "What we can do",
       "title": "Telemarketing that fits your business.",
-      "lead": "Callaz helps Danish businesses with appointment setting, outbound sales and customer service. We tailor our approach to your business, target audience and needs. Our goal is to build partnerships that last. That is why we work flexibly, with a focus on quality, good customer experiences and measurable results.",
+      "lead": "Callaz helps businesses with appointment setting, outbound sales and customer service. We tailor our approach to your business, target audience and needs. Our goal is to build partnerships that last. That is why we work flexibly, with a focus on quality, good customer experiences and measurable results.",
       "cards": {
         "appointmentSetting": "More relevant meetings straight into your calendar.",
         "outboundSales": "A professional sales team on your behalf.",
         "customerService": "Professional customer service when your customers call."
-      }
-    },
-
-    "whyChoose": {
-      "eyebrow": "Why choose Callaz",
-      "title": "Payment based on results",
-      "lead": "We believe our work should create value for you. That is why we can offer a results-based model, where your payment follows the results we deliver.",
-      "item": {
-        "title": "That is Callaz' risk – not yours.",
-        "body": "We believe our value should be felt on your bottom line. That is why you only pay for the results we deliver – no results, no payment."
       }
     }
   }

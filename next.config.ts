@@ -83,6 +83,19 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // callaz.dk is the real address; the Vercel-assigned one stays live underneath
+  // it, so anyone who still has it bookmarked or linked gets sent to the domain
+  // that is actually promoted, instead of two URLs serving the same content.
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "callaz.vercel.app" }],
+        destination: "https://callaz.dk/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

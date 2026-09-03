@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/navigation";
 import { alternatesFor, openGraphFor } from "@/lib/site";
-import { breadcrumbSchema, faqSchema } from "@/lib/schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { JsonLd } from "@/components/JsonLd";
 import { EnquiryForm } from "@/components/sections/EnquiryForm";
-import { Faq } from "@/components/sections/Faq";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
 
@@ -35,7 +34,6 @@ export default async function QuotePage({ params }: PageProps) {
 
   const t = await getTranslations("quote");
   const nav = await getTranslations("nav");
-  const faq = t.raw("faq") as { q: string; a: string }[];
 
   return (
     <>
@@ -104,11 +102,8 @@ export default async function QuotePage({ params }: PageProps) {
         </div>
       </section>
 
-      <Faq title={t("faqTitle")} entries={faq} />
-
       <JsonLd
         data={[
-          faqSchema(faq),
           breadcrumbSchema(locale, [
             { name: nav("home"), href: "/" },
             { name: nav("quote"), href: "/quote" },

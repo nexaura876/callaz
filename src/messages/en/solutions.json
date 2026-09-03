@@ -33,8 +33,8 @@
 
     "appointmentSetting": {
       "eyebrow": "Appointment setting",
-      "title": "Meetings worth taking",
-      "lead": "We book meetings that actually lead to sales.",
+      "title": "Meetings with potential",
+      "lead": "We do not just book meetings. We find the right companies, qualify the interest and create meetings with real sales potential.",
       "capabilitiesTitle": "How the meetings get made",
       "capabilitiesLead": "Every step is set up so the person who runs the meeting knows exactly what was promised on the call.",
       "capabilities": [
@@ -114,10 +114,10 @@
 
     "outboundSales": {
       "eyebrow": "Outbound sales",
-      "title": "A sales team, ready to go",
-      "lead": "We sell on your behalf — professionally, every time.",
-      "capabilitiesTitle": "How the selling is run",
-      "capabilitiesLead": "The team works to your rules. What we bring is the discipline that makes a phone floor produce consistently.",
+      "title": "More customers. More sales.",
+      "lead": "Our sales team takes the dialogue and works purposefully to convert leads into customers.",
+      "capabilitiesTitle": "Your sales. Our responsibility.",
+      "capabilitiesLead": "We handle the outbound sales effort, so you do not have to build and run a phone team yourself. We train the team, track results closely and continuously adjust, so we keep getting better.",
       "capabilities": [
         {
           "title": "Your script, our delivery",
@@ -199,10 +199,10 @@
 
     "customerService": {
       "eyebrow": "Customer service",
-      "title": "Customer service that creates value",
-      "lead": "We lift your customer service to the next level with professional handling and measurable results. With a focus on customer satisfaction and efficiency, we build strong customer relationships that support your company's growth.",
+      "title": "Customer service that makes a difference",
+      "lead": "We help companies handle their customers professionally and efficiently. From questions and support to follow-up, we make sure customers get a good experience – every time.",
       "capabilitiesTitle": "Our strengths in customer service",
-      "capabilitiesLead": "Set up as an extension of your own service, not as a wall in front of it.",
+      "capabilitiesLead": "",
       "capabilities": [
         {
           "title": "Support and service",
@@ -221,6 +221,22 @@
           "body": "Direct handling of customer enquiries in your own CRM system."
         }
       ],
+      "process": {
+        "steps": [
+          {
+            "title": "We clarify goals and target audience",
+            "body": "We start with a short, efficient conversation where we get to know your business. Here we define the target audience, the decision-makers, your offer and what makes a meeting worthwhile for you."
+          },
+          {
+            "title": "We book the meetings and fill the calendar",
+            "body": "We handle the outbound contact and appointment setting. We run the conversations, ask the right questions and qualify the needs."
+          },
+          {
+            "title": "You show up – and close deals",
+            "body": "You attend relevant, qualified meetings with decision-makers who have agreed to hear more. That means better conversations, higher conversion and far more effective sales."
+          }
+        ]
+      },
       "trust": {
         "eyebrow": "Your customers. Our responsibility.",
         "title": "Personal service tailored to your business",

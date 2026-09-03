@@ -9,7 +9,6 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
-import { CtaBanner } from "@/components/sections/CtaBanner";
 import { Team } from "@/components/sections/Team";
 
 type PageProps = { params: Promise<{ locale: Locale }> };
@@ -59,7 +58,11 @@ export default async function AboutPage({ params }: PageProps) {
             <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
               {t("title")}
             </h1>
-            <p className="text-muted text-lg leading-relaxed">{t("lead")}</p>
+            {(t.raw("lead") as string[]).map((paragraph) => (
+              <p key={paragraph} className="text-muted text-lg leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </section>
@@ -136,8 +139,6 @@ export default async function AboutPage({ params }: PageProps) {
           </ul>
         </div>
       </section>
-
-      <CtaBanner />
 
       <JsonLd
         data={breadcrumbSchema(locale, [

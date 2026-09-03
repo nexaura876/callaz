@@ -1,32 +1,28 @@
 {
   "careers": {
     "eyebrow": "Careers",
-    "title": "A place where the phone is a craft",
-    "lead": "What you do here counts. The rest is trainable.",
+    "title": "",
+    "lead": "",
     "offer": {
       "eyebrow": "What we offer",
-      "title": "What you get with us",
-      "lead": "Pay and development, told honestly.",
+      "title": "More than a call centre job",
+      "lead": "At Callaz it is not just about selling. We invest in people, develop skills and build salespeople who get better over time.",
       "items": [
         {
-          "title": "Training before live calls",
-          "body": "You learn the product and the script before your first call."
+          "title": "Sales & appointment-setting training",
+          "body": "You are trained properly before you go live. We train both sales and appointment setting, so you learn to understand the customer, handle objections and create results – not just follow a script."
         },
         {
-          "title": "Base plus performance",
-          "body": "Written down. No commission-only roles."
+          "title": "Personal development",
+          "body": "We also work with you beyond the sale itself. Through better habits, structure, discipline and mindset, we help you grow both professionally and personally."
         },
         {
-          "title": "A team lead",
-          "body": "One person who listens to your calls and helps you improve."
+          "title": "High commission – no cap",
+          "body": "At Callaz your pay should reflect your results. That is why we offer an attractive commission model with higher earning potential than many traditional call centres – with no cap on what you can earn."
         },
         {
-          "title": "Progression that exists",
-          "body": "Agent to senior to team lead — a real path."
-        },
-        {
-          "title": "An office in Kolding",
-          "body": "We sit together in Kolding."
+          "title": "A way forward",
+          "body": "You start as a salesperson, but you do not have to stay there. As you develop and create results, we open the door to more responsibility, senior roles, team lead and other opportunities at Callaz."
         }
       ]
     },
@@ -43,29 +39,6 @@
       "FULL_TIME": "Full time",
       "PART_TIME": "Part time",
       "CONTRACTOR": "Contract"
-    },
-    "process": {
-      "eyebrow": "Hiring",
-      "title": "How the process runs",
-      "lead": "Four steps, about a week. You will hear back either way.",
-      "steps": [
-        {
-          "title": "Application",
-          "body": "A CV and a few lines about why this job."
-        },
-        {
-          "title": "Phone conversation",
-          "body": "Twenty minutes — it is a phone job."
-        },
-        {
-          "title": "Meeting and trial",
-          "body": "You meet the team lead and hear real recordings."
-        },
-        {
-          "title": "Offer",
-          "body": "Written, with the pay structure and a start date."
-        }
-      ]
     },
     "job": {
       "aboutTitle": "About the role",

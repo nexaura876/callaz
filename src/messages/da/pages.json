@@ -1,14 +1,20 @@
 {
   "about": {
     "eyebrow": "Om os",
-    "title": "Et callcenter, du kan stole på",
-    "lead": "Callaz er bygget på mere end 10 års samlet erfaring i teamet inden for telefonsalg og kundeservice. Vi arbejder tæt med vores kunder og har fokus på professionel kundedialog og målbare resultater.",
+    "title": "Vi skaber salg gennem stærke kundedialoger",
+    "lead": [
+      "Callaz er et dansk salgs- og callcenterbureau, der hjælper virksomheder med at skabe flere salg, booke kvalificerede møder og få mere ud af deres kundekontakt.",
+      "Vi har været med til at starte og udvikle flere salgscases fra bunden – fra den første strategi og de første opkald til en struktureret salgsproces, der kan skaleres.",
+      "Vi arbejder tæt sammen med vores kunder og tilpasser vores indsats efter deres mål, målgruppe og forretning. For os handler det ikke bare om at ringe til så mange som muligt, men om at skabe samtaler, der fører til konkrete resultater.",
+      "I fokuserer på jeres forretning. Vi fokuserer på at skabe salget."
+    ],
     "story": {
-      "title": "Derfor findes virksomheden",
+      "title": "Derfor findes Callaz",
       "paragraphs": [
-        "Hos Callaz har vores medarbejdere tilsammen mere end 10 års erfaring med telefonsalg og kundeservice. Vi har arbejdet med en lang række virksomheder i Danmark og har opbygget stærk erfaring inden for blandt andet el, rengøring og kundeservice.",
-        "Alle samtaler optages. Teamet har navne, I kender. Rapporten kommer hver uge, og aftalen er månedlig, uden binding.",
-        "Callaz er en ung virksomhed. Vi arbejder ærligt, og I kan altid se, hvad der foregår."
+        "Mange virksomheder har gode produkter og services, men mangler tiden, ressourcerne eller den rette struktur til at følge salget helt til dørs. Det er dér, Callaz kommer ind. Vi hjælper virksomheder med at gøre telefonsalg og mødebooking til en struktureret og målbar del af deres forretning.",
+        "Vi har været med til at starte flere salgscases fra bunden og ved, hvor vigtigt det er at finde den rigtige målgruppe, den rigtige tilgang og en salgsproces, der fungerer i praksis.",
+        "Vi tror på, at et godt samarbejde kræver fuld gennemsigtighed. Derfor kan vores kunder følge med i indsatsen, få løbende rapportering og have direkte dialog med teamet.",
+        "Vi tager os af salgsarbejdet. I får mere tid til at drive og udvikle jeres virksomhed."
       ]
     },
     "facts": {
@@ -38,16 +44,16 @@
       "lead": "Vi tror på gennemsigtighed, ærlig dialog og dokumenterbare resultater. Derfor arbejder vi efter tre klare principper.",
       "items": [
         {
-          "title": "Vi siger nej, når det ikke giver mening",
-          "body": "Vi starter ikke en kampagne, bare fordi vi kan. Hvis vi vurderer, at jeres tilbud ikke passer til målgruppen, siger vi det ærligt."
+          "title": "Vi lover ikke det, vi ikke kan levere",
+          "body": "Vi tror på realistiske forventninger og klare aftaler. Derfor lover vi ikke bestemte resultater, bare for at vinde en kunde. Vi sætter mål sammen med jer og arbejder målrettet for at nå dem."
         },
         {
-          "title": "Vis de dårlige tal først",
-          "body": "Vores rapporter viser hele billedet – også det, der ikke virkede. Vi tror på ærlige tal frem for rapporter, der kun fremhæver de gode resultater."
+          "title": "Kvalitet før kvantitet",
+          "body": "Flere opkald er ikke nødvendigvis flere resultater. Vi fokuserer på de rigtige kunder, de rigtige samtaler og den rigtige tilgang – så vores arbejde skaber reel værdi for jeres virksomhed."
         },
         {
-          "title": "Behandl brandet som lånt",
-          "body": "Vi repræsenterer jeres virksomhed, som var det vores egen. Derfor bliver samtaler løbende optaget, udtaget og vurderet – med fokus på kvalitet, tone og resultater."
+          "title": "Jeres virksomhed er også vores ansvar",
+          "body": "Når vi repræsenterer jer, repræsenterer vi også jeres brand. Derfor stiller vi høje krav til vores medarbejdere, vores samtaler og vores resultater. Vi følger løbende op, lytter til samtaler og optimerer vores indsats."
         }
       ]
     }
@@ -92,29 +98,6 @@
       "Uforpligtende og uden opfølgningsforløb",
       "Vi siger det, hvis udgående salg er forkert for jeres tilbud",
       "Jeres oplysninger bruges til at svare og intet andet"
-    ],
-    "faqTitle": "Inden I sender",
-    "faq": [
-      {
-        "q": "Hvad skal I bruge for at give et tilbud?",
-        "a": "Markedet, hvad I sælger, hvem der køber det og cirka hvilken volumen I tænker. Har I en eksisterende liste eller et CRM, så nævn det, for det ændrer som regel både prisen og fremgangsmåden."
-      },
-      {
-        "q": "Hvordan er prisen skruet sammen?",
-        "a": "Overvejende en månedspris baseret på timer, nogle gange med et resultatelement oveni. Pilotforløb prissættes som et fast projekt. Vi arbejder ikke på ren provision, fordi det skaber den forkerte adfærd i telefonen."
-      },
-      {
-        "q": "Hvor lang er bindingen?",
-        "a": "Månedlig efter piloten. Der er ingen årsbinding, og der er ingen klausul, der gør det besværligt at stoppe."
-      },
-      {
-        "q": "Hvor hurtigt kan vi komme i gang?",
-        "a": "Fra briefing til første opkald er målet 48 timer, når listen og tilbuddet er klar. Læg en uge eller to til, hvis listen skal bygges."
-      },
-      {
-        "q": "Kommer jeg på en mailingliste?",
-        "a": "Nej. Jeres oplysninger bruges til at besvare denne henvendelse. Der er intet nyhedsbrev, og intet gives videre til nogen."
-      }
     ]
   },
   "privacy": {

@@ -1,14 +1,20 @@
 {
   "about": {
     "eyebrow": "About",
-    "title": "A contact centre you can trust",
-    "lead": "Callaz is built on more than 10 years of combined team experience in telephone sales and customer service. We work closely with our clients, with a focus on professional customer dialogue and measurable results.",
+    "title": "We create sales through strong customer dialogues",
+    "lead": [
+      "Callaz is a Danish sales and contact centre agency that helps businesses generate more sales, book qualified meetings and get more out of their customer contact.",
+      "We have helped start and develop several sales cases from scratch – from the first strategy and the first calls to a structured sales process that can scale.",
+      "We work closely with our clients and tailor our approach to their goals, target audience and business. For us, it is not just about calling as many people as possible, but about creating conversations that lead to concrete results.",
+      "You focus on your business. We focus on creating the sales."
+    ],
     "story": {
-      "title": "Why this company exists",
+      "title": "Why Callaz exists",
       "paragraphs": [
-        "At Callaz, our people have a combined more than 10 years of experience in telephone sales and customer service. We have worked with a wide range of companies in Denmark and built strong experience in sectors including electricity, cleaning and customer service.",
-        "Every call is recorded. The team has names you know. The report arrives every week, and the agreement is monthly, with no lock-in.",
-        "Callaz is a young company. We work honestly, and you can always see what is going on."
+        "Many companies have good products and services, but lack the time, resources or the right structure to see the sale all the way through. That is where Callaz comes in. We help businesses turn outbound sales and appointment setting into a structured, measurable part of their operation.",
+        "We have helped launch several sales cases from scratch, and we know how important it is to find the right target audience, the right approach and a sales process that actually works in practice.",
+        "We believe a good partnership requires full transparency. That is why our clients can follow the effort, get ongoing reporting and have direct dialogue with the team.",
+        "We take care of the sales work. You get more time to run and grow your business."
       ]
     },
     "facts": {
@@ -38,16 +44,16 @@
       "lead": "We believe in transparency, honest dialogue and results you can point to. That is why we work by three clear principles.",
       "items": [
         {
-          "title": "We say no when it does not make sense",
-          "body": "We do not start a campaign just because we can. If we judge that your offer does not fit the target audience, we say so honestly."
+          "title": "We do not promise what we cannot deliver",
+          "body": "We believe in realistic expectations and clear agreements. That is why we do not promise specific results just to win a client. We set goals together with you and work purposefully to reach them."
         },
         {
-          "title": "Show the bad numbers first",
-          "body": "Our reports show the whole picture — including what did not work. We believe in honest numbers over reports that only highlight the good results."
+          "title": "Quality before quantity",
+          "body": "More calls are not necessarily more results. We focus on the right customers, the right conversations and the right approach – so our work creates real value for your business."
         },
         {
-          "title": "Treat the brand as borrowed",
-          "body": "We represent your company as if it were our own. That is why calls are continuously recorded, sampled and reviewed — with a focus on quality, tone and results."
+          "title": "Your company is also our responsibility",
+          "body": "When we represent you, we also represent your brand. That is why we set high standards for our staff, our conversations and our results. We follow up continuously, listen to calls and optimise our effort."
         }
       ]
     }
@@ -92,29 +98,6 @@
       "No obligation and no follow-up sequence",
       "We will say if outbound is wrong for your offer",
       "Your details are used to reply and nothing else"
-    ],
-    "faqTitle": "Before you send it",
-    "faq": [
-      {
-        "q": "What do you need from me to quote?",
-        "a": "The market, what you sell, who buys it, and roughly what volume you have in mind. If you have an existing list or CRM, mention it, because it usually changes both the price and the approach."
-      },
-      {
-        "q": "How is pricing structured?",
-        "a": "Mostly a monthly rate based on hours, sometimes with a performance element on top. Pilots are priced as a fixed project. We do not do commission-only, because it produces the wrong behaviour on the phone."
-      },
-      {
-        "q": "How long is the commitment?",
-        "a": "Monthly after the pilot. There is no annual lock-in, and there is no clause that makes leaving awkward."
-      },
-      {
-        "q": "How fast can we start?",
-        "a": "Brief to first call is targeted at 48 hours when the list and the offer are ready. Add a week or two if the list needs building."
-      },
-      {
-        "q": "Will I be added to a mailing list?",
-        "a": "No. Your details are used to answer this enquiry. There is no newsletter and nothing is passed to anyone else."
-      }
     ]
   },
   "privacy": {
