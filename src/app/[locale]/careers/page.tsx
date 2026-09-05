@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/navigation";
+import workspacePhoto from "../../../../public/media/office-workspace.jpg";
 import { alternatesFor, openGraphFor } from "@/lib/site";
 import { breadcrumbSchema } from "@/lib/schema";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
@@ -46,15 +48,27 @@ export default async function CareersPage({ params }: PageProps) {
           className="bg-accent-glow/14 animate-drift pointer-events-none absolute -top-40 left-[-8%] size-[30rem] rounded-full blur-3xl"
         />
 
-        <div className="container-page relative py-14 lg:py-20">
+        {/*
+          The hero carries no headline of its own: the offer section below is
+          the page's h1. What sits here is the breadcrumb, the label and the
+          photograph, which is atmosphere only and so takes an empty alt.
+        */}
+        <div className="container-page relative py-14 lg:py-16">
           <Breadcrumb trail={[{ label: nav("careers") }]} />
 
-          <div className="mt-10 flex max-w-3xl flex-col items-start gap-6">
+          <div className="mt-8 flex flex-col gap-7">
             <Eyebrow>{t("eyebrow")}</Eyebrow>
-            <h1 className="font-display text-[2.4rem] leading-[1.04] font-semibold tracking-[-0.035em] text-heading sm:text-[3.1rem] lg:text-[3.6rem]">
-              {t("title")}
-            </h1>
-            <p className="text-muted text-lg leading-relaxed">{t("lead")}</p>
+
+            <div className="hairline relative aspect-[21/9] max-h-[360px] overflow-hidden rounded-[var(--radius-panel)]">
+              <Image
+                src={workspacePhoto}
+                alt=""
+                fill
+                priority
+                sizes="(min-width: 1280px) 1200px, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -62,6 +76,7 @@ export default async function CareersPage({ params }: PageProps) {
       {/* ---------------------------------------------------------------- offers */}
       <section className="container-page py-24 lg:py-32">
         <SectionHeading
+          as="h1"
           eyebrow={t("offer.eyebrow")}
           title={t("offer.title")}
           lead={t("offer.lead")}

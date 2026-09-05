@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import heroPhoto from "../../../public/media/office-team.jpg";
 import type { Locale } from "@/i18n/navigation";
 import { company } from "@/content/company";
 import { solutions } from "@/content/solutions";
@@ -62,35 +64,54 @@ export default async function HomePage({ params }: PageProps) {
           className="bg-accent-glow/16 pointer-events-none absolute top-[18%] left-[-16%] size-[30rem] rounded-full blur-3xl"
         />
 
-        <div className="container-page relative flex max-w-3xl flex-col items-start gap-7 py-16 lg:py-24">
+        <div className="container-page relative grid items-center gap-12 py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:py-24">
+          <div className="flex max-w-3xl flex-col items-start gap-7">
+            {/*
+              The brand lockup opens the page rather than sitting only in the
+              header. The slogan is part of the artwork, so it travels in the alt
+              text as well — it is the only place those words appear on the page.
+            */}
+            <LogoMark
+              alt={`${company.name} — ${common("slogan")}`}
+              className="h-24 sm:h-28"
+            />
+
+            <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
+
+            <h1 className="font-display text-[2.6rem] leading-[1.02] font-semibold tracking-[-0.04em] text-heading sm:text-[3.4rem] lg:text-[4.1rem]">
+              {t("hero.titleLead")}{" "}
+              <span className="text-gradient">{t("hero.titleAccent")}</span>
+            </h1>
+
+            <p className="text-muted max-w-xl text-lg leading-relaxed lg:text-xl">
+              {t("hero.lead")}
+            </p>
+
+            <div className="mt-1 flex flex-col gap-3 sm:flex-row">
+              <ButtonLink href="/quote" size="lg" withArrow>
+                {t("hero.primary")}
+              </ButtonLink>
+              <ButtonLink href="/solutions" variant="outline" size="lg">
+                {t("hero.secondary")}
+              </ButtonLink>
+            </div>
+          </div>
+
           {/*
-            The brand lockup opens the page rather than sitting only in the
-            header. The slogan is part of the artwork, so it travels in the alt
-            text as well — it is the only place those words appear on the page.
+            Atmosphere rather than information: the headline beside it already
+            says what the company does, so the image carries an empty alt and
+            screen readers skip it instead of hearing a description of a stock
+            scene. priority because it is the largest thing above the fold.
           */}
-          <LogoMark
-            alt={`${company.name} — ${common("slogan")}`}
-            className="h-24 sm:h-28"
-          />
-
-          <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-
-          <h1 className="font-display text-[2.6rem] leading-[1.02] font-semibold tracking-[-0.04em] text-heading sm:text-[3.4rem] lg:text-[4.1rem]">
-            {t("hero.titleLead")}{" "}
-            <span className="text-gradient">{t("hero.titleAccent")}</span>
-          </h1>
-
-          <p className="text-muted max-w-xl text-lg leading-relaxed lg:text-xl">
-            {t("hero.lead")}
-          </p>
-
-          <div className="mt-1 flex flex-col gap-3 sm:flex-row">
-            <ButtonLink href="/quote" size="lg" withArrow>
-              {t("hero.primary")}
-            </ButtonLink>
-            <ButtonLink href="/solutions" variant="outline" size="lg">
-              {t("hero.secondary")}
-            </ButtonLink>
+          <div className="hairline relative aspect-[16/10] overflow-hidden rounded-[var(--radius-panel)]">
+            <Image
+              src={heroPhoto}
+              alt=""
+              fill
+              priority
+              sizes="(min-width: 1024px) 46vw, 100vw"
+              className="object-cover"
+            />
           </div>
         </div>
       </section>

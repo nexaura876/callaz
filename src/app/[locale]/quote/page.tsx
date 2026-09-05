@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/navigation";
+import consultPhoto from "../../../../public/media/office-consult.jpg";
 import { alternatesFor, openGraphFor } from "@/lib/site";
 import { breadcrumbSchema } from "@/lib/schema";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
@@ -91,6 +93,24 @@ export default async function QuotePage({ params }: PageProps) {
                   </li>
                 ))}
               </ul>
+
+              {/*
+                Sits at the decision point, next to the form: a reminder that a
+                person answers this. Atmosphere only, so the alt stays empty.
+              */}
+              {/* w-full: the column is items-start, so without it the aspect
+                  box has no width to derive its height from and collapses. */}
+              <Reveal className="mt-6 w-full">
+                <div className="hairline relative aspect-[3/2] overflow-hidden rounded-[var(--radius-panel)]">
+                  <Image
+                    src={consultPhoto}
+                    alt=""
+                    fill
+                    sizes="(min-width: 1024px) 46vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+              </Reveal>
             </div>
 
             <Reveal>

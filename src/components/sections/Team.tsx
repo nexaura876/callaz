@@ -4,9 +4,14 @@ import { Reveal } from "@/components/ui/Reveal";
 import yusufPhoto from "../../../public/media/team-yusuf.jpg";
 import mohammedPhoto from "../../../public/media/team-mohammed.jpg";
 
+/*
+ * focus is where object-cover should anchor the crop. Yusuf's photo is a tall
+ * portrait with the face near the top, so a centred crop cuts the head off;
+ * Mohammed's is almost square and centres correctly on its own.
+ */
 const members = [
-  { id: "yusuf", photo: yusufPhoto } as const,
-  { id: "mohammed", photo: mohammedPhoto } as const,
+  { id: "yusuf", photo: yusufPhoto, focus: "object-top" } as const,
+  { id: "mohammed", photo: mohammedPhoto, focus: "object-center" } as const,
 ];
 
 /**
@@ -41,7 +46,7 @@ export async function Team() {
                       alt={t(`members.${member.id}.name`)}
                       fill
                       sizes="64px"
-                      className="object-cover"
+                      className={`object-cover ${member.focus}`}
                     />
                   </div>
                   <div className="flex flex-col gap-1">

@@ -55,6 +55,22 @@
           "body": "Every booking is confirmed in writing and reminded."
         }
       ],
+      "process": {
+        "steps": [
+          {
+            "title": "We clarify goals and target audience",
+            "body": "We start with a short, efficient conversation where we get to know your business. Here we define the target audience, the decision-makers, your offer and what makes a meeting worthwhile for you."
+          },
+          {
+            "title": "We book the meetings and fill the calendar",
+            "body": "We handle the outbound contact and appointment setting. We run the conversations, ask the right questions and qualify the needs."
+          },
+          {
+            "title": "You show up – and close deals",
+            "body": "You attend relevant, qualified meetings with decision-makers who have agreed to hear more. That means better conversations, higher conversion and far more effective sales."
+          }
+        ]
+      },
       "deliverablesTitle": "What lands on your side",
       "deliverablesLead": "You should never have to ask how the campaign is going. It should already be in front of you.",
       "deliverables": [
@@ -221,22 +237,6 @@
           "body": "Direct handling of customer enquiries in your own CRM system."
         }
       ],
-      "process": {
-        "steps": [
-          {
-            "title": "We clarify goals and target audience",
-            "body": "We start with a short, efficient conversation where we get to know your business. Here we define the target audience, the decision-makers, your offer and what makes a meeting worthwhile for you."
-          },
-          {
-            "title": "We book the meetings and fill the calendar",
-            "body": "We handle the outbound contact and appointment setting. We run the conversations, ask the right questions and qualify the needs."
-          },
-          {
-            "title": "You show up – and close deals",
-            "body": "You attend relevant, qualified meetings with decision-makers who have agreed to hear more. That means better conversations, higher conversion and far more effective sales."
-          }
-        ]
-      },
       "trust": {
         "eyebrow": "Your customers. Our responsibility.",
         "title": "Personal service tailored to your business",

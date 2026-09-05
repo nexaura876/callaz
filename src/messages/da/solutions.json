@@ -57,6 +57,22 @@
           "body": "Hver booking bekræftes skriftligt og påmindes."
         }
       ],
+      "process": {
+        "steps": [
+          {
+            "title": "Vi afklarer mål og målgruppe",
+            "body": "Vi starter med en kort og effektiv dialog, hvor vi lærer jeres forretning at kende. Her definerer vi målgruppen, beslutningstagerne, jeres tilbud og hvad der får et møde til at give mening for jer."
+          },
+          {
+            "title": "Vi booker møderne og fylder kalenderen",
+            "body": "Vi håndterer den opsøgende kontakt og mødebooking. Vi tager dialogerne, stiller de rigtige spørgsmål og kvalificerer behovene."
+          },
+          {
+            "title": "I møder op - og lukker aftaler",
+            "body": "I møder op til relevante, kvalificerede møder med beslutningstagere, der har sagt ja til at høre mere. Det betyder bedre samtaler, højere konvertering og et langt mere effektivt salg."
+          }
+        ]
+      },
       "deliverablesTitle": "Det lander hos jer",
       "deliverablesLead": "I skal aldrig behøve at spørge, hvordan kampagnen går. Det skal allerede ligge foran jer.",
       "deliverables": [
@@ -221,22 +237,6 @@
           "body": "Direkte håndtering af kundehenvendelser i jeres eget CRM-system."
         }
       ],
-      "process": {
-        "steps": [
-          {
-            "title": "Vi afklarer mål og målgruppe",
-            "body": "Vi starter med en kort og effektiv dialog, hvor vi lærer jeres forretning at kende. Her definerer vi målgruppen, beslutningstagerne, jeres tilbud og hvad der får et møde til at give mening for jer."
-          },
-          {
-            "title": "Vi booker møderne og fylder kalenderen",
-            "body": "Vi håndterer den opsøgende kontakt og mødebooking. Vi tager dialogerne, stiller de rigtige spørgsmål og kvalificerer behovene."
-          },
-          {
-            "title": "I møder op - og lukker aftaler",
-            "body": "I møder op til relevante, kvalificerede møder med beslutningstagere, der har sagt ja til at høre mere. Det betyder bedre samtaler, højere konvertering og et langt mere effektivt salg."
-          }
-        ]
-      },
       "trust": {
         "eyebrow": "Jeres kunder. Vores ansvar.",
         "title": "Personlig service tilpasset din forretning",

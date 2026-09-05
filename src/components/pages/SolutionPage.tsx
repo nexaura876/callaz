@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/navigation";
 import type { StaticPathname } from "@/i18n/routing";
 import type { SolutionId } from "@/content/solutions";
-import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
+import { breadcrumbSchema, serviceSchema } from "@/lib/schema";
 import { ButtonLink } from "@/components/ui/Button";
 import yusufPhoto from "../../../public/media/team-yusuf.jpg";
 import mohammedPhoto from "../../../public/media/team-mohammed.jpg";
@@ -13,11 +13,9 @@ import { Icon, type IconName } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { JsonLd } from "@/components/JsonLd";
-import { Faq } from "@/components/sections/Faq";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 
 type Entry = { title: string; body: string };
-type FaqEntry = { q: string; a: string };
 
 type Props = {
   id: SolutionId;
@@ -38,7 +36,6 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
 
   const capabilities = t.raw("capabilities") as Entry[];
   const deliverables = t.raw("deliverables") as Entry[];
-  const faq = t.raw("faq") as FaqEntry[];
 
   return (
     <>
@@ -110,7 +107,7 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
       </section>
 
       {/* -------------------------------------------------------------- process */}
-      {id === "customerService" ? (
+      {id === "appointmentSetting" ? (
         <section className="container-page pb-24 lg:pb-32">
           <ol className="grid gap-8 md:grid-cols-3">
             {(t.raw("process.steps") as Entry[]).map((step, index) => (
@@ -161,7 +158,7 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
                       alt=""
                       fill
                       sizes="56px"
-                      className="object-cover"
+                      className="object-cover object-top"
                     />
                   </div>
                   <div className="border-page relative size-14 overflow-hidden rounded-full border-2">
@@ -280,11 +277,7 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
         </section>
       ) : null}
 
-      {id !== "customerService" && id !== "appointmentSetting" ? (
-        <Faq eyebrow={shared("faqEyebrow")} title={t("faqTitle")} entries={faq} />
-      ) : null}
-
-      <CtaBanner />
+      {id !== "outboundSales" ? <CtaBanner /> : null}
 
       <JsonLd
         data={[
@@ -294,7 +287,6 @@ export async function SolutionPage({ id, href, locale, icon }: Props) {
             name: t("title"),
             description: t("lead"),
           }),
-          ...(id !== "customerService" && id !== "appointmentSetting" ? [faqSchema(faq)] : []),
           breadcrumbSchema(locale, [
             { name: nav("home"), href: "/" },
             { name: nav("solutions"), href: "/solutions" },
